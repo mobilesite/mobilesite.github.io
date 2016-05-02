@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e632f73f-a736-477e-b764-d4b0f264866c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
@@ -277,12 +278,12 @@
       <workItem from="1777661592500" duration="2769000" />
       <workItem from="1462131818500" duration="4895000" />
       <workItem from="1462157428968" duration="8176000" />
-      <workItem from="1462189314781" duration="12797000" />
+      <workItem from="1462189314781" duration="12953000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28637000" />
+    <option name="totallyTimeSpent" value="28793000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="20" width="1004" height="698" extended-state="0" />
