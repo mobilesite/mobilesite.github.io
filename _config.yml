@@ -1,21 +1,99 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+title: Paian's Blog
+SEOTitle: 拍岸的博客 | Paian's Blog
+header-img: img/home-bg.jpg
+email: mobilesite@163.com
+description: "前端开发 | 拍岸，Front-End Engineer，Literature & Photographic Lover，UX Designer | 这里是 @拍岸 的个人博客。"
+keyword: "拍岸, paian, 拍岸的博客, Paian's Blog, 博客, 个人网站, 前端, 高校教师, 工程师, 攻城狮, 诗歌, 江涛拍岸"
+url: "http://mobilesite.github.io"      # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+post-default-img: img/post-default-img.jpg
+
+
+
+# SNS settings
+RSS: true
+# weibo_username:     lightspot
+zhihu_username:     jiangtaopaian
+github_username:    mobilesite
+twitter_username:  jiangtaopaian
+# facebook_username:  null
+# linkedin_username:  null
+
+
 
 # Build settings
+# from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
+highlighter: rouge
+permalink: pretty
+paginate: 10      # how many articles per page
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
+anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+
+# Gems
+# from PR#40, to support local preview for Jekyll 3.0
+gems: [jekyll-paginate]
+
+
+
+# Markdown settings
+# replace redcarpet to kramdown,
+# although redcarpet can auto highlight code, the lack of header-id make the catalog impossible, so I switch to kramdown
+# document: http://jekyllrb.com/docs/configuration/#kramdown
 markdown: kramdown
+kramdown:
+  input: GFM                            # use Github Flavored Markdown !important
+
+
+
+# Disqus settings
+#disqus_username: paian  #_your_disqus_short_name_
+
+# Duoshuo settings
+# duoshuo_username: paian51
+# Share component is depend on Comment so we can NOT use share only.
+# duoshuo_share: true                     # set to false if you want to use Comment without Sharing
+
+
+
+
+# Analytics settings
+# Baidu Analytics
+ba_track_id: 22f155006b59bad2d19de8c02a18008f
+# Google Analytics
+ga_track_id: 'UA-77186809-1'            # Format: UA-xxxxxx-xx
+ga_domain: auto
+
+
+
+# Sidebar settings
+sidebar: true                           # whether or not using Sidebar.
+sidebar-about-description: "指尖程序，笔下诗行。"
+sidebar-avatar: /img/avatar.png      # use absolute URL, seeing it's used in both `/` and `/about/`
+
+
+
+# Featured Tags
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
+
+
+# Friends
+friends: [
+    {
+        title: "百度技术周刊",
+        href: "http://fex.baidu.com/weekly/"
+    },{
+        title: "奇舞周刊",
+        href: "http://old.75team.com/weekly/"
+    },{
+        title: "推酷技术周刊",
+        href: "http://www.tuicool.com/mags/"
+    },{
+        title: "前端外刊评论",
+        href: "http://qianduan.guru/"
+    }
+]

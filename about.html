@@ -1,0 +1,163 @@
+---
+layout: page
+title: "About"
+description: "Hey, this is Paian."
+header-img: "img/about-bg.jpg"
+---
+
+<!-- Language Selector -->
+<select onchange= "onLanChange(this.options[this.options.selectedIndex].value)">
+    <option value="0" selected> 中文 Chinese </option>
+    <option value="1"> 英文 English </option>
+</select>
+
+<!-- Chinese Version -->
+<div class="zh post-container">
+
+    <!--copied from markdown -->
+    <blockquote>
+        <p>
+            东坡有词：
+            <br/>
+            江涛拍岸，卷起千堆雪。江山如画，一时多少豪杰。
+            <br/>
+            喜欢这样激昂澎湃的人生画卷。
+            <br/>
+            人活一世，当有此开阔的境界和磅礴的生命力。是以名“拍岸”。
+        </p>
+    </blockquote>
+
+    <p>Hey，我是<strong> 拍岸</strong>，北漂，80后，中科院研究生院计算机硕士，前端工程师，文学、摄影爱好者，偶尔写诗。大学期间开始摆弄网站，曾获得学校网页设计大赛一等奖、天津市和平区计算机网页大赛最佳美工奖。2006年毕业，曾先后在高校和知名IT公司就职。从业十年，从网站建设到前端开发，从传统软件项目到创业团队，从软件学院到互联网公司，见证了软件和互联网的巨大变化，也经历着北漂一族的拼搏与成长。</p>
+
+    <p>我的开源项目，见 <a href="http://github.com/mobilesite">mobilesite's Github</a>
+
+    <p>我的教育手记、生活随笔及诗歌，见我的自选集 <a href="http://mobilesite.github.io/corpus">《青春拍岸》</a></p>
+
+    <!--
+    <h5>Talks</h5>
+
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+
+
+    <h5>Resumes</h5>
+
+    <ul>
+        <li><a href=""></a></li>
+        <li><a href=""></a></li>
+    </ul>
+    -->
+
+</div>
+
+<!-- English Version -->
+<div class="en post-container">
+
+    <p>My name is <strong>Paian ( 拍岸 ) </strong>. I was born in the 1980s. I got a master degree in University of Chinese Academy of Science majoring in Computer Application Technology. I got my first job as a college teacher 10 years ago. After 6 years+ teaching life, i turn to work as a Front-end Engineer in IT companies, such as Sohu Changyou, Alibaba. By the way, i'm a literature and photographic lover and sometimes i write poems and essays. You can find some of in my online corpus <a href=""></a> </p>
+
+    <p>Some of my projects is put on my <a href="http://github.com/mobilesite">Github</a>.
+</div>
+
+<!-- Handle Language Change -->
+<script type="text/javascript">
+    // get nodes
+    var $zh = document.querySelector(".zh");
+    var $en = document.querySelector(".en");
+    var $select = document.querySelector("select");
+
+    // bind hashchange event
+    window.addEventListener('hashchange', _render);
+
+    // handle render
+    function _render(){
+        var _hash = window.location.hash;
+        // en
+        if(_hash == "#en"){
+            $select.selectedIndex = 1;
+            $en.style.display = "block";
+            $zh.style.display = "none";
+        // zh by default
+        }else{
+            // not trigger onChange, otherwise cause a loop call.
+            $select.selectedIndex = 0;
+            $zh.style.display = "block";
+            $en.style.display = "none";
+        }
+    }
+
+    // handle select change
+    function onLanChange(index){
+        if(index == 0){
+            window.location.hash = "#zh"
+        }else{
+            window.location.hash = "#en"
+        }
+    }
+
+    // init
+    _render();
+</script>
+
+
+
+{% if site.duoshuo_username %}
+<!-- 多说评论框 start -->
+<div class="comment">
+    <div class="ds-thread"
+    {% if site.duoshuo_username == "paian51" %}
+        data-thread-id="1187623191091085319"
+    {% else %}
+        data-thread-key="{{site.duoshuo_username}}/about"
+    {% endif %}
+
+    data-title="{{page.title}}"
+    data-url="{{site.url}}/about/"></div>
+</div>
+<!-- 多说评论框 end -->
+
+<!-- 多说公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    // dynamic User hacking by Hux
+    var _user = '{{site.duoshuo_username}}';
+
+    // duoshuo comment query.
+    var duoshuoQuery = {short_name: _user };
+    (function() {
+        var ds = document.createElement('script');
+        ds.type = 'text/javascript';ds.async = true;
+        ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+        ds.charset = 'UTF-8';
+        (document.getElementsByTagName('head')[0]
+         || document.getElementsByTagName('body')[0]).appendChild(ds);
+    })();
+</script>
+<!-- 多说公共JS代码 end -->
+{% endif %}
+
+
+{% if site.disqus_username %}
+<!-- disqus 评论框 start -->
+<div class="comment">
+    <div id="disqus_thread" class="disqus-thread">
+
+    </div>
+</div>
+<!-- disqus 评论框 end -->
+
+<!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = "{{site.disqus_username}}";
+    var disqus_identifier = "{{site.disqus_username}}/{{page.url}}";
+    var disqus_url = "{{site.url}}{{page.url}}";
+
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<!-- disqus 公共JS代码 end -->
+{% endif %}
