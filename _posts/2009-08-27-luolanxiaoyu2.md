@@ -2,7 +2,7 @@
 layout:     post
 title:      "React.js学习笔记"
 subtitle:   ""
-date:       2016-05-05 23:18:02
+date:       2015-12-16 21:38:02
 author:     "Paian"
 header-img: ""
 catalog: true
@@ -14,6 +14,7 @@ tags:
 
 JSX = JavaScript Syntax(语法) Extension 用它来书写会让代码更加直观
 
+class属性不能直接写class，而要写成className。因为class是JavaScript保留字。
 
 ### react组件的生命周期
 
@@ -132,6 +133,5 @@ var TickTock = React.createClass({
 编写难度高——Mixin可能被用在各种环境中，兼容多种环境就需要更多的逻辑和代码，通用的代价是提高复杂度；
 
 降低代码可读性——组件的优势在于将逻辑和界面直接结合在一起，Mixin本质上会分散逻辑，理解起来难度更大。
-s
 
 
