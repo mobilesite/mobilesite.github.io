@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="e632f73f-a736-477e-b764-d4b0f264866c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md" afterPath="$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2015-12-16-noteaboutreact.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2015-12-16-noteaboutreact.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="31" />
+            <state relative-caret-position="95">
+              <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,7 +54,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="84">
@@ -98,6 +99,7 @@
         <option value="$PROJECT_DIR$/_posts/2016-05-05noteaboutreact.md" />
         <option value="$PROJECT_DIR$/_posts/2016-05-05-noteaboutreact.md" />
         <option value="$PROJECT_DIR$/_posts/2009-08-27-luolanxiaoyu2.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md" />
       </list>
     </option>
   </component>
@@ -389,12 +391,12 @@
       <workItem from="1462189314781" duration="13551000" />
       <workItem from="1462369069078" duration="4929000" />
       <workItem from="1462461277000" duration="4536000" />
-      <workItem from="1462466128187" duration="2033000" />
+      <workItem from="1462466128187" duration="2138000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40889000" />
+    <option name="totallyTimeSpent" value="40994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="15" y="1" width="1004" height="698" extended-state="0" />
@@ -661,14 +663,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2009-08-27-luolanxiaoyu2.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -694,6 +688,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="254" column="31" selection-start-line="254" selection-start-column="31" selection-end-line="254" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
           <folding />
         </state>
       </provider>

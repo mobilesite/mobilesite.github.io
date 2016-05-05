@@ -117,7 +117,9 @@ var TickTock = React.createClass({
         return {seconds:0};
     }),
 }).
+
 ```
+
 #### Mixin的优点和缺点
 
 优点：
