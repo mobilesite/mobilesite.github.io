@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e632f73f-a736-477e-b764-d4b0f264866c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/avatar.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_draft/2016-05-05-noteaboutreact.md" afterPath="$PROJECT_DIR$/_posts/2016-05-05-noteaboutreact.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,25 +33,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2009-03-20-qikanxueshulunwen.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2009-03-20-qikanxueshulunwen.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2009-03-20-qikanxueshulunwen.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="FIRST">
               <first_editor relative-caret-position="323">
                 <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-05-05-noteaboutreact.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_draft/2016-05-05-noteaboutreact.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="FIRST">
-              <first_editor relative-caret-position="350">
-                <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -319,6 +305,7 @@
       <recent name="D:\mobilesite.github.io\img" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\mobilesite.github.io\_posts" />
       <recent name="D:\mobilesite.github.io" />
     </key>
   </component>
@@ -395,15 +382,15 @@
       <workItem from="1462157428968" duration="8176000" />
       <workItem from="1462189314781" duration="13551000" />
       <workItem from="1462369069078" duration="4929000" />
-      <workItem from="1462461277000" duration="4018000" />
+      <workItem from="1462461277000" duration="4262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38338000" />
+    <option name="totallyTimeSpent" value="38582000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="223" y="6" width="1004" height="698" extended-state="1" />
+    <frame x="223" y="6" width="1004" height="698" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15794872" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -728,22 +715,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2009-03-20-qikanxueshulunwen.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-05-noteaboutreact.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="323">
-            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <first_editor relative-caret-position="350">
+            <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_draft/2016-05-05-noteaboutreact.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2009-03-20-qikanxueshulunwen.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="FIRST">
-          <first_editor relative-caret-position="350">
-            <caret line="134" column="1" selection-start-line="134" selection-start-column="1" selection-end-line="134" selection-end-column="1" />
+          <first_editor relative-caret-position="323">
+            <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />
