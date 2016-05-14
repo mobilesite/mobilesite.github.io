@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e632f73f-a736-477e-b764-d4b0f264866c" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2009-08-27-learnreact.md" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/avatar.jpg" afterPath="$PROJECT_DIR$/img/avatar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/avatar.png" afterPath="$PROJECT_DIR$/img/avatar.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md" afterPath="$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2009-08-27-luolanxiaoyu2.md" afterPath="$PROJECT_DIR$/_posts/2009-08-27-learnreact.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2012-1-18-settings_for_cut_images_in_photoshop.md" afterPath="$PROJECT_DIR$/_posts/2012-1-18-settings_for_cut_images_in_photoshop.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-12-15-markdown.md" afterPath="$PROJECT_DIR$/_posts/2014-12-15-markdown.md" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md" afterPath="$PROJECT_DIR$/_posts/2016-05-05-note_about_react.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,21 +28,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2015-12-16-noteaboutreact.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md">
+      <file leaf-file-name="2016-05-05-note_about_react.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-05-05-note_about_react.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="-1577">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2012-1-18-settings_for_cut_images_in_photoshop.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2012-1-18-settings_for_cut_images_in_photoshop.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2012-1-18-settings_for_cut_images_in_photoshop.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+            <state relative-caret-position="171">
+              <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
               <folding />
             </state>
           </provider>
@@ -50,8 +51,8 @@
       <file leaf-file-name="2012-2-27-quick_select_layer_in_photoshop.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2012-2-27-quick_select_layer_in_photoshop.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state relative-caret-position="107">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -60,7 +61,7 @@
       <file leaf-file-name="2011-12-09-photoshop_base_tips.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2011-12-09-photoshop_base_tips.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-406">
+            <state relative-caret-position="380">
               <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
               <folding />
             </state>
@@ -70,28 +71,18 @@
       <file leaf-file-name="2015-05-08-photoshop_high_level_tips.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-05-08-photoshop_high_level_tips.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1292">
+            <state relative-caret-position="323">
               <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-12-15-markdown.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-12-15-markdown.md">
+      <file leaf-file-name="2014-12-15-markdown.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2014-12-15-markdown.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="931">
-              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2009-08-27-learnreact.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2009-08-27-learnreact.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+            <state relative-caret-position="304">
+              <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
               <folding />
             </state>
           </provider>
@@ -163,13 +154,13 @@
         <option value="$PROJECT_DIR$/_posts/2016-05-05-noteaboutreact.md" />
         <option value="$PROJECT_DIR$/_posts/2009-08-27-luolanxiaoyu2.md" />
         <option value="$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md" />
-        <option value="$PROJECT_DIR$/_posts/2015-12-15-markdown.md" />
         <option value="$PROJECT_DIR$/_posts/2015-2-27-quick_select_layer_in_photoshop.md" />
-        <option value="$PROJECT_DIR$/_posts/2012-1-18-settings_for_cut_images_in_photoshop.md" />
         <option value="$PROJECT_DIR$/_posts/2011-12-09-photoshop_base_tips.md" />
         <option value="$PROJECT_DIR$/_posts/2012-2-27-quick_select_and_cut_layer_in_photoshop.md" />
-        <option value="$PROJECT_DIR$/_posts/2012-2-27-quick_select_layer_in_photoshop.md" />
         <option value="$PROJECT_DIR$/_posts/2015-05-08-photoshop_high_level_tips.md" />
+        <option value="$PROJECT_DIR$/_posts/2012-1-18-settings_for_cut_images_in_photoshop.md" />
+        <option value="$PROJECT_DIR$/_posts/2012-2-27-quick_select_layer_in_photoshop.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-12-15-markdown.md" />
       </list>
     </option>
   </component>
@@ -257,6 +248,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -375,12 +380,12 @@
       <workItem from="1462461277000" duration="4536000" />
       <workItem from="1462466128187" duration="2641000" />
       <workItem from="1462984875359" duration="1543000" />
-      <workItem from="1463196468828" duration="14264000" />
+      <workItem from="1463196468828" duration="16001000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="57304000" />
+    <option name="totallyTimeSpent" value="59041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -592,7 +597,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-05-note_about_react.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="9" column="14" selection-start-line="0" selection-start-column="0" selection-end-line="138" selection-end-column="0" />
@@ -636,14 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2009-08-27-learnreact.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_site/2015/12/16/markdown/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -658,6 +655,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-05-08-photoshop_high_level_tips.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2011-12-09-photoshop_base_tips.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-1-18-settings_for_cut_images_in_photoshop.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="30" column="76" selection-start-line="30" selection-start-column="76" selection-end-line="30" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2012-2-27-quick_select_layer_in_photoshop.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2009-08-27-luolanxiaoyu.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1254">
@@ -666,50 +695,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-12-15-markdown.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-05-note_about_react.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="931">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="-1577">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-12-16-noteaboutreact.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2009-08-27-learnreact.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="-2116">
+          <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2011-12-09-photoshop_base_tips.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-406">
-          <caret line="38" column="44" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-05-08-photoshop_high_level_tips.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1292">
-          <caret line="68" column="31" selection-start-line="68" selection-start-column="31" selection-end-line="68" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2012-2-27-quick_select_layer_in_photoshop.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2012-1-18-settings_for_cut_images_in_photoshop.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2014-12-15-markdown.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
           <folding />
         </state>
       </provider>
