@@ -2,40 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e632f73f-a736-477e-b764-d4b0f264866c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/DOMReady_relization.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/DOMReady_window.onload_compare.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/DOM_learn_steps.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/DOM_level.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/DOM_position.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/Webkit_render_flow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/XML_save_data.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/block_and_inline_elements.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/browser_render_engine_flow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/browser_support_to_DOM.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/check_is_element_node.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/check_node_type.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/create_text_node.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/document_type.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/dropdown_list_serials.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/get_text_node_own_property.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/how_much_faster_DOMReady_than_window.onload.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/html_hot_link_serials.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/media_serials.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/nodeName_nodeValue_of_seven_element_type.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/nodeName_nodeValue_output.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/node_type.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/ol_and_ul_serails.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/physical_pixel_and_logic_pixel.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/pixel_and_dp.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/pixel_basic_knowledge.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/pixel_scale.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/ppi_calculate.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/resource_to_browser_flow.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/table_serials.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/text_node_inheritance.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/in-post/use_of_text_node.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2016-05-05-note_about_react.md" afterPath="$PROJECT_DIR$/_posts/2016-05-05-react_learning.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2006-06-16-pronunciation_error.md" afterPath="$PROJECT_DIR$/_posts/2006-06-16-pronunciation_error.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -116,11 +84,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-08-30-optimization.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2015-08-30-optimization.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-08-30-optimization.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="431">
               <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2006-06-16-pronunciation_error.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2006-06-16-pronunciation_error.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -141,16 +119,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="89">
               <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2015-02-21-canvas_star.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-02-21-canvas_star.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -206,7 +174,6 @@
         <option value="$PROJECT_DIR$/_posts/2016-05-05-note_about_react.md" />
         <option value="$PROJECT_DIR$/_posts/2014-11-22-ie7_bugs.md" />
         <option value="$PROJECT_DIR$/_posts/2006-05-12-http_request.md" />
-        <option value="$PROJECT_DIR$/_posts/2006-06-16-pronunciation_error.md" />
         <option value="$PROJECT_DIR$/_posts/2014-02-18-learn_angularjs.md" />
         <option value="$PROJECT_DIR$/_posts/2013-11-19-mobile_basic_development.md" />
         <option value="$PROJECT_DIR$/_posts/2014-03-18-use_of_jade.md" />
@@ -222,6 +189,7 @@
         <option value="$PROJECT_DIR$/_posts/2014-08-11-less_using.md" />
         <option value="$PROJECT_DIR$/_posts/2015-04-30-tool_using.md" />
         <option value="$PROJECT_DIR$/_posts/2015-08-30-optimization.md" />
+        <option value="$PROJECT_DIR$/_posts/2006-06-16-pronunciation_error.md" />
       </list>
     </option>
   </component>
@@ -337,24 +305,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobilesite.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobilesite.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="in-post" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -566,12 +516,12 @@
       <workItem from="1462466128187" duration="2641000" />
       <workItem from="1462984875359" duration="1543000" />
       <workItem from="1463196468828" duration="23930000" />
-      <workItem from="1463238478609" duration="16247000" />
+      <workItem from="1463238478609" duration="16521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83217000" />
+    <option name="totallyTimeSpent" value="83491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -855,14 +805,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2006-06-16-pronunciation_error.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -985,8 +927,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-08-30-optimization.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="431">
           <caret line="38" column="10" selection-start-line="38" selection-start-column="10" selection-end-line="38" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2006-06-16-pronunciation_error.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
