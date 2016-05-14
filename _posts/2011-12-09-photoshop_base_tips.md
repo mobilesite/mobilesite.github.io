@@ -2,7 +2,7 @@
 layout:     post
 title:      "Photoshop的一些基本的快速操作技巧"
 subtitle:   ""
-date:       2012-02-27 22:10:02
+date:       2011-12-09 21:13:32
 author:     "Paian"
 header-img: ""
 catalog: true

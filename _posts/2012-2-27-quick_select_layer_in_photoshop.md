@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "在Photoshop中，如何快速选中你所看到的内容所对应的图层"
+title:      "Photoshop中如何快速选中某内容所对应的图层"
 subtitle:   ""
 date:       2012-02-27 21:09:32
 author:     "Paian"
@@ -10,7 +10,7 @@ tags:
     - Photoshop
 ---
 
-## 在Photoshop中，如何快速选中你所看到的内容所对应的图层
+## Photoshop中如何快速选中某内容所对应的图层
 
 ### 在Photoshop众多的图层中，如何快速选中你所看到的内容所对应的那个图层呢？
 

@@ -2,7 +2,7 @@
 layout:     post
 title:      "用Photoshop进行高效页面切图的工作区设置"
 subtitle:   ""
-date:       2012-02-27 22:10:02
+date:       2012-01-18 20:32:51
 author:     "Paian"
 header-img: ""
 catalog: true
