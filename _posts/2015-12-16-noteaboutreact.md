@@ -97,28 +97,26 @@ Mixin的目的是横向抽离出组件的相似代码。
 
 相似概念：面向切面编程、插件
 
-例子：
-```
-var SetIntervalMixin = {
-    componentWillMount: function(){
-        this.intervals = [];
-    },
-    setInterval: function(){
-        this.intervals.push(setInterval.apply(null,arguments));
-    },
-    componentWillUnmount:function(){
-        this.intervals.map(clearInterval);
-    }
-};
 
-var TickTock = React.createClass({
-    mixins:[SetIntervalMixin],
-    getInitialState:function({
-        return {seconds:0};
-    }),
-}).
 
-```
+    var SetIntervalMixin = {
+        componentWillMount: function(){
+            this.intervals = [];
+        },
+        setInterval: function(){
+            this.intervals.push(setInterval.apply(null,arguments));
+        },
+        componentWillUnmount:function(){
+            this.intervals.map(clearInterval);
+        }
+    };
+
+    var TickTock = React.createClass({
+        mixins:[SetIntervalMixin],
+        getInitialState:function({
+            return {seconds:0};
+        })
+    })
 
 #### Mixin的优点和缺点
 
