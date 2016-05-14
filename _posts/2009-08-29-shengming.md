@@ -4,7 +4,6 @@ title:      "爱他们，就尊重他们"
 subtitle:   "——由《生命》中一段话所想到的"
 date:       2009-08-27 20:12:13
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - 读书笔记

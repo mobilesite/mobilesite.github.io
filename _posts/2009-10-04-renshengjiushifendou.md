@@ -4,7 +4,6 @@ title:      "读《人生就是奋斗》"
 subtitle:   ""
 date:       2009-10-04 19:02:21
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - 读书笔记

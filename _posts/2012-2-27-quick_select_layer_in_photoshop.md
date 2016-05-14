@@ -4,7 +4,6 @@ title:      "Photoshop中如何快速选中某内容所对应的图层"
 subtitle:   ""
 date:       2012-02-27 21:09:32
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - Photoshop

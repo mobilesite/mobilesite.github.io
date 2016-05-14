@@ -4,7 +4,6 @@ title:      "夜读李开复自传：《世界因你而不同》"
 subtitle:   ""
 date:       2009-11-22 03:09:07
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - 读书笔记

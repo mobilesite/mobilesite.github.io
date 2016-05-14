@@ -4,7 +4,6 @@ title:      "《科学大师们的启示》讲座笔记"
 subtitle:   ""
 date:       2011-11-06 22:57:10
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - 讲座笔记

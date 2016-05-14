@@ -4,7 +4,6 @@ title:      "一流的教育要有一流的胆量"
 subtitle:   "——读《第一流的教育家》"
 date:       2009-08-27 20:12:13
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - 读书笔记

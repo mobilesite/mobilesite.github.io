@@ -4,7 +4,6 @@ title:      "读《我交给你们一个孩子》"
 subtitle:   ""
 date:       2009-05-22 21:10:01
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - 读书笔记

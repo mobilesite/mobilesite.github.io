@@ -4,7 +4,6 @@ title:      "React.js学习笔记"
 subtitle:   ""
 date:       2016-05-05 23:18:02
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - React.js

@@ -4,7 +4,6 @@ title:      "读《罗兰小语》"
 subtitle:   ""
 date:       2009-08-27 20:12:13
 author:     "Paian"
-header-img: ""
 catalog: true
 tags:
     - 读书笔记

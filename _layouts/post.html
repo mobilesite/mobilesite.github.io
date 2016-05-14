@@ -2,15 +2,11 @@
 layout: default
 ---
 
-<!-- Image to hack wechat -->
-<!-- <img src="/img/icon_wechat.png" width="0" height="0"> -->
-<!-- <img src="{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}" width="0" height="0"> -->
-
 <!-- Post Header -->
 <style type="text/css">
     header.intro-header{
         position: relative;
-        background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.post-defalt-img }}{% endif %}')
+        background-image: url({{ site.baseurl }}/{{ site.post-default-img }})
     }
 
     {% if page.header-mask %}
@@ -59,6 +55,8 @@ layout: default
                 post-container">
 
 				{{ content }}
+
+                {% include star.html %}
 
                 <hr>
 
