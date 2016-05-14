@@ -6,7 +6,7 @@ date:       2015-01-05 20:52:11
 author:     "Paian"
 catalog: true
 tags:
-    - JavaScript基础
+    - CSS
 ---
 
 ## border-image的使用
