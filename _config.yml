@@ -15,8 +15,8 @@ share-default-img: img/icon-wechat.png   #分享默认图片
 # SNS settings
 RSS: true
 # weibo_username:     lightspot
-zhihu_username:     jiangtaopaian
-github_username:    mobilesite
+zhihu_username:    jiangtaopaian
+github_username:   mobilesite
 twitter_username:  jiangtaopaian
 # facebook_username:  null
 # linkedin_username:  null
