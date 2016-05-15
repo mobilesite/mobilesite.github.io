@@ -1,7 +1,4 @@
-#拍岸的个人博客
-
-[访问地址](http://mobilesite.github.io)
-
+#[拍岸的个人博客](http://mobilesite.github.io)
 
 ### 一. 环境的搭建
 
@@ -9,7 +6,7 @@
 
 #### gem相关配置
 
-如果用的是windows系统,需要先安装ruby,比如到![ruby官网](http://rubyinstaller.org/downloads/)下载ruby2.0.0p648版本,然后配置一下环境变量.
+如果用的是windows系统,需要先安装ruby,比如到[ruby官网](http://rubyinstaller.org/downloads/)下载ruby2.0.0p648版本,然后配置一下环境变量.
 
 如果用的是mac系统,则无需自己安装ruby.
 
@@ -58,7 +55,7 @@ sudo gem install jekyll-paginate
 
 ## 二. 模板的使用
 
-这里采用了 git@github.com:Huxpro/huxblog-boilerplate.git 中的模版经过加工修改而成.
+这里采用了[git@github.com:Huxpro/huxblog-boilerplate.git](https://github.com/huxpro) 中的模版经过加工修改而成.
 
 
 #### Get Started

@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e632f73f-a736-477e-b764-d4b0f264866c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README-BACKUP.md" afterPath="$PROJECT_DIR$/README-BACKUP.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,17 +28,27 @@
         <entry file="file://$PROJECT_DIR$/_posts/2015-01-05-work_flow.md">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="372" column="17" selection-start-line="372" selection-start-column="17" selection-end-line="372" selection-end-column="17" />
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README-BACKUP.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README-BACKUP.md">
+      <file leaf-file-name="2016-05-08-eslint_application.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-05-08-eslint_application.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48">
-              <caret line="137" column="31" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.67">
+              <caret line="266" column="7" selection-start-line="266" selection-start-column="7" selection-end-line="266" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="121.92593">
+              <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -78,8 +89,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_includes/nav.html" />
-        <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_draft/2016-05-05-noteaboutreact.md" />
         <option value="$PROJECT_DIR$/_posts/2016-05-05noteaboutreact.md" />
         <option value="$PROJECT_DIR$/_posts/2016-05-05-noteaboutreact.md" />
@@ -129,6 +138,8 @@
         <option value="$PROJECT_DIR$/_posts/2015-01-05-work_flow.md" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/README-BACKUP.md" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-05-08-eslint_application.md" />
       </list>
     </option>
   </component>
@@ -235,17 +246,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
+      <recent name="D:\mobilesite.github.io\_posts" />
+      <recent name="D:\mobilesite.github.io\_draft" />
+      <recent name="D:\mobilesite.github.io\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\mobilesite.github.io\img\in-post" />
       <recent name="D:\mobilesite.github.io\img" />
       <recent name="D:\mobilesite.github.io\_site\img\article-imgs" />
       <recent name="D:\mobilesite.github.io\_site\img" />
       <recent name="D:\mobilesite.github.io\_posts" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mobilesite.github.io\_posts" />
-      <recent name="D:\mobilesite.github.io\_draft" />
-      <recent name="D:\mobilesite.github.io\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -690,14 +702,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-01-05-work_flow.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="372" column="17" selection-start-line="372" selection-start-column="17" selection-end-line="372" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334">
@@ -714,10 +718,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README-BACKUP.md">
+    <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48">
-          <caret line="137" column="31" selection-start-line="137" selection-start-column="24" selection-end-line="137" selection-end-column="31" />
+        <state vertical-scroll-proportion="121.92593">
+          <caret line="0" column="39" selection-start-line="0" selection-start-column="39" selection-end-line="0" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-01-05-work_flow.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-05-08-eslint_application.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.67">
+          <caret line="266" column="7" selection-start-line="266" selection-start-column="7" selection-end-line="266" selection-end-column="7" />
           <folding />
         </state>
       </provider>
