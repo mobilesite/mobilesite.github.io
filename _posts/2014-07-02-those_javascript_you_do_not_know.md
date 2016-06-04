@@ -154,7 +154,7 @@ foo(1);
 
 其次,来看看```delete```的用法:
 
-- 对象属性删除
+#### 对象属性删除
 
     function fun(){
 
@@ -170,7 +170,7 @@ foo(1);
 
     console.log(obj.name); //undefined
 
-- 变量删除
+#### 变量删除
 
     var name = 'lily';
     delete name;
@@ -178,13 +178,13 @@ foo(1);
 
     直接用delelte删除不了变量
 
-- 删除不了原型链中的变量
+#### 删除不了原型链中的变量
 
     fun.prototype.age = 18;
     delete obj.age;
     console.log(obj.age) //18
 
-所以,foo.length也是删除不掉的,仍然是0。
+所以,```foo.length```也是删除不掉的,仍然是0。
 
 
 
