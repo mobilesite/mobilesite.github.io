@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "git常用操作总结"
+title:      "史上最详细的git常用操作总结"
 subtitle:   ""
 date:       2014-04-06 21:12:36
 author:     "Paian"
@@ -9,7 +9,7 @@ tags:
     - git
 ---
 
-## git常用操作总结
+## 史上最详细的git常用操作总结
 
 ### 一、Windows系统中Git的使用
 
@@ -64,7 +64,10 @@ tags:
 
 输入完这上一行命令后，会提示你输入用户名和密码，按要求输入即可。密码在输入时什么提示也没有，你可能感觉没有输入成功。这时你不用担心，只要认真输入完成，回车即可。如果输入是正确的，就可以完成push到远程的操作了。
 
-（下面这段有问题，现在还未实现。
+（
+
+下面这段有问题，现在还未实现,暂且忽略。
+
 但是，多提交几次你就会发现，每次都要你输入用户名和密码，是不是很麻烦啊？下面告诉你一个简单的方法，用SSH公钥来进行认证。
 打开控制台，在默认的目录下（一般是C:\Documents and Settings\Administrator\）输入dir命令，查看该目录下有哪些文件夹和文件。在其中找一找有没有.ssh这个文件夹。如果没有，则切换到C:\Documents and Settings\Administrator\或者D:\Documents and Settings\Administrator\中找一找有没有该文件夹。找到该文件夹后，用cd .ssh切换到该文件夹下。
 然后输入如下命令进行公钥和秘钥的生成。
@@ -73,7 +76,9 @@ ssh-keygen -C 你的email地址  -t rsa
 然后用cat id_rsa.pub命令将该公钥文件的内容打印到控制台中，复制其中不包含email地址的部分。
 在github网站上登录进去，单击右上角的小齿轮进入到settings菜单，选中左侧的SSH Keys菜单项，单击右上方Add SSH Key按钮，把刚才复制好的SSH公钥粘贴进去。
 title可以随便取。
-然后重启一下控制台。这样，下次进行push时就不用再输入用户名密码了。）
+然后重启一下控制台。这样，下次进行push时就不用再输入用户名密码了。
+
+）
 
 
 ### 二、Mac系统中Git的使用
@@ -152,26 +157,36 @@ command +option +j   打开console
 
 ### 三、多人合作开发
 
-	发布之后如果再有修改，需要新拉出来一个分支，并把版本号往上升1，修改完之后再commit,push,tag,push：
+发布之后如果再有修改，需要新拉出来一个分支，并把版本号往上升1，修改完之后再commit,push,tag,push：
 
     git checkout -b daily/1.x.x      #在现在分支上创建一个新分支
     git checkout daily/1.x.x         #切换到这个分支
     git add -A
-    git commit -m '提交的备注信息'   #先add 在提交修改
+    git commit -m '提交的备注信息'     #先add 在提交修改
     git push origin daily/1.x.x      #把内容推送到日常环境
     git tag publish/1.x.x            #打个tag
     git push origin publish/1.x.x    #把这个tag的版本发布到正式线上
     git pull origin daily/1.x.x      #拉取最新代码
 
-    如果过去发布的某个版本上的代码出现了bug，但是在其之上，又已开发了很多新的代码，如何修复它？这就需要创建出来一个新分支，在该分支上修复完bug后再merge回当前正在开发的分支上。因为如果直接在当前开发中的版本上修复bug的话，将无法直接发布，因为其中已包含许多正在开发中还不能对外发布的代码，所以需要从已发部的那个版本上创建出来一个新分支，然后在这个分支上修复bug，并合并到当前开发中的分支上。
+    git branch                       #查看当前有哪些分支
+    git branch -d 'daily/x.x.x'      #删除某本地分支，不过操作的前提是要保证当前分支不是要删除的分支
 
-     在github上的操作如下：点击mater分支——出现下拉列表——点击manage，就会进入分支管理面板，点击+号——输入分支名，然后发现新建的这个分支即变成了current branch，然后在该分支进行修改和commit及发布。
+    git git branch -r -d origin/branch-name  #删除对远程分支的track
+    git push origin :branch-name             #删除远程分支
 
-     最后，同样进入分支管理面板，把master分支拖到左下角右侧的格子中，把bug修复分支拖到左下角左侧的格子中。然后点击merge按钮。
+    git tag                                  #查看有哪些tag
+    git tag -d publish/x.x.x                 #删除本地tag
+    git push origin :refs/tags/publish/x.x.x #删除远程tag
 
-     另一个merge的方法是，当commit之后，在github客户端的当前项目名称上单击右键，选择view on github，然后提示说有一次commit未合并，看要不要合并，并看到一个compare and pull request按钮，点击它。按提示合并它。这方法比较适合开源项目，因为可随时看到别人的commit并决定是否合并。
+如果过去发布的某个版本上的代码出现了bug，但是在其之上，又已开发了很多新的代码，如何修复它？这就需要创建出来一个新分支，在该分支上修复完bug后再merge回当前正在开发的分支上。因为如果直接在当前开发中的版本上修复bug的话，将无法直接发布，因为其中已包含许多正在开发中还不能对外发布的代码，所以需要从已发部的那个版本上创建出来一个新分支，然后在这个分支上修复bug，并合并到当前开发中的分支上。
 
-     多人合作开发时，publish之前，需要先add，再commit，再pull，然后才可以publish。
+在github上的操作如下：点击mater分支——出现下拉列表——点击manage，就会进入分支管理面板，点击+号——输入分支名，然后发现新建的这个分支即变成了current branch，然后在该分支进行修改和commit及发布。
+
+最后，同样进入分支管理面板，把master分支拖到左下角右侧的格子中，把bug修复分支拖到左下角左侧的格子中。然后点击merge按钮。
+
+另一个merge的方法是，当commit之后，在github客户端的当前项目名称上单击右键，选择view on github，然后提示说有一次commit未合并，看要不要合并，并看到一个compare and pull request按钮，点击它。按提示合并它。这方法比较适合开源项目，因为可随时看到别人的commit并决定是否合并。
+
+多人合作开发时，publish之前，需要先add，再commit，再pull，然后才可以publish。
 
 ### 四、git如何回到过去的某个提交，并带着过去的代码回到未来
 
@@ -212,12 +227,12 @@ Mac/Ubuntu: wget xxx/git-m  && sudo chmod 775 git-m && sudo mv git-m /usr/bin/
 	git config --global user.name "your_name"
 	git config --global user.email  "your_email"
 
-	如果所参与的项目都允许你用同一个用户名和邮箱，这样设置当然没问题，但是，这并不总是一定的。有时候我们需要为某个项目单独设置用户名和邮箱。因此我们首先需要取消git的全局设置
+如果所参与的项目都允许你用同一个用户名和邮箱，这样设置当然没问题，但是，这并不总是一定的。有时候我们需要为某个项目单独设置用户名和邮箱。因此我们首先需要取消git的全局设置
 
 	git config --global --unset user.name
 	git config --global --unset user.email
 
-	针对单个项目单独设置用户名和邮箱，设置方法如下：
+针对单个项目单独设置用户名和邮箱，设置方法如下：
 
 	mkdir ～/test // git检出目录
 	cd ~/test
@@ -225,7 +240,7 @@ Mac/Ubuntu: wget xxx/git-m  && sudo chmod 775 git-m && sudo mv git-m /usr/bin/
 	git config user.name "your_name"
 	git config user.email "your_email"
 
-	说白了，也就是进入到你的git项目相对根目录下，然后执行git config设置记录
+说白了，也就是进入到你的git项目相对根目录下，然后执行git config设置记录
 
 
 # 八、.gitignore设置过滤文件
@@ -237,7 +252,7 @@ node_modules
 npm-debug.log
 .idea/*
 
-# 如果没有设置.gitignore过滤，就已经提交到远程上去了，怎么删除？
+# 九、如果没有设置.gitignore过滤，就已经提交到远程上去了，怎么删除？
 
 	rm -rf .idea  #这样会删掉你本地的.idea文件夹，不过你重新打开一次项目就有会自动给你生成了，不过你可以在重新打开项目之前把.gitignore给配置好
 
@@ -245,13 +260,13 @@ npm-debug.log
 	git commit -m 'remove .idea'
 	git push origin daily/1.0.0
 
-	然后再看看同步后，远程的这个文件删掉没有。如果没有，再重复上述操作一遍。待远程的.idea文件也被删除干净后，运行
+然后再看看同步后，远程的这个文件删掉没有。如果没有，再重复上述操作一遍。待远程的.idea文件也被删除干净后，运行
 
 	git rm -r --cached .idea    #取消对.idea文件的跟踪
 
-	然后再push一遍，就彻底把该不该被提交却提交了的文件移除掉了。
+然后再push一遍，就彻底把该不该被提交却提交了的文件移除掉了。
 
-### 九、版本管理的一些经验：
+# 十、版本管理的一些经验：
 
 （1）提交之前diff和测试好自己的代码。
 
