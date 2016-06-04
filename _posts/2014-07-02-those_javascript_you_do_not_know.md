@@ -134,11 +134,11 @@ undefined
 
 ### 再来一个看看结果是多少?
 
-function foo(a) {
-    arguments[0] = 2;
-    alert(a);
-}
-foo(1);
+    function foo(a) {
+        arguments[0] = 2;
+        alert(a);
+    }
+    foo(1);
 
 答案:
 
