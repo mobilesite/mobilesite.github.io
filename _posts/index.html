@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .useless{
+            background: url("http://img.leikeji.com/resource/img/6a57aa0f829b434ba1193158c26aac16.jpg");
+        }
+        .displayNone{
+            display: none;
+            background: url("http://img32.ddimg.cn/91/17/1181196712-1_u_1.jpg"); /* 加载了 */
+        }
+        .visibilityHidden{
+            visibility: hidden;
+            background: url("http://www.ijizhi.com/img/UploadFile/201112240102149.jpg"); /* 加载了 */
+        }
+        .displayNone .inDisplayNone{
+            background: url("http://tu.webps.cn/tb/img/2/T10b07XbdfXXar1t.._111728.jpg");
+        }
+        .visibilityHidden .inVisibilityHidden{
+            background: url("http://img.gatewang.com/thumb_cache/files/2014/11/23/14166750487686,c_fill,h_800,w_800.jpg"); /* 加载了 */
+        }
+    </style>
+</head>
+<body>
+    <div class="displayNone">
+        <div class="inDisplayNone"></div>
+    </div>
+
+    <div class="visibilityHidden">
+        <div class="inVisibilityHidden"></div>
+    </div>
+</body>
+</html>
