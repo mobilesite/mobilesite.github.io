@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "前端工程师易混知识点集合"
+title:      "前端工程师易混淆知识点集合"
 subtitle:   ""
 date:       2015-06-03 19:55:54
 author:     "Paian"
@@ -9,7 +9,7 @@ tags:
     - 前端易混淆知识点
 ---
 
-## 前端工程师易混知识点集合
+## 前端工程师易混淆知识点集合
 
 相信和许多行业一样,有着几年经验的前端工程师一定也会发现一些本领域容易混淆的知识点。每次用上它们的时候都要查上一遍,方能确认。这种感觉有多不爽,我也是深有体会的。知道"宝宝"们心里苦,懒得去总结,因此特给大家总结一份。
 
@@ -90,32 +90,29 @@ apply和array的第一个字母都是a，可以利用这一点关联来进行记
 
 在JavaScript中,这几个家伙就像周瑜和诸葛亮那样,让开发哥哥们生出"既生瑜何生亮"的感慨和无奈!
 
-1、```stringObject.substr(start[,length])```
+### 1、```stringObject.substr(start[,length])```
 
 substr的第一、第二个参数分别为start和length。
 
 start是必需的参数。即要抽取的子串的起始下标。必须是数值。如果是负数，那么该参数声明从字符串的尾部开始算起的位置。也就是说，-1 指字符串中最后一个字符，-2 指倒数第二个字符，以此类推。
 length属性可选。子串中的字符数。必须是数值。如果省略了该参数，那么返回从 stringObject 的开始位置到结尾的字串。
 
-2、```stringObject.substring(start[,stop])```
+### 2、```stringObject.substring(start[,stop])```
 
 start属性必需。一个非负的整数，规定要提取的子串的第一个字符在 stringObject 中的位置。
 stop可选。一个非负的整数，比要提取的子串的最后一个字符在 stringObject 中的位置多 1。如果省略该参数，那么返回的子串会一直到字符串的结尾。
 
 注意:
 
-**
 substring() 方法返回的子串包括 start 处的字符，但不包括 stop 处的字符。
 
 如果参数 start 与 stop 相等，那么该方法返回的就是一个空串（即长度为 0 的字符串）。如果 start 比 stop 大，那么该方法在提取子串之前会先交换这两个参数。
 
 与 slice() 和 substr() 方法不同的是，substring() 不接受负的参数。
 
-**
-
 相比于substr的短小精悍,这个substring就像一只高傲的孔雀,拖着长长的尾巴(方法命中多了个'ing'),还不接受负的参数,stop居然还比通常意义上理解的截止位置多1,这种难记难用右易混淆的方法,真心应该遭到吐槽和废弃!
 
-3、```stringObject.slice(start,end)```
+### 3、```stringObject.slice(start,end)```
 
 start要抽取的片断的起始下标。如果是负数，则该参数规定的是从字符串的尾部开始算起的位置。也就是说，-1 指字符串的最后一个字符，-2 指倒数第二个字符，以此类推。
 
@@ -128,7 +125,7 @@ slice的两个参数所表达的意义与substring是相同的,只是slice的参
 
 ### 四、数组的slice()、splice()方法
 
-1、```arrayObject.slice([begin[,end]])```
+### 1、```arrayObject.slice([begin[,end]])```
 
 把数组中一部分的浅复制（shallow copy）存入一个新的数组对象中，并返回这个新的数组。
 
@@ -159,7 +156,7 @@ slice 不修改原数组，只会返回一个包含了原数组中提取的部�
 如果向两个数组任一中添加了新元素，则另一个不会受到影响。
 
 
-2、```arrayObject.splice(start, deleteCount[, item1[, item2[, ...]]])```
+### 2、```arrayObject.splice(start, deleteCount[, item1[, item2[, ...]]])```
 
 splice() 方法用新元素替换旧元素，以此修改数组的内容。
 
@@ -216,7 +213,7 @@ George,John,William,Martin
 
 ### 五、数组的shift和unshift(element1, ..., elementN)方法
 
-1、arrayObject.shift()
+### 1、arrayObject.shift()
 
 shift() 方法删除数组的 第一个 元素，并返回这个元素。该方法会改变数组的长度。
 
@@ -228,7 +225,7 @@ shift() 方法删除数组的 第一个 元素，并返回这个元素。该方�
 
     console.log(myFish); // ["clown", "mandarin", "surgeon"]
 
-2、arrayObject.unshift(element1, ..., elementN)
+### 2、arrayObject.unshift(element1, ..., elementN)
 
 unshift(element1, ..., elementN)) 方法在数组的开头添加一个或者多个元素，并返回数组新的 length 值。
 
