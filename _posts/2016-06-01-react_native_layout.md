@@ -15,7 +15,7 @@ tags:
 
 React Native 不像CSS那样支持用 ```width: 33.33%``` 那样就可以把元素的宽度设置成1/3。实现三个元素共占一行（如下图所示，状态条和顶部标题栏自行实现），宽度各为1/3这样的布局需要做一些处理才能达成。
 
-![截图](../../../../img/in-post/react-native-layout.png)
+![截图](/img/in-post/react_native_layout.png)
 
 ### 准备工作
 
@@ -265,7 +265,7 @@ export default Item;
 
 最终实现的效果如下所示:
 
-![截图](../../../../img/in-post/react-native-layout-demo.jpg)
+![截图](/img/in-post/react_native_layout_demo.jpg)
 
 至此,我们已经可以用React Native实现一些常见的页面布局了。值得注意的是,学习React Native一定要动手去试。相信你根据上面的只是,找一个设计稿对照着实现一遍,基本的React Native应该就可以搞定了。
 
