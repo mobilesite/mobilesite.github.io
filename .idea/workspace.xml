@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e632f73f-a736-477e-b764-d4b0f264866c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2013-02-05-those_css_you_do_not_know.md" afterPath="$PROJECT_DIR$/_posts/2013-02-05-those_css_you_do_not_know.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-06-05-those_html_you_do_not_know.md" afterPath="$PROJECT_DIR$/_posts/2014-06-05-those_html_you_do_not_know.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-07-02-those_javascript_you_do_not_know.md" afterPath="$PROJECT_DIR$/_posts/2014-07-02-those_javascript_you_do_not_know.md" />
-    </list>
+    <list default="true" id="e632f73f-a736-477e-b764-d4b0f264866c" name="Default" comment="" />
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,11 +41,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-06-05-those_html_you_do_not_know.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2014-06-05-those_html_you_do_not_know.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2014-06-05-those_html_you_do_not_know.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="352">
               <caret line="115" column="86" selection-start-line="115" selection-start-column="86" selection-end-line="115" selection-end-column="86" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -71,7 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_includes/star.html" />
         <option value="$PROJECT_DIR$/_posts/2015-05-08-photoshop_high_level_tips.md" />
         <option value="$PROJECT_DIR$/_posts/2012-2-27-quick_select_layer_in_photoshop.md" />
         <option value="$PROJECT_DIR$/_posts/2012-1-18-settings_for_cut_images_in_photoshop.md" />
@@ -122,6 +126,7 @@
         <option value="$PROJECT_DIR$/_posts/2013-02-05-those_css_you_do_not_know.md" />
         <option value="$PROJECT_DIR$/_posts/2014-07-02-those_javascript_you_do_not_know.md" />
         <option value="$PROJECT_DIR$/_posts/2014-06-05-those_html_you_do_not_know.md" />
+        <option value="$PROJECT_DIR$/_site/index.html" />
       </list>
     </option>
   </component>
@@ -394,12 +399,12 @@
       <workItem from="1465037348433" duration="33000" />
       <workItem from="1465037420898" duration="32000" />
       <workItem from="1465037461244" duration="28000" />
-      <workItem from="1465037497612" duration="18610000" />
+      <workItem from="1465037497612" duration="19231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110404000" />
+    <option name="totallyTimeSpent" value="111025000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -453,13 +458,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="36" column="21" selection-start-line="36" selection-start-column="21" selection-end-line="36" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-05-08-photoshop_high_level_tips.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -820,6 +818,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
           <caret line="115" column="86" selection-start-line="115" selection-start-column="86" selection-end-line="115" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
           <folding />
         </state>
       </provider>
