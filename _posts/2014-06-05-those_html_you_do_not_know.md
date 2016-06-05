@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "那些你不知道的HTML"
+title:      "[译]那些你不知道的HTML"
 subtitle:   ""
 date:       2014-06-05 21:27:21
 author:     "Paian"
@@ -9,7 +9,7 @@ tags:
     - HTML
 ---
 
-## 那些你不知道的HTML
+## [译]那些你不知道的HTML
 
 ### ```<keygen>```是一个合法的HTML5标签吗?
 
@@ -112,6 +112,8 @@ tags:
 答案:
 
 是的
+
+翻译自[http://davidshariff.com/quiz/](http://davidshariff.com/quiz/),加上了自己的理解分析,并进行了整理删减。
 
 
 

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "那些你不知道的CSS"
+title:      "[译]那些你不知道的CSS"
 subtitle:   ""
 date:       2013-02-05 20:17:13
 author:     "Paian"
@@ -9,7 +9,7 @@ tags:
     - CSS
 ---
 
-## 那些你不知道的CSS
+## [译]那些你不知道的CSS
 
 ### CSS对大小写是否敏感?
 
@@ -123,3 +123,5 @@ html元素。
 答案:
 
 我们把这段代码做成一个页面,用开发者工具查看网络请求会发现,2、3、5号图被浏览器加载了,而1号图和4号图未被加载。这表明,页面中未被使用的样式语句所引用的外部资源是不会被加载的,而```display:none```的元素的子元素的样式中所引入的外部资源,也是不会被加载的。但是,```display:none```和```visibility:hidden```的元素自身的样式所引用的外部资源是会被加载的。而且```visibility:hidden```的元素的子元素的样式所引用的外部资源也是会被加载的。
+
+翻译自[http://davidshariff.com/quiz/](http://davidshariff.com/quiz/),加上了自己的理解分析,并进行了整理删减。

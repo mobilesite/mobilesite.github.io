@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "那些你不知道的JavaScript"
+title:      "[译]那些你不知道的JavaScript"
 subtitle:   ""
 date:       2014-07-02 20:21:56
 author:     "Paian"
@@ -9,7 +9,7 @@ tags:
     - JavaScript
 ---
 
-## 那些你不知道的JavaScript
+## [译]那些你不知道的JavaScript
 
 ### ```var a = 1+"2"+3+"4"``` 和 ```var b = 1+2+3+"4"```, a和b值分别是多少
 
@@ -185,6 +185,8 @@ undefined
     console.log(obj.age) //18
 
 所以,```foo.length```也是删除不掉的,仍然是0。
+
+翻译自[http://davidshariff.com/quiz/](http://davidshariff.com/quiz/),加上了自己的理解分析,并进行了整理删减。
 
 
 
