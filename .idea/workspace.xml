@@ -26,7 +26,7 @@
       <file leaf-file-name="2016-06-01-react_native_layout.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-01-react_native_layout.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="150">
               <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
               <folding />
             </state>
@@ -450,12 +450,12 @@
       <workItem from="1465037348433" duration="33000" />
       <workItem from="1465037420898" duration="32000" />
       <workItem from="1465037461244" duration="28000" />
-      <workItem from="1465037497612" duration="24154000" />
+      <workItem from="1465037497612" duration="24370000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115948000" />
+    <option name="totallyTimeSpent" value="116164000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -881,7 +881,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-01-react_native_layout.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="150">
           <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
           <folding />
         </state>
