@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "React Native的价值"
-subtitle:   ""
+subtitle:   "史上最详细的React Native教程之一"
 date:       2015-12-02 21:52:34
 author:     "Paian"
 catalog: true
@@ -15,7 +15,7 @@ tags:
 
 按照[React Native官网](http://facebook.github.io/react-native/)上的介绍，它是“A FRAMEWORK FOR BUILDING NATIVE APPS USING REACT”（即一个用React来构建原生应用的框架）。
 
-### 1.2 为什么要用React Native呢？
+### 1.2 为什么要用React Native？
 
 官网介绍说，React Native使你能够在Javascript和React的基础上获得完全一致的开发体验，构建世界一流的原生APP。React Native着力于提高多平台开发的开发效率 —— 仅需学习一次，编写任何平台。Facebook已经在多项产品中使用了React Native，并且将持续地投入建设React Native。
 
