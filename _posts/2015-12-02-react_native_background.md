@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "React Native的价值"
-subtitle:   "史上最详细的React Native教程之一"
+subtitle:   "史上最详细的React Native系列教程（1）"
 date:       2015-12-02 21:52:34
 author:     "Paian"
 catalog: true

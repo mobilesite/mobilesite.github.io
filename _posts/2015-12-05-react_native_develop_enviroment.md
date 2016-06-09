@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "React Native开发环境搭建（Windows版）"
-subtitle:   "史上最详细的React Native教程之二"
+subtitle:   "史上最详细的React Native系列教程（2）"
 date:       2015-12-05 22:19:21
 author:     "Paian"
 catalog: true
@@ -38,7 +38,7 @@ android-mirror.bugly.qq.com 端口：8080
 
 安装的时候，在第二步中选择“Use Git from the Windows Command Prompt”（如下图），，这样会把Git的可执行程序加入到PATH环境变量中，这样其他程序才能在命令行中正确调用Git。这样就可以同时在Windows的控制台和Git Bash中使用Git。
 
-![Git安装选项](/img/in-post/react_native_layout_grid_demo.jpg)
+![Git安装选项](/img/in-post/git_install_windows.jpg)
 
 关于Git的详细使用，可以查看我的另一篇教程：[史上最详细的git常用操作总结](http://mobilesite.github.io/2014/04/06/git_useful_operations/)。
 
