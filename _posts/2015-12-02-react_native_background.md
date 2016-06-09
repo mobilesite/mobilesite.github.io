@@ -13,7 +13,7 @@ tags:
 
 ### 1.1 React Native是什么？
 
-按照[React Native官网]上的介绍，它是“A FRAMEWORK FOR BUILDING NATIVE APPS USING REACT”（即一个用React来构建原生应用的框架）。
+按照[React Native官网](http://facebook.github.io/react-native/)上的介绍，它是“A FRAMEWORK FOR BUILDING NATIVE APPS USING REACT”（即一个用React来构建原生应用的框架）。
 
 ### 1.2 为什么要用React Native呢？
 
