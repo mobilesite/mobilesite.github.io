@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "less的使用"
+title:      "LESS的使用"
 subtitle:   ""
 date:       2014-08-11 22:12:56
 author:     "Paian"
@@ -9,7 +9,7 @@ tags:
     - LESS
 ---
 
-## less的使用
+## LESS的使用
 
    &_item写法
 

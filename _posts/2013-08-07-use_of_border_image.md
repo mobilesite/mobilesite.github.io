@@ -2,7 +2,7 @@
 layout:     post
 title:      "border-image的使用"
 subtitle:   ""
-date:       2015-01-05 20:52:11
+date:       2013-08-07 20:52:11
 author:     "Paian"
 catalog: true
 tags:

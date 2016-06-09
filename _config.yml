@@ -15,8 +15,8 @@ share-default-img: img/icon-wechat.png   #分享默认图片
 # SNS settings
 RSS: true
 # weibo_username:     lightspot
-zhihu_username:     jiangtaopaian
-github_username:    mobilesite
+zhihu_username:    jiangtaopaian
+github_username:   mobilesite
 twitter_username:  jiangtaopaian
 # facebook_username:  null
 # linkedin_username:  null
@@ -78,7 +78,7 @@ sidebar-avatar: /img/avatar.jpg      # use absolute URL, seeing it's used in bot
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 0              # A tag will be featured if the size of it is more than this condition value
 
 
 
