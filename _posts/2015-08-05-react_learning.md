@@ -2,7 +2,7 @@
 layout:     post
 title:      "React.js学习笔记"
 subtitle:   ""
-date:       2016-3-05 23:18:02
+date:       2015-08-05 23:18:02
 author:     "Paian"
 catalog: true
 tags:
