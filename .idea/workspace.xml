@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/img/avatar1.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/avatar.jpg" afterPath="$PROJECT_DIR$/img/avatar.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
@@ -347,12 +344,12 @@
       <workItem from="1465450839707" duration="6367000" />
       <workItem from="1465459543723" duration="21851000" />
       <workItem from="1465492697140" duration="596000" />
-      <workItem from="1465546122725" duration="721000" />
+      <workItem from="1465546122725" duration="795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38925000" />
+    <option name="totallyTimeSpent" value="38999000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
