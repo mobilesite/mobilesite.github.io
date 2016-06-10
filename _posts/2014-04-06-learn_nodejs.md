@@ -6,7 +6,7 @@ date:       2014-04-06 21:12:36
 author:     "Paian"
 catalog: true
 tags:
-    - 移动适配
+    - node.js
 ---
 
 ## 开启新纪元——进击node.js学习笔记
