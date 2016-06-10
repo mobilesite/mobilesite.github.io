@@ -111,13 +111,25 @@ react-native start
 
 不过，我在使用4.2版本的Oracle VM VirtualBox的时候，我曾执著地试着安装不同的虚拟设备尝试了无数次，均以出现“Unable to create Virtual Device: Failed to import OVA”错误提示而告终。经过各种搜索，我终于决定换个Oracle VM VirtualBox新版本（5.0.20）一试。安装完成后，重启下机器一试，居然终于在Genymotion模拟器上安装成功了一个虚拟设备（Custom Phone - 6.0.0）。
 
-但当我准备把这个虚拟设备启动起来的时候，却怎么也无法启动，我到Oracle VM VirtualBox中去启动对应的虚拟机，提示说“This kernel requires an x86-64 CPU, but only detected an i686 CPU. Unable to boot - Please use a kernel appropriate for your CPU”。经过了解，原来是需要关闭计算机（非重启）——》进入BIOS ——》开启BIOS的虚拟化（不打开，默认是工作在32位模式的，“virtualization technology”设置为“enable”）——》保存退出。不过，可能是我的机器实在太老，BIOS中根本找不到这个配置项。去下载了个securable.exe工具一检测，发现机器确实不支持。无奈只好放弃。
+但当我准备把这个虚拟设备启动起来的时候，却怎么也无法启动，我到Oracle VM VirtualBox中去启动对应的虚拟机，提示说“This kernel requires an x86-64 CPU, but only detected an i686 CPU. Unable to boot - Please use a kernel appropriate for your CPU”。经过了解，原来VirtualBox安装64位的系统需要满足以下条件：
+
+（1）64位的CPU
+
+（2）安装的系统必须为64位
+
+（3）CPU允许硬件虚拟化
+
+可以下载一个securable.exe工具进行检测。检测结果为64 yes yes则可以安装，结果为64 no no（或者64 off off）则不能安装。其中，第（3）项可以通过如下方式开启：
+
+关闭计算机（非重启）——》进入BIOS ——》开启BIOS的虚拟化（不打开，默认是工作在32位模式的，“virtualization technology”设置为“enable”）——》保存退出。
+
+不过，可能是我的机器实在太老，BIOS中根本找不到这个配置项。无奈只好放弃。
 
 但转念一想，是不是也有别的虚拟设备不需要支持64位CPU的呢？于是，我安装了个HTC One XL 4.2.2，结果终于可以在Oracle VM VirtualBox中把对应的虚拟机启动起来了（这个设备只需要32位CPU即可），但是我在Genymotion中启动这个虚拟设备的时候，仍然遇到了“VirtualBox DHCP has not assigned an IP address to virtual device.”的错误。
 
 最后发现需要到Oracle VM VirtualBox中找到对应的虚拟机，点“设置”——》“网络”——》“网卡1”——》“混杂模式”选项中设置为“允许虚拟电脑”。然后再试着启动虚拟设备，这下终于启动成功了。
 
-然后再启动一个虚拟设备，在控制台中切换到项目目录下，用命令行```react-native run-android```运行APP，即可在虚拟设备上预览到效果。
+然后再启动一个虚拟设备（注意要先启动Oracle VM VirtualBox中虚拟机，再启动Genymotion中的虚拟设备），在控制台中切换到项目目录下，用命令行```react-native run-android```运行APP，即可在虚拟设备上预览到效果。
 
 ### 11、在Android真机中运行项目
 
