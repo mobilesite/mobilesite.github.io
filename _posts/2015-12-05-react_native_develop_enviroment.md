@@ -55,13 +55,19 @@ npm config set registry https://registry.npm.taobao.org --global
 npm config set disturl https://npm.taobao.org/dist --global
 ```
 
-### 5、配置Webstorm，使得可以在Webstorm的Terminal面板中执行命令
+### 5、配置Webstorm
+
+（1）使得可以在Webstorm的Terminal面板中执行命令
 
 编码的时候还要切换到控制台中去执行命令行的话实在是一件很不优雅的事情。Webstorm的Terminal面板中执行一个简单的命令行如 `cd d:`试试看，如果输出“‘xxx’不是内部或外部命令，也不是可运行的程序”之类的提示，则说明你的Webstorm的Terminal目前是不起作用的，需要配置。否则则跳过此步。
 
 配置方法如下：点击 file ——》settings 菜单，在弹出的 tools ——》terminal选项卡中找到了把控制台配置进Terminal的配置项（如下图所示），其中的路径就是你的控制台程序所在的路径，配置好后重启一下Webstorm就可以了。
 
 [Webstorm中关于Terminal的配置](/img/in-post/webstorm_terminal_configure.jpg)
+
+（2）使得Webstorm支持JSX语法
+
+在File——》Settings——》Languages and Frameworks——》JavaScript中把JavaScript language version设置为JSX harmony。这样，在使用Webstorm打开React Native文件时，就可以避免很多不正确的语法错误提示了。
 
 ### 6、安装React Native命令行工具
 
