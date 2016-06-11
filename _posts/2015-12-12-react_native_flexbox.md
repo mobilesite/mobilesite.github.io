@@ -108,7 +108,7 @@ AppRegistry.registerComponent('demo', () => demo);
 
 把手机连接上电脑，开启USB调试模式。用```react-native run-android```运行项目，得到如下图所示的效果。这时如果你遇到手机出现红屏报错的情况，可能是你的手机没有与电脑连接到同一Wi-Fi环境下。
 
-![截图](./img/in-post/flex_default_direction.jpg)
+![截图](/img/in-post/flex_default_direction.jpg)
 
 可见，三个元素是在竖直方向上一字排开，即默认的flexDirection取值是column，这与Web页面中flex-direction的默认取值为row是不同的。
 
