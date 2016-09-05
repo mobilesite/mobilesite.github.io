@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2015-09-06-bugs_in_video_and_audio_development.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/_posts/2016-06-01-react_native_layout.md" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/404-bg.jpg" afterPath="$PROJECT_DIR$/img/404-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/about-bg.jpg" afterPath="$PROJECT_DIR$/img/about-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/avatar.jpg" afterPath="$PROJECT_DIR$/img/avatar.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/awatar2.jpg" afterPath="$PROJECT_DIR$/img/awatar2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/home-bg.jpg" afterPath="$PROJECT_DIR$/img/home-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/icon-wechat.png" afterPath="$PROJECT_DIR$/img/icon-wechat.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/DOMReady_relization.jpg" afterPath="$PROJECT_DIR$/img/in-post/DOMReady_relization.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/DOMReady_window.onload_compare.jpg" afterPath="$PROJECT_DIR$/img/in-post/DOMReady_window.onload_compare.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/DOM_learn_steps.jpg" afterPath="$PROJECT_DIR$/img/in-post/DOM_learn_steps.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/DOM_level.jpg" afterPath="$PROJECT_DIR$/img/in-post/DOM_level.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/XML_save_data.jpg" afterPath="$PROJECT_DIR$/img/in-post/XML_save_data.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/block_and_inline_elements.jpg" afterPath="$PROJECT_DIR$/img/in-post/block_and_inline_elements.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/browser_render_engine_flow.jpg" afterPath="$PROJECT_DIR$/img/in-post/browser_render_engine_flow.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/browser_support_to_DOM.jpg" afterPath="$PROJECT_DIR$/img/in-post/browser_support_to_DOM.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/check_is_element_node.jpg" afterPath="$PROJECT_DIR$/img/in-post/check_is_element_node.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/check_node_type.jpg" afterPath="$PROJECT_DIR$/img/in-post/check_node_type.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/create_text_node.jpg" afterPath="$PROJECT_DIR$/img/in-post/create_text_node.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/document_type.jpg" afterPath="$PROJECT_DIR$/img/in-post/document_type.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/dropdown_list_serials.jpg" afterPath="$PROJECT_DIR$/img/in-post/dropdown_list_serials.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/flex_default_direction.jpg" afterPath="$PROJECT_DIR$/img/in-post/flex_default_direction.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/get_text_node_own_property.jpg" afterPath="$PROJECT_DIR$/img/in-post/get_text_node_own_property.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/git_install_windows.jpg" afterPath="$PROJECT_DIR$/img/in-post/git_install_windows.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/how_much_faster_DOMReady_than_window.onload.jpg" afterPath="$PROJECT_DIR$/img/in-post/how_much_faster_DOMReady_than_window.onload.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/html_hot_link_serials.jpg" afterPath="$PROJECT_DIR$/img/in-post/html_hot_link_serials.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/media_serials.jpg" afterPath="$PROJECT_DIR$/img/in-post/media_serials.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/nodeName_nodeValue_of_seven_element_type.jpg" afterPath="$PROJECT_DIR$/img/in-post/nodeName_nodeValue_of_seven_element_type.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/nodeName_nodeValue_output.jpg" afterPath="$PROJECT_DIR$/img/in-post/nodeName_nodeValue_output.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/ol_and_ul_serails.jpg" afterPath="$PROJECT_DIR$/img/in-post/ol_and_ul_serails.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/pixel_and_dp.jpg" afterPath="$PROJECT_DIR$/img/in-post/pixel_and_dp.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/ppi_calculate.jpg" afterPath="$PROJECT_DIR$/img/in-post/ppi_calculate.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/react_native_android_sdk_install.jpg" afterPath="$PROJECT_DIR$/img/in-post/react_native_android_sdk_install.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/react_native_gradle_error.jpg" afterPath="$PROJECT_DIR$/img/in-post/react_native_gradle_error.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/react_native_layout_demo.jpg" afterPath="$PROJECT_DIR$/img/in-post/react_native_layout_demo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/react_native_layout_grid_demo.jpg" afterPath="$PROJECT_DIR$/img/in-post/react_native_layout_grid_demo.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/resource_to_browser_flow.jpg" afterPath="$PROJECT_DIR$/img/in-post/resource_to_browser_flow.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/table_serials.jpg" afterPath="$PROJECT_DIR$/img/in-post/table_serials.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/text_node_inheritance.jpg" afterPath="$PROJECT_DIR$/img/in-post/text_node_inheritance.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/use_of_text_node.jpg" afterPath="$PROJECT_DIR$/img/in-post/use_of_text_node.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/in-post/webstorm_terminal_configure.jpg" afterPath="$PROJECT_DIR$/img/in-post/webstorm_terminal_configure.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-bg-default.jpg" afterPath="$PROJECT_DIR$/img/post-bg-default.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/post-default2.jpg" afterPath="$PROJECT_DIR$/img/post-default2.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/tag-bg.jpg" afterPath="$PROJECT_DIR$/img/tag-bg.jpg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -129,7 +170,57 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="in-post" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_site" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -151,20 +242,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobilesite.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobilesite.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_posts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -179,6 +256,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\mobilesite.github.io\img\in-post" />
+      <recent name="D:\mobilesite.github.io\_site\img\in-post" />
+      <recent name="D:\mobilesite.github.io\_site\img" />
+      <recent name="D:\mobilesite.github.io\img" />
       <recent name="D:\mobilesite.github.io\_posts" />
     </key>
   </component>
@@ -265,12 +346,12 @@
       <workItem from="1472971128218" duration="199000" />
       <workItem from="1472971368359" duration="53000" />
       <workItem from="1472997939640" duration="518000" />
-      <workItem from="1473089071390" duration="351000" />
+      <workItem from="1473089071390" duration="1104000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70080000" />
+    <option name="totallyTimeSpent" value="70833000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -324,34 +405,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2012-03-29-useful_js_fragment.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2013-02-05-those_css_you_do_not_know.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2013-08-07-use_of_border_image.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2013-11-19-pixel_in_mobile_development.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-06-03-git_useful_operations.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -673,6 +726,26 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/img/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/img/2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/img/post-default2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/about-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
