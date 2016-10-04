@@ -80,6 +80,7 @@
                     {% endif %}
                 </ul>
                 <p class="copyright text-muted">
+                    <span id="busuanzi_container_site_pv">PV:&nbsp;<span id="busuanzi_value_site_pv"></span></span>&nbsp;|&nbsp;<span id="busuanzi_container_site_uv">UV:&nbsp;<span id="busuanzi_value_site_uv"></span></span><br/>
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <!--
                     |
@@ -159,6 +160,8 @@
     })
 </script>
 
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
 
 <!-- Google Analytics -->
 {% if site.ga_track_id %}
