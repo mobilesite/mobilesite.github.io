@@ -12,3 +12,8 @@
 	height: 100%;
 	background-color:rgba(0,0,0,.4);
 }
+
+#busuanzi_container_site_uv{
+	font-size: 0;
+	line-height: 0;
+}
