@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-11-01-webpack-learning-01.md" afterPath="$PROJECT_DIR$/_posts/2015-11-01-webpack-learning-01.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +28,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2015-11-01-webpack-learning-01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="357">
-                <caret line="180" column="94" selection-start-line="180" selection-start-column="94" selection-end-line="180" selection-end-column="94" />
+              <first_editor relative-caret-position="162">
+                <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -73,7 +74,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="33" />
+    <option name="x" value="36" />
     <option name="y" value="23" />
     <option name="width" value="1407" />
     <option name="height" value="877" />
@@ -329,12 +330,12 @@
       <workItem from="1473089071390" duration="1104000" />
       <workItem from="1475485914043" duration="958000" />
       <workItem from="1475575365807" duration="3518000" />
-      <workItem from="1475595625161" duration="10080000" />
+      <workItem from="1475595625161" duration="10185000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85389000" />
+    <option name="totallyTimeSpent" value="85494000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,7 +347,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="23" width="1407" height="877" extended-state="0" />
+    <frame x="36" y="23" width="1407" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24891774" sideWeight="0.49202734" order="0" side_tool="false" content_ui="combo" />
@@ -772,8 +773,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2015-11-01-webpack-learning-01.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="357">
-            <caret line="180" column="94" selection-start-line="180" selection-start-column="94" selection-end-line="180" selection-end-column="94" />
+          <first_editor relative-caret-position="162">
+            <caret line="68" column="13" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
             <folding />
           </first_editor>
           <second_editor />

@@ -66,7 +66,7 @@ d. 在代码更改后，自动进行打包、刷新浏览器页面的处理，�
     <meta charset="UTF-8">
     <title>Title</title>
     <style>
-        html，body{
+        html,body{
             font-size: 16px;
         }
     </style>
