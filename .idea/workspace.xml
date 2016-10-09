@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md" afterPath="$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,91 +23,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
+      <file leaf-file-name="2015-11-01-webpack-learning-01.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2015-11-01-webpack-learning-01.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="975">
-                <caret line="57" column="19" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="19" />
+              <first_editor relative-caret-position="357">
+                <caret line="180" column="94" selection-start-line="180" selection-start-column="94" selection-end-line="180" selection-end-column="94" />
                 <folding />
               </first_editor>
               <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/css/bootstrap.min.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hux-blog.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_site/css/hux-blog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16695">
-              <caret line="1113" column="1" selection-start-line="1113" selection-start-column="1" selection-end-line="1113" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="hux-blog.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/hux-blog.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="426">
-              <caret line="1113" column="1" selection-start-line="1113" selection-start-column="1" selection-end-line="1113" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-07-31-shinianganwu.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-07-31-shinianganwu.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="13" column="86" selection-start-line="0" selection-start-column="0" selection-end-line="35" selection-end-column="96" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-08-10-awsome-blog-details.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="370">
-                <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mixins.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/less/mixins.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -135,6 +58,7 @@
         <option value="$PROJECT_DIR$/_site/css/hux-blog.css" />
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
         <option value="$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md" />
+        <option value="$PROJECT_DIR$/_posts/2015-11-01-webpack-learning-01.md" />
       </list>
     </option>
   </component>
@@ -312,11 +236,11 @@
       <recent name="$PROJECT_DIR$/img/in-post" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_posts" />
       <recent name="$PROJECT_DIR$/img" />
       <recent name="D:\mobilesite.github.io\img\in-post" />
       <recent name="D:\mobilesite.github.io\_site\img\in-post" />
       <recent name="D:\mobilesite.github.io\_site\img" />
-      <recent name="D:\mobilesite.github.io\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -405,12 +329,12 @@
       <workItem from="1473089071390" duration="1104000" />
       <workItem from="1475485914043" duration="958000" />
       <workItem from="1475575365807" duration="3518000" />
-      <workItem from="1475595625161" duration="5571000" />
+      <workItem from="1475595625161" duration="10080000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="80880000" />
+    <option name="totallyTimeSpent" value="85389000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,13 +388,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/keynote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-285">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-285">
@@ -485,24 +402,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-12-02-react_native_background.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="138" selection-start-line="15" selection-start-column="138" selection-end-line="15" selection-end-column="138" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-12-05-react_native_develop_enviroment.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="40" column="23" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -826,8 +729,51 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="370">
-            <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-12-02-react_native_background.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="138" selection-start-line="15" selection-start-column="138" selection-end-line="15" selection-end-column="138" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-12-05-react_native_develop_enviroment.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="40" column="23" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="23" />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2015-11-01-webpack-learning-01.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="357">
+            <caret line="180" column="94" selection-start-line="180" selection-start-column="94" selection-end-line="180" selection-end-column="94" />
             <folding />
           </first_editor>
           <second_editor />
