@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "最简明易懂的webpack教程(一)"
+title:      "最简明易懂的webpack使用教程（一）"
 subtitle:   ""
 date:       2015-11-01 22:52:07
 author:     "Paian"
@@ -9,7 +9,7 @@ tags:
     - webpack
 ---
 
-## 最简明易懂的webpack教程(一)
+## 最简明易懂的webpack使用教程(一)
 
 看网上很多人都在找webpack的中文文档，但可能无奈于内容太多，又具有一定的专业性，暂时还没有人系统地进行翻译。本文中，我将尽可能把自己学习、使用webpack的一些理解整理出来，以期能方便初学者克服一些障碍，迅速掌握这个工具。
 
@@ -35,7 +35,17 @@ d. 在代码更改后，自动进行打包、刷新浏览器页面的处理，�
 
 现有的用于解决上述类似问题的方案有[grunt](http://gruntjs.com)以及[gulp](http://www.gulpjs.com.cn)。这两个工具基本上可以解决上述大多数问题了，只不过，其打包时候的速度着实比较慢，而打包这一动作又恰恰是前端开发中出现频度极高的动作。试想一下这样的场景，你修改了一句代码，然后有个打包工具替你打包，它确实帮你实现了自动刷新浏览器中正在调试的页面的功能，但是你得等上半分钟。一次两次你还能忍，一百次一千次呢？当然不想忍！！这时，webpack出来了，让你改一下代码，“瞬间”就能在浏览器上看到同步的变化，这种开发体验是不是要好很多？
 
-有很多人在问，webpack与grunt、gulp的区别，我觉得，最实在的一点莫过于效率。这恰好是解决了前端打包中的一个痛点。当然，
+有很多人在问，webpack与grunt、gulp的区别，我觉得，最实在的一点莫过于效率。这恰好是解决了前端打包中的一个痛点(webpack使用异步 IO并具有多级缓存，这使得 webpack很快且在增量编译上更加快)。当然，它还有很多丰富的功能:
+
+- 对 CommonJS 、 AMD 、ES6的语法做了兼容
+- 对JS、CSS、图片、字体等资源文件都支持打包
+- 串联式模块加载器以及插件机制，让其具有更好的灵活性和扩展性，例如提供对CoffeeScript、ES6的支持
+- 有独立的配置文件webpack.config.js
+- 可以将代码切割成不同的chunk，实现按需加载，降低了初始化时间
+- 支持SourceMaps，易于调试
+- 具有强大的Plugin接口，大多是内部插件，使用起来比较灵活
+
+可以说，基本上同类工具有的功能webpack都可以做，而且做得可能会更好，最重要的是，它更快。
 
 ### 二、学习使用webpack之前的准备工作
 
@@ -155,6 +165,20 @@ cnpm install webpack --save-dev
 ```node_modules/.bin/webpack src/pages/test-normal/test-normal.js build/js/test-normal.js```
 
 其中src/pages/test-normal/test-normal.js和build/js/test-normal.js显然是待打包的入口文件和需要被打包到的目标文件。node_modules/.bin/webpack是webpack的位置，这是因为刚才执行```npm install --save-dev```命令的时候，把webpack安装到了当前项目的node_modules文件夹下。如果我们不想写这么长的一串，其实可以将webpack进行全局安装，即使用命令```npm install -g webpack```把webpack进行全局安装，这样我们就可以直接用```webpack src/pages/test-normal/test-normal.js build/js/test-normal.js```来达到相同的效果了。
+
+webpack支持了很多的命令行参数,下面我们罗列一些重要的:
+
+|webpack命令行参数名|功能描述
+|---|---|
+|-w|提供watch方法，实时进行打包更新|
+|-p|对打包后的文件进行压缩|
+|-d|提供SourceMaps，方便调试|
+|--colors|输出结果带彩色，比如：会用红色显示耗时较长的步骤|
+|--profile|输出性能数据，可以看到每一步的耗时|
+|--display-modules|默认情况下 node_modules下的模块会被隐藏，加上这个参数可以显示这些被隐藏的模块|
+|--display-error-details|是推荐加上的，方便出错时能查阅更详尽的信息（比如 webpack 寻找模块的过程），从而更好定位到问题。|
+|--config XXX.js|使用另一份配置文件（比如webpack.product.js）来打包|
+|--watch|监听变动并自动打包|
 
 #### 2、把打包配置项写在配置文件中实现打包
 
