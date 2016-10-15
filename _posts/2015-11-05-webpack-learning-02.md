@@ -1280,3 +1280,30 @@ function loadJs(jsPath) {
 }
 ```
 
+## 15、因为window 使用 \ 作为路径分隔符, 而Mac OS和Linux则是/, 为了保证路径的统一性而不出错, 引入path模块来处理路径
+
+```
+npm intstall path --save-dev
+```
+
+```
+var path = require('path');
+path.join(__dirname, '/src');
+```
+
+至于使用path前后的不同, 可以在windows平台运行如下代码来看出区别:
+
+```
+console.log(path.resolve(__dirname, "src"));
+// 输出: C:\Users\joeyguo\Desktop\src
+
+console.log(__dirname + '/src');
+// 输出: C:\Users\joeyguo\Desktop/src
+```
+
+## 16、require 同级目录的文件引用需要带上 './',否则会报错
+
+比如, 如果引用同级目录下的index.less时写成`require('index.less');`则会在打包时报错说找不到该模块。应该改成`require('./index.less');`
+
+
+
