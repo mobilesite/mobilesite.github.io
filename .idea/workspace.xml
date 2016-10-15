@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-02-career_consult.md" afterPath="$PROJECT_DIR$/_posts/2016-06-02-career_consult.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
@@ -37,8 +38,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-02-career_consult.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="45">
-                <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+              <first_editor relative-caret-position="480">
+                <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -340,12 +341,12 @@
       <workItem from="1475595625161" duration="12633000" />
       <workItem from="1476105626655" duration="743000" />
       <workItem from="1476502993537" duration="577000" />
-      <workItem from="1476513660912" duration="1105000" />
+      <workItem from="1476513660912" duration="1233000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90367000" />
+    <option name="totallyTimeSpent" value="90495000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -777,8 +778,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-02-career_consult.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="45">
-            <caret line="2" column="49" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+          <first_editor relative-caret-position="480">
+            <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
             <folding />
           </first_editor>
           <second_editor />
