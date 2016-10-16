@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_site/css/hux-blog.min.css" afterPath="$PROJECT_DIR$/_site/css/hux-blog.min.css" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -69,11 +70,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hux-blog.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hux-blog.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_site/css/hux-blog.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="246" column="19" selection-start-line="246" selection-start-column="19" selection-end-line="246" selection-end-column="19" />
+              <caret line="245" column="19" selection-start-line="245" selection-start-column="19" selection-end-line="245" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hux-blog.min.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_site/css/hux-blog.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="0" column="3974" selection-start-line="0" selection-start-column="3974" selection-end-line="0" selection-end-column="3974" />
               <folding />
             </state>
           </provider>
@@ -96,7 +107,6 @@
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/css/hux-blog.min.css" />
-        <option value="$PROJECT_DIR$/_site/css/hux-blog.min.css" />
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
         <option value="$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md" />
         <option value="$PROJECT_DIR$/_posts/2015-11-01-webpack-learning-01.md" />
@@ -106,6 +116,7 @@
         <option value="$PROJECT_DIR$/_posts/2016-06-06-career_consult2.md" />
         <option value="$PROJECT_DIR$/less/hux-blog.less" />
         <option value="$PROJECT_DIR$/_site/css/hux-blog.css" />
+        <option value="$PROJECT_DIR$/_site/css/hux-blog.min.css" />
       </list>
     </option>
   </component>
@@ -393,12 +404,12 @@
       <workItem from="1475595625161" duration="12633000" />
       <workItem from="1476105626655" duration="743000" />
       <workItem from="1476502993537" duration="577000" />
-      <workItem from="1476513660912" duration="3938000" />
+      <workItem from="1476513660912" duration="4039000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93200000" />
+    <option name="totallyTimeSpent" value="93301000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,13 +612,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hux-blog.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_site/css/hux-blog.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
@@ -843,7 +847,15 @@
     <entry file="file://$PROJECT_DIR$/_site/css/hux-blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="246" column="19" selection-start-line="246" selection-start-column="19" selection-end-line="246" selection-end-column="19" />
+          <caret line="245" column="19" selection-start-line="245" selection-start-column="19" selection-end-line="245" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_site/css/hux-blog.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="0" column="3974" selection-start-line="0" selection-start-column="3974" selection-end-line="0" selection-end-column="3974" />
           <folding />
         </state>
       </provider>
