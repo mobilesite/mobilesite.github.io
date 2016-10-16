@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-06-career_consult2.md" afterPath="$PROJECT_DIR$/_posts/2016-06-06-career_consult2.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/hux-blog.less" afterPath="$PROJECT_DIR$/less/hux-blog.less" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-06-06-career_consult2.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-06-06-career_consult2.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-06-career_consult2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -56,6 +56,16 @@
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hux-blog.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/hux-blog.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -76,7 +86,6 @@
         <option value="$PROJECT_DIR$/_posts/2014-06-11-sublinetextshiyong.md" />
         <option value="$PROJECT_DIR$/_includes/nav.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/less/hux-blog.less" />
         <option value="$PROJECT_DIR$/css/hux-blog.min.css" />
         <option value="$PROJECT_DIR$/_site/css/hux-blog.min.css" />
         <option value="$PROJECT_DIR$/_site/css/hux-blog.css" />
@@ -87,6 +96,7 @@
         <option value="$PROJECT_DIR$/_posts/2016-06-02-career_consult.md" />
         <option value="$PROJECT_DIR$/_posts/2016-06-09-career_consult3.md" />
         <option value="$PROJECT_DIR$/_posts/2016-06-06-career_consult2.md" />
+        <option value="$PROJECT_DIR$/less/hux-blog.less" />
       </list>
     </option>
   </component>
@@ -356,12 +366,12 @@
       <workItem from="1475595625161" duration="12633000" />
       <workItem from="1476105626655" duration="743000" />
       <workItem from="1476502993537" duration="577000" />
-      <workItem from="1476513660912" duration="3561000" />
+      <workItem from="1476513660912" duration="3822000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92823000" />
+    <option name="totallyTimeSpent" value="93084000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -560,13 +570,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/hux-blog.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15525">
-          <caret line="1035" column="0" selection-start-line="1035" selection-start-column="0" selection-end-line="1039" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -806,6 +809,14 @@
             <folding />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/hux-blog.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="132" column="7" selection-start-line="132" selection-start-column="7" selection-end-line="132" selection-end-column="7" />
+          <folding />
         </state>
       </provider>
     </entry>
