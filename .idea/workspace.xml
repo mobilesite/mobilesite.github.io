@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.css" afterPath="$PROJECT_DIR$/css/hux-blog.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.min.css" afterPath="$PROJECT_DIR$/css/hux-blog.min.css" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,12 +46,25 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="2016-06-13-career_consult4.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-06-13-career_consult4.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="285">
+                <caret line="14" column="199" selection-start-line="14" selection-start-column="199" selection-end-line="14" selection-end-column="199" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="2016-06-06-career_consult2.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-06-career_consult2.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <first_editor relative-caret-position="165">
+                <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -101,7 +112,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hux-blog.min.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hux-blog.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hux-blog.min.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
@@ -138,6 +149,7 @@
         <option value="$PROJECT_DIR$/_site/css/hux-blog.min.css" />
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
         <option value="$PROJECT_DIR$/css/hux-blog.min.css" />
+        <option value="$PROJECT_DIR$/_posts/2016-06-13-career_consult4.md" />
       </list>
     </option>
   </component>
@@ -439,12 +451,12 @@
       <workItem from="1475595625161" duration="12633000" />
       <workItem from="1476105626655" duration="743000" />
       <workItem from="1476502993537" duration="577000" />
-      <workItem from="1476513660912" duration="4134000" />
+      <workItem from="1476513660912" duration="4791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93396000" />
+    <option name="totallyTimeSpent" value="94053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -457,7 +469,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="40" y="23" width="1400" height="877" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24873096" sideWeight="0.49202734" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -466,7 +478,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.50797266" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32822084" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3278272" sideWeight="0.4940429" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3278272" sideWeight="0.4940429" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -498,13 +510,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2009-05-22-wojiaogeinimenyigehaizi.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2009-09-14-diyiliudejiaoyujia.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -835,28 +840,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-06-09-career_consult3.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2355">
-            <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-06-06-career_consult2.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/hux-blog.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -894,6 +877,39 @@
         <state relative-caret-position="165">
           <caret line="0" column="3974" selection-start-line="0" selection-start-column="3974" selection-end-line="0" selection-end-column="3974" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-06-06-career_consult2.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-06-09-career_consult3.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2355">
+            <caret line="86" column="16" selection-start-line="86" selection-start-column="16" selection-end-line="86" selection-end-column="16" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-06-13-career_consult4.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="285">
+            <caret line="14" column="199" selection-start-line="14" selection-start-column="199" selection-end-line="14" selection-end-column="199" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
