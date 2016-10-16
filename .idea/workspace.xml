@@ -46,12 +46,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-06-13-career_consult4.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-06-13-career_consult4.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-13-career_consult4.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="285">
-                <caret line="14" column="199" selection-start-line="14" selection-start-column="199" selection-end-line="14" selection-end-column="199" />
+              <first_editor relative-caret-position="45">
+                <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-06-18-career_consult5.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-06-18-career_consult5.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="385">
+                <caret line="66" column="95" selection-start-line="66" selection-start-column="95" selection-end-line="66" selection-end-column="95" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -115,7 +128,7 @@
       <file leaf-file-name="hux-blog.min.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hux-blog.min.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
+            <state relative-caret-position="-315">
               <caret line="0" column="3974" selection-start-line="0" selection-start-column="3974" selection-end-line="0" selection-end-column="3974" />
               <folding />
             </state>
@@ -150,6 +163,7 @@
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
         <option value="$PROJECT_DIR$/css/hux-blog.min.css" />
         <option value="$PROJECT_DIR$/_posts/2016-06-13-career_consult4.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-06-18-career_consult5.md" />
       </list>
     </option>
   </component>
@@ -451,12 +465,12 @@
       <workItem from="1475595625161" duration="12633000" />
       <workItem from="1476105626655" duration="743000" />
       <workItem from="1476502993537" duration="577000" />
-      <workItem from="1476513660912" duration="4791000" />
+      <workItem from="1476513660912" duration="5404000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="94053000" />
+    <option name="totallyTimeSpent" value="94666000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,13 +524,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/2009-09-14-diyiliudejiaoyujia.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2009-10-04-renshengjiushifendou.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -874,7 +881,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/hux-blog.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
+        <state relative-caret-position="-315">
           <caret line="0" column="3974" selection-start-line="0" selection-start-column="3974" selection-end-line="0" selection-end-column="3974" />
           <folding />
         </state>
@@ -905,8 +912,19 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-13-career_consult4.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="285">
-            <caret line="14" column="199" selection-start-line="14" selection-start-column="199" selection-end-line="14" selection-end-column="199" />
+          <first_editor relative-caret-position="45">
+            <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-06-18-career_consult5.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="385">
+            <caret line="66" column="95" selection-start-line="66" selection-start-column="95" selection-end-line="66" selection-end-column="95" />
             <folding />
           </first_editor>
           <second_editor />
