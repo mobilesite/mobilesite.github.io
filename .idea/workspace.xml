@@ -50,7 +50,7 @@
         <entry file="file://$PROJECT_DIR$/_site/2016/08/11/awsome-blog-details/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="88">
-              <caret line="603" column="9" selection-start-line="603" selection-start-column="9" selection-end-line="603" selection-end-column="9" />
+              <caret line="607" column="9" selection-start-line="607" selection-start-column="9" selection-end-line="607" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -120,8 +120,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="315">
-                <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+              <first_editor relative-caret-position="340">
+                <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -371,12 +371,12 @@
       <workItem from="1475595625161" duration="12633000" />
       <workItem from="1476105626655" duration="743000" />
       <workItem from="1476502993537" duration="577000" />
-      <workItem from="1476513660912" duration="6544000" />
+      <workItem from="1476513660912" duration="6791000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95806000" />
+    <option name="totallyTimeSpent" value="96053000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -785,7 +785,7 @@
     <entry file="file://$PROJECT_DIR$/_site/2016/08/11/awsome-blog-details/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
-          <caret line="603" column="9" selection-start-line="603" selection-start-column="9" selection-end-line="603" selection-end-column="9" />
+          <caret line="607" column="9" selection-start-line="607" selection-start-column="9" selection-end-line="607" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -833,8 +833,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="315">
-            <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+          <first_editor relative-caret-position="340">
+            <caret line="51" column="21" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
             <folding />
           </first_editor>
           <second_editor />
