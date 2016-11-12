@@ -61,9 +61,12 @@ module.exports = {
 
 当我们想在项目中require一些其它的类库或者API，而又不想让这些类库的源码被构建到运行时文件中，这在实际开发中很有必要。此时我们就可以通过配置externals参数来解决这个问题：
 
+```
  externals: {
      "zepto": "Zepto"
  }
+```
+
 这样我们就可以放心的在项目中使用这些API了：var Zepto = require("zepto");
 
 ### 4、用webpack构建本地服务器以实现在每次修改源代码后浏览器自动刷新预览修改后的页面
@@ -92,16 +95,22 @@ npm install webpack-dev-server --save-dev
 引用插件
 
 // webpack.config.js
+
+```
 var OpenBrowserPlugin = require('open-browser-webpack-plugin');
+```
+
 配置插件，这个配置要根据项目的具体情况去配置：
 
 // webpack.config.js
+
+```
 ...
 plugins: [
  new OpenBrowserPlugin({url: 'http://localhost:8080' + PATHS.publicPath + 'index.html'})
 ]
 ...
-
+```
 
 ### 6、webpack的loaders
 
@@ -439,15 +448,13 @@ require('./test-less.less');
 webpack.config.js
 
 ```
-var autoprefixer = require('autoprefixer');
-
 module.exports = {
     devtool: 'eval-source-map',
     entry: {
         'test-normal': __dirname + '/src/pages/test-normal/test-normal.js',
         'test-es6': __dirname + '/src/pages/test-es6/test-es6.js',
         'test-react': __dirname + '/src/pages/test-react/test-react.js',
-        'test-autoprefixer': __dirname + '/src/pages/test-less/test-less.js'
+        'test-less': __dirname + '/src/pages/test-less/test-less.js'
     },
     output: {
         path: __dirname + '/build/js/',
@@ -473,12 +480,6 @@ module.exports = {
                 loader:'style!css!less'
             }
         ]
-    },
-    postcss: function () {
-        return {
-            defaults: [autoprefixer],
-            cleaner:  [autoprefixer({ browsers: [] })]
-        };
     }
 }
 ```
@@ -978,7 +979,7 @@ module.exports = {
 
 值得注意的是，只能保证把同一entry中的多个CSS/LESS文件打包在一起，而不能实现不同entry的文件打在一起。
 
-你会发现，当改成将CSS作为文件单独输出后，在上面的例子中，图片实际被输出到了build/images/目录下。但是输出的CSS文件中的对该图片的引用却是build/css/images，这两者对不上了。怎么修正呢？其实图片之所以被输出到了build/images/目录下,这是由path配置项和url-loader中的query.name的配置共同作用的结果。而对于CSS中关于图片的引用路径，则处理受到query.name配置项的影响外，还由publicPath共同决定。所以，你只需要设置```publicPath:'../'```就可以让CSS中图片的引用得到修复。
+另外,你可能会发现，当改成将CSS作为文件单独输出后，在上面的例子中，图片实际被输出到了build/images/目录下。但是输出的CSS文件中的对该图片的引用却是build/css/images，这两者对不上了。怎么修正呢？其实图片之所以被输出到了build/images/目录下,这是由path配置项和url-loader中的query.name的配置共同作用的结果。而对于CSS中关于图片的引用路径，则除了受到query.name配置项的影响外，还由publicPath共同决定。所以，你只需要设置```publicPath:'../'```就可以让CSS中图片的引用得到修复。
 
 那么这个publicPath选项具体表示的是什么呢？
 
@@ -993,8 +994,7 @@ module.exports = {
 ```
 output: {
 	path: __dirname + "./build/",
-	publicPath: "http://localhost:63342/webpackdemo/build/",
-	publicPath: "http://cdn.example.com/build"
+	publicPath: "http://localhost:63342/webpackdemo/build/"
 }
 ```
 
@@ -1104,18 +1104,17 @@ module.exports = {
     ]
 };
 
-// <script>s required:
 // a.html: AC-commons.js, A.js
 // b.html: BD-commons.js, B.js
 // c.html: AC-commons.js, C.js
 // d.html: BD-commons.js, D.js
 // e.html: E.js
 
-值得注意的是：如果使用CommonsChunkPlugin生成了公共文件，但是在页面中却没有引入CommonsChunkPlugin生成了公共文件或者引入这个公共文件的位置不在其它用webpack打包的JS文件的前面，在浏览页面时会出现Uncaught ReferenceError: webpackJsonp is not defined的报错。
+值得注意的是：如果使用CommonsChunkPlugin生成了公共文件，但是在页面中却没有引入CommonsChunkPlugin生成的公共文件或者引入这个公共文件的位置不在其它用webpack打包的JS文件的前面，在浏览页面时就会出现"Uncaught ReferenceError: webpackJsonp is not defined"的报错。
 
 ### 9、定义全局环境变量，以便于凡是引用了webpack打包的模块的页面都可以引用到这些变量
 
-这是因为，通过webpack编译输出后的项目中，虽然页面已经引用了zepto等库，但是还是无法直接使用‘$’等对象，虽然我们也可以```var $ = require('zepto')；```这样再引用一下，但每个用到的地方都需要这么做，实在是太烦人了！
+这是因为，通过webpack编译输出后的项目中，虽然页面已经引用了Zepto等库，但是还是无法直接使用‘$’等对象，虽然我们也可以```var $ = require('zepto')；```这样再引用一下，但每个用到的地方都需要这么做，实在是太烦人了！
 
 好在，我们可以在plugin配置项中定义：
 
@@ -1206,6 +1205,7 @@ plugins: [
 
 可以利用webpack自带的插件进行类似如下的设置：
 
+```
 plugins:[
     new webpack.optimize.UglifyJsPlugin({
         mangle: { // 排除不想要压缩的对象名称
@@ -1219,11 +1219,12 @@ plugins:[
         }
     })
 ]
-
+```
 mangle.except 可以设置一些不想被压缩混淆的对象名称。
 
 ### 13、配置环境变量，以区别使用不同的配置
 
+```
 // 获取当前运行的模式
 var currentTarget = process.env.npm_lifecycle_event;
 var config;
@@ -1236,7 +1237,7 @@ if (currentTarget == "dev") {
    // 发布上线模式
    config = require('./webpack.prod.config.js');
 }
-
+```
 
 然后在package.json中设置scripts为：
 
