@@ -2,7 +2,7 @@
 layout:     post
 title:      "我发布在云栖社区上的前端兼容性和bug系列文章网址"
 subtitle:   ""
-date:       2016-08-10 23:10:02
+date:       2016-08-10 23:32:21
 author:     "Paian"
 catalog:    true
 tags:
