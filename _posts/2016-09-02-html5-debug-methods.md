@@ -113,11 +113,7 @@ http://dev.test.com:8080/client/#anonymous
 
 ```vorlon```
 
-在待调试页面中插入
-
-```
-<script src="http://dev.test.com:1337/vorlon.js"></script>
-```
+在待调试页面中插入`<script src="http://dev.test.com:1337/vorlon.js"></script>`
 
 同样是让手机通过PC的代理上网，再用手机打开待调试页面。
 
@@ -130,7 +126,7 @@ http://dev.test.com:8080/client/#anonymous
 
 它的缔造者微软首席项目经理大卫·卡图荷（David Catuhe）说：
 
-	无论是游戏控制台，还是移动设备，甚或是一个接入物联网的冰箱，你都可以远程连接至多50台设备并在这些设备中执行JavaScript代码。开发团队可以一起调试——每个人都可以编写代码，结果对所有人可见。
+无论是游戏控制台，还是移动设备，甚或是一个接入物联网的冰箱，你都可以远程连接至多50台设备并在这些设备中执行JavaScript代码。开发团队可以一起调试——每个人都可以编写代码，结果对所有人可见。
 
 ### 总结
 
