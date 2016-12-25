@@ -2,7 +2,7 @@
 layout:     post
 title:      "形形色色的移动前端调试方法"
 subtitle:   ""
-date:       2016-08-10 23:50:12
+date:       2016-09-02 23:50:12
 author:     "Paian"
 catalog:    true
 tags:
