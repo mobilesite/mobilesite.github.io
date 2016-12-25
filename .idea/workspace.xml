@@ -4,7 +4,6 @@
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-09-02-html5-debug-methods.md" afterPath="$PROJECT_DIR$/_posts/2016-09-02-html5-debug-methods.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md" afterPath="$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,25 +24,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="2016-11-19-my-yunqi-articels.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="60">
-                <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-                <folding />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2016-09-02-html5-debug-methods.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2016-09-02-html5-debug-methods.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-09-02-html5-debug-methods.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <first_editor relative-caret-position="313">
+                <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -80,8 +66,8 @@
         <option value="$PROJECT_DIR$/less/hux-blog.less" />
         <option value="$PROJECT_DIR$/_posts/2016-08-10-awsome-blog-details.md" />
         <option value="$PROJECT_DIR$/_posts/2015-11-05-webpack-learning-02.md" />
-        <option value="$PROJECT_DIR$/_posts/2016-09-02-html5-debug-methods.md" />
         <option value="$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md" />
+        <option value="$PROJECT_DIR$/_posts/2016-09-02-html5-debug-methods.md" />
       </list>
     </option>
   </component>
@@ -283,12 +269,12 @@
       <workItem from="1476502993537" duration="577000" />
       <workItem from="1476513660912" duration="6894000" />
       <workItem from="1478940621575" duration="2844000" />
-      <workItem from="1482668786525" duration="2832000" />
+      <workItem from="1482668786525" duration="2986000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101832000" />
+    <option name="totallyTimeSpent" value="101986000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -723,22 +709,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-09-02-html5-debug-methods.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <first_editor relative-caret-position="60">
+            <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
             <folding />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2016-09-02-html5-debug-methods.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="60">
-            <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+          <first_editor relative-caret-position="313">
+            <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
             <folding />
           </first_editor>
           <second_editor />

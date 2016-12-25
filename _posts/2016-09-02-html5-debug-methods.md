@@ -105,7 +105,7 @@ http://dev.test.com:8080/client/#anonymous
 
 （1）使用方法如下：
 
-先安装vorlon.js模块：
+先安装`vorlon.js`模块：
 
 ```sudo npm i -g vorlon```
 
@@ -123,7 +123,7 @@ http://dev.test.com:8080/client/#anonymous
 
 最后在PC浏览器中打开http://dev.test.com:1337，点击界面左侧已连接的设备，即可进入调试模式。
 
-（2）vorlon.js相比于weinre来说，优点在于：
+（2）`vorlon.js`相比于weinre来说，优点在于：
 
 - 功能更为丰富
 - 发布时间较近, 2015年上半年才开源发布，git一直有人更新维护
