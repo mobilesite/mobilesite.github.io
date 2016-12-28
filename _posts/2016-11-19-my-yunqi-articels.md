@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "我发布在云栖社区上的前端兼容性和bug系列文章网址"
+title:      "我发在云栖上的前端常见兼容性及bug系列"
 subtitle:   ""
 date:       2016-11-19 23:32:21
 author:     "Paian"
