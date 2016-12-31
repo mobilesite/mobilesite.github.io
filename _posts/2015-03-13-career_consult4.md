@@ -2,7 +2,7 @@
 layout:     post
 title:      "读《职业生涯咨询师手记》的摘录与心得(4)"
 subtitle:   ""
-date:       2016-06-13 23:11:14
+date:       2015-06-13 23:11:14
 author:     "Paian"
 catalog: true
 tags:
