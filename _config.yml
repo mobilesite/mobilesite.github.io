@@ -89,8 +89,8 @@ friends: [
         href: "https://css-tricks.com/"
     },
     {
-        title: "JS weekly",
-        href: "http://javascriptweekly.com/latest"
+        title: "前端外刊评论",
+        href: "http://qianduan.guru/"
     },
     {
         title: "uptodate",
@@ -99,14 +99,17 @@ friends: [
     {
         title: "百度技术周刊",
         href: "http://fex.baidu.com/weekly/"
-    },{
-        title: "奇舞周刊",
-        href: "http://old.75team.com/weekly/"
-    },{
+    },
+    {
+        title: "JS weekly",
+        href: "http://javascriptweekly.com/latest"
+    },
+    {
         title: "推酷技术周刊",
         href: "http://www.tuicool.com/mags/"
-    },{
-        title: "前端外刊评论",
-        href: "http://qianduan.guru/"
+    },
+    {
+        title: "奇舞周刊",
+        href: "http://old.75team.com/weekly/"
     }
 ]
