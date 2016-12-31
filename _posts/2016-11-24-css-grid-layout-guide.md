@@ -97,13 +97,16 @@ subgrid - 如果你的网格容器本身就是一个网格项(即嵌套网格)�
 示例:
 
 当你在值之间留有空格时，网络线就会自动分配数值名称:
+
 ```
 .container{
     grid-template-columns: 40px 50px auto 50px 40px;
     grid-template-rows: 25% 100px auto;
 }
 ```
+
 但是你也可以显示命名，请参考下面括号语法中的名称命名方式:
+
 ```
 .container{
     grid-template-columns: [first] 40px [line2] 50px [line3] auto [col4-start] 50px [five] 40px [end];
@@ -112,18 +115,23 @@ subgrid - 如果你的网格容器本身就是一个网格项(即嵌套网格)�
 ```
 
 请注意，一条网格线可以具有有多个名称。例如，这里的第二行将有两个名字: row1-end 和 row2-start:
+
 ```
 .container{
     grid-template-rows: [row1-start] 25% [row1-end row2-start] 25% [row2-end];
 }
 ```
+
 如果你的定义中包含重复的部分，你可以使用 `repeat()`表示法进行精简:
+
 ```
 .container{
     grid-template-columns: repeat(3, 20px [col-start]) 5%;
 }
 ```
+
 等效于:
+
 ```
 .container{
     grid-template-columns: 20px [col-start] 20px [col-start] 20px [col-start] 5%;
@@ -207,7 +215,9 @@ none: 无网格区域被定义
     grid-row-gap: <line-size>;
 }
 ```
+
 示例:
+
 ```
 .container{
     grid-template-columns: 100px 50px 100px;
@@ -216,13 +226,18 @@ none: 无网格区域被定义
     grid-row-gap: 15px;
 }
 ```
+
 #### 5、grid-gap
 
 grid-column-gap 和 grid-row-gap的简写值。
 
 属性值:
+
 ```
 <grid-column-gap> <grid-row-gap>: 长度值
+```
+
+```
 .container{
     grid-gap: <grid-column-gap> <grid-row-gap>;
 }
@@ -263,7 +278,9 @@ stretch: 内容宽度占据整个网格区域空间(默认值)
     justify-items: start | end | center | stretch;
 }
 ```
+
 示例:
+
 ```
 .container{
     justify-items: start;
@@ -308,7 +325,9 @@ stretch: 内容高度占据整个网格区域空间(默认值)
     align-items: start | end | center | stretch;
 }
 ```
+
 示例:
+
 ```
 .container{
     align-items: start;
@@ -359,7 +378,9 @@ space-evenly: 在网格项之间设置偶数个空格间隙，同样适用于最
     justify-content: start | end | center | stretch | space-around | space-between | space-evenly;    
 }
 ```
+
 示例:
+
 ```
 .container{
     justify-content: start;
@@ -478,16 +499,20 @@ space-evenly: 在网格项之间设置偶数个空格间隙，同样适用于最
     grid-auto-rows: <track-size> ...;
 }
 ```
+
 为了说明隐式网格轨道是如何被创造出来的，请思考如下代码:
+
 ```
 .container{
     grid-template-columns: 60px 60px;
     grid-template-rows: 90px 90px
 }
 ```
+
 这里创建了一个2 x 2 的网格。
 
 但是现在你想象你使用grid-column 和 grid-row 来定位网格项，如下所示:
+
 ```
 .item-a{
     grid-column: 1 / 2;
@@ -500,11 +525,13 @@ space-evenly: 在网格项之间设置偶数个空格间隙，同样适用于最
 ```
 
 这里我们定义.item b开始于列线 5 并结束于在列线 6，但是我们从来没有定义列线 5 或 6。因为我们引用不存在的线，宽度为0的隐式轨道的就会被创建用来填补空白。我们可以使用grid-auto-columns 和 grid-auto-rows属性来设置这些隐式轨道的宽度:
+
 ```
 .container{
     grid-auto-columns: 60px;
 }
 ```
+
 #### 11、grid-auto-flow
 
 如果你不显式的在网格中放置网格项，自动布局算法就会自动踢出此网格项。此属性用来控制自动布局算法的工作原理。
@@ -517,6 +544,7 @@ column: 告诉自动布局算法填充每一列，必要时添加新列
 
 dense: 告诉自动布局算法试图填补网格中之前较小的网格项留有的空白
 
+
 ```
 .container{
     grid-auto-flow: row | column | row dense | column dense
@@ -528,6 +556,7 @@ dense: 告诉自动布局算法试图填补网格中之前较小的网格项留�
 示例:
 
 考虑如下HTMl代码:
+
 ```
 <section class="container">
     <div class="item-a">item-a</div>
@@ -537,7 +566,9 @@ dense: 告诉自动布局算法试图填补网格中之前较小的网格项留�
     <div class="item-e">item-e</div>
 </section>
 ```
+
 这里定义了一个两列五行的网格，并将 grid-auto-flow属性设置为row(即默认值):
+
 ```
 .container{
     display: grid;
@@ -546,7 +577,9 @@ dense: 告诉自动布局算法试图填补网格中之前较小的网格项留�
     grid-auto-flow: row;
 }
 ```
+
 将网格项放置在网格中时只需要其中的两个网格项:
+
 ```
 .item-a{
     grid-column: 1;
@@ -557,9 +590,11 @@ dense: 告诉自动布局算法试图填补网格中之前较小的网格项留�
     grid-row: 1 / 3;
 }
 ```
+
 因为我们将grid-auto-flow属性设置为了row，所以我们的网格看起来会像这个样子。注意我们我们没有对其进行设置的三个网格项(item-b, item-c and item-d),会沿行轴进行布局。
 
 如果我们将grid-auto-flow属性设置为 column,item-b, item-c 和 item-d 就会沿列轴进行布局。
+
 ```
 .container{
     display: grid;
@@ -595,11 +630,13 @@ subgrid: 将grid-template-rows 和 grid-template-columns属性值设置为subgri
 示例:
 
 下面两个代码块是等效的:
+
 ```
 .container{
     grid: 200px auto / 1fr auto 1fr;
 }
 ```
+
 ```
 .container{
     grid-template-rows: 200px auto;
@@ -607,12 +644,15 @@ subgrid: 将grid-template-rows 和 grid-template-columns属性值设置为subgri
     grid-template-areas: none;
 }
 ```
+
 同样，下面的两个代码块也是等效的:
+
 ```
 .container{
     grid: column 1fr / auto;
 }
 ```
+
 ```
 .container{
     grid-auto-flow: column;
@@ -620,7 +660,9 @@ subgrid: 将grid-template-rows 和 grid-template-columns属性值设置为subgri
     grid-auto-columns: auto;
 }
 ```
+
 它还接受一次性设置所有属性，更复杂但非常方便的语法。指定grid-template-areas, grid-auto-rows 和 grid-auto-columns属性，其他所有子属性都将设置为其初始值。你现在所做的是在其网格区域内，指定网格线名称和内联轨道大小。下面是最简单的描述:
+
 ```
 .container{
     grid: [row1-start] "header header header" 1fr [row1-end]
@@ -628,7 +670,9 @@ subgrid: 将grid-template-rows 和 grid-template-columns属性值设置为subgri
           / auto 50px auto;
 }
 ```
+
 等效于:
+
 ```
 .container{
     grid-template-areas: "header header header"
@@ -666,6 +710,7 @@ auto: 表明自动定位，自动跨度或者默认跨度之一
 ```
 
 示例:
+
 ```
 .item-a{
     grid-column-start: 2;
@@ -674,6 +719,7 @@ auto: 表明自动定位，自动跨度或者默认跨度之一
     grid-row-end: 3
 }
 ```
+
 ```
 .item-b{
     grid-column-start: 1;
@@ -706,6 +752,7 @@ grid-column-start + grid-column-end, 和 grid-row-start + grid-row-end属性分�
 ```
 
 示例:
+
 ```
 .item-c{
     grid-column: 3 / span 2;
@@ -736,6 +783,7 @@ grid-column-start + grid-column-end, 和 grid-row-start + grid-row-end属性分�
 示例:
 
 对网格项进行命名的一种方式:
+
 ```
 .item-d{
     grid-area: header
@@ -770,6 +818,7 @@ stretch: 内容宽度占据整个网格区域空间(默认值)
 ```
 
 示例
+
 ```
 .item-a{
     justify-self: start;
@@ -798,6 +847,7 @@ stretch: 内容宽度占据整个网格区域空间(默认值)
 沿行轴对齐网格项中的内容(相反于justify-item属性定义的沿列轴对齐)。此值适用于单一网格项中的内容。
 
 属性值:
+
 ```
 start: 内容与网格区域的顶端对齐
 
@@ -807,6 +857,7 @@ center: 内容处于网格区域的中间位置
 
 stretch: 内容高度占据整个网格区域空间(默认值)
 ```
+
 ```
 .item{
     align-self: start | end | center | stretch;
