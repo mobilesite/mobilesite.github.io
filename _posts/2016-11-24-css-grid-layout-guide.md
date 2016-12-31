@@ -61,7 +61,7 @@ Grid容器（Grid Container）的直接子元素。
 
 CSS Grid Layout的属性列表的包括两类。一类是作用于Grid容器（Grid Container），另一类是作用于Grid项目（Grid Item）。
 
-####（一）作用于Grid容器（Grid Container）的CSS Grid Layout属性
+**（一）作用于Grid容器（Grid Container）的CSS Grid Layout属性**
 
 #### 1、display
 ```
@@ -682,7 +682,7 @@ subgrid: 将grid-template-rows 和 grid-template-columns属性值设置为subgri
 }
 ```
 
-####（二）作用于Grid项目（Grid Item）的CSS Grid Layout属性
+**（二）作用于Grid项目（Grid Item）的CSS Grid Layout属性**
 
 #### 1、grid-column-start、grid-column-end、grid-row-start、grid-row-end
 
