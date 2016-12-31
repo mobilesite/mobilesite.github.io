@@ -2,7 +2,7 @@
 layout:     post
 title:      "前端工程师易混淆知识点集合"
 subtitle:   ""
-date:       2015-06-03 19:55:54
+date:       2014-08-23 22:55:54
 author:     "Paian"
 catalog: true
 tags:
@@ -68,7 +68,7 @@ JavaScript中有两个方法很常用但给人的感觉很绕——apply和call�
 
     aOwner.makeToast.call(aGuest, '今天在场很多都是我景仰多年的专家、老师、前辈，作为新入行的小学生，能与大家相识，实在荣幸！在这里借主人的酒敬大家一杯，请！');
 
-上面例子中，是主人（aOwner）把敬酒这一权利（即makeToast方法）借给了客人（aGuest），并允许客人使用自己的敬酒词（即参数）。
+上面例子中，是主人（aOwner）把敬酒这一权利（即makeToast方法）借给了客人（aGuest），并允许客人使用自定义的敬酒词（即参数）。
 
 #### 2、顺序上：拥有者在前，借用者在后
 
