@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-10-26-css-character-escape-sequences.md" afterPath="$PROJECT_DIR$/_posts/2016-10-26-css-character-escape-sequences.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -104,8 +105,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2016-10-26-css-character-escape-sequences.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="205">
-                <caret line="145" column="157" lean-forward="false" selection-start-line="145" selection-start-column="157" selection-end-line="145" selection-end-column="157" />
+              <first_editor relative-caret-position="340">
+                <caret line="152" column="24" lean-forward="true" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -437,12 +438,12 @@
       <workItem from="1483157356968" duration="7000" />
       <workItem from="1483157385053" duration="29000" />
       <workItem from="1483157436688" duration="8000" />
-      <workItem from="1483157475652" duration="1567000" />
+      <workItem from="1483157475652" duration="2078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="75670000" />
+    <option name="totallyTimeSpent" value="76181000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1121,8 +1122,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2016-10-26-css-character-escape-sequences.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="205">
-            <caret line="145" column="157" lean-forward="false" selection-start-line="145" selection-start-column="157" selection-end-line="145" selection-end-column="157" />
+          <first_editor relative-caret-position="340">
+            <caret line="152" column="24" lean-forward="true" selection-start-line="152" selection-start-column="24" selection-end-line="152" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
