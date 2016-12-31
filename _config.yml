@@ -85,6 +85,18 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
+        title: "css-tricks",
+        href: "https://css-tricks.com/"
+    },
+    {
+        title: "javascriptweekly",
+        href: "http://javascriptweekly.com/latest"
+    },
+    {
+        title: "uptodate",
+        href: "https://uptodate.frontendrescue.org/"
+    },
+    {
         title: "百度技术周刊",
         href: "http://fex.baidu.com/weekly/"
     },{
