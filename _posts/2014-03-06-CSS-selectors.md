@@ -110,7 +110,7 @@ CSS引入伪类和伪元素概念是为了格式化文档树以外的信息(参�
 
 伪元素则创建了一个文档树外的元素，伪类的操作对象是文档树中已有的元素。因此，伪元素与伪类的区别在于：有没有创建一个文档树之外的元素。
 
-[](/img/in-post/weilei.png)
+![](/img/in-post/weilei.png)
 
  图片来自[这里](http://www.alloyteam.com/2016/05/summary-of-pseudo-classes-and-pseudo-elements/)
 
