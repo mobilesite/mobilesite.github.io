@@ -6,7 +6,7 @@ date:       2011-12-11 23:17:11
 author:     "Paian"
 catalog: true
 tags:
-    - http
+    - HTTP
 ---
 
 ## 简明易懂的HTTP状态码
