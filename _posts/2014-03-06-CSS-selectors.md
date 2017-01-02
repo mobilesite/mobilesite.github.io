@@ -101,6 +101,10 @@ CSS引入伪类和伪元素概念是为了格式化文档树以外的信息(参�
 
 伪元素则创建了一个文档树外的元素，伪类的操作对象是文档树中已有的元素。因此，伪元素与伪类的区别在于：有没有创建一个文档树之外的元素。
 
+[](/img/in-post/weilei.png)
+
+ 图片来自[这里](http://www.alloyteam.com/2016/05/summary-of-pseudo-classes-and-pseudo-elements/)
+
 ### 四、伪元素是应该写一个冒号还是写两个？
 
 CSS3规范中的要求使用双冒号(::)表示伪元素，以此来区分伪元素和伪类，比如::before和::after等伪元素使用双冒号(::)，:hover和:active等伪类使用单冒号(:)。事实上，除了一些低于IE8版本的浏览器外，大部分浏览器都支持伪元素的双冒号(::)表示方法。
@@ -114,6 +118,10 @@ CSS3规范中的要求使用双冒号(::)表示伪元素，以此来区分伪元
 大概的意思就是：虽然CSS3标准要求伪元素使用双冒号的写法，但也依然支持单冒号的写法。为了向后兼容，我们建议你在目前还是使用单冒号的写法。
 
 不过，我认为，如果你不是在写需要兼容IE8及安卓2.3版本（安卓2.3版本不支持`:first-letter`，但是它对于`:before`和`:after`还是支持的）的网站的话，我建议你采用双冒号（请看兼容性表http://caniuse.com/#search=%3A%3Afirst-letter），这样更符合标准，也便于把伪元素与伪类区别开来。
+
+![](/img/in-post/weiyuansu.png)
+
+图片来自[这里](http://www.alloyteam.com/2016/05/summary-of-pseudo-classes-and-pseudo-elements/)
 
 ### 五、CSS计数器特性
 
