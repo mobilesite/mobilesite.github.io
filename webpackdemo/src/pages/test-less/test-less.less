@@ -1,0 +1,35 @@
+@height: 100px;
+.test-less{
+    width: 100%;
+    height: @height;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    a{
+        flex:1;
+        color: #fff;
+        word-break: break-all;
+        padding: 20px;
+        text-decoration: none;
+        &:nth-child(3n+1){
+            background-color: red;
+        }
+        &:nth-child(3n+2){
+            background-color: green;
+        }
+        &:nth-child(3n+3){
+            background-color: blue;
+        }
+
+        &:before{
+            display: block;
+            content: '';
+            width: 20px;
+            height: 20px;
+            background: url("./favicon.png") no-repeat;
+            background-size: 100% 100%;
+        }
+    }
+}

@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "软件工程师常犯的那些发音错误"
+title:      "摄影入门基础知识学习笔记"
 subtitle:   ""
 date:       2006-07-06 21:45:24
 author:     "Paian"
