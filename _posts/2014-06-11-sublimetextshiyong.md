@@ -11,6 +11,22 @@ tags:
 
 ### Sublime Text 的使用
 
+#### Sublime Text的几项重要配置
+
+打开 Preferences > Settings 菜单，然后会看到两个配置文件。左边的是默认的配置，右边的是用户自定义的配置。我们把以下的配置代码粘贴进右边的配置文件中。这些代码主要是完成给编辑器中代码设置合适的字号（这里设置成13）、解决经常启动时提示你要更新sublime text软件的问题 以及 每次换行光标自动跑到行首去了的问题。
+
+```
+{
+	"font_size": 13, //给编辑器中代码设置合适的字号
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"update_check": false, //解决经常启动时提示你要更新sublime text软件的问题
+	"auto_indent": true //解决每次换行光标自动跑到行首去了的问题
+}
+```
+
 #### Go to Anything的使用
 
     Ctrl+p调出Go to Anything输入框，在其中输入路径或文件名，可以快速的找到文件。
@@ -34,3 +50,44 @@ tags:
 
     4、按住shift同时对鼠标进行拖拽，也可以产生多行游标
 
+#### 插件
+
+ctrl + shift + p 输入 install package
+
+待可安装列表下载完了之后，通过输入emmet查找到对应的emmet插件， 回车安装后就可以使用简写输入了。
+
+比如输入html:5后按下ctrl + e键，就可以完成如下好几行代码的编写。
+
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+```
+
+类似的输入：
+
+(div#container.container>ul>(li.item{列表项}*5))+(p.description{描述文案})
+
+全选中它，或者将光标置于该行的行尾，按ctrl+e会生成如下代码：
+
+```
+    <div id="container" class="container">
+		<ul>
+			<li class="item">列表项</li>
+			<li class="item">列表项</li>
+			<li class="item">列表项</li>
+			<li class="item">列表项</li>
+			<li class="item">列表项</li>
+		</ul>
+	</div>
+	<p class="description">描述文案</p>
+```
+
+另外，安装一个sidebarenhancement插件会大大扩展邮件的功能，最典型的就是邮件单击文件，选择在所需的浏览器中打开。
