@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/mobilesite.github.io.iml" afterPath="$PROJECT_DIR$/.idea/mobilesite.github.io.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-06-11-sublimetextshiyong.md" afterPath="$PROJECT_DIR$/_posts/2014-06-11-sublimetextshiyong.md" />
     </list>
@@ -28,8 +27,8 @@
       <file leaf-file-name="2014-06-11-sublimetextshiyong.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2014-06-11-sublimetextshiyong.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+            <state relative-caret-position="247">
+              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -350,12 +349,12 @@
       <workItem from="1483283376006" duration="4670000" />
       <workItem from="1483457907316" duration="5233000" />
       <workItem from="1483482419289" duration="232000" />
-      <workItem from="1484371476750" duration="149000" />
+      <workItem from="1484371476750" duration="365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="90929000" />
+    <option name="totallyTimeSpent" value="91145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -536,8 +535,8 @@
     <entry file="file://$PROJECT_DIR$/img/booksnotes/vue.js的使用.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2014-06-11-sublimetextshiyong.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="52" column="10" selection-start-line="52" selection-start-column="10" selection-end-line="52" selection-end-column="10" />
+        <state relative-caret-position="247">
+          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
           <folding />
         </state>
       </provider>

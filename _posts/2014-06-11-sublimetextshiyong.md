@@ -11,6 +11,8 @@ tags:
 
 ### Sublime Text 的使用
 
+注：更新到了以Sublime Text 3 build3126版本为例。
+
 #### Sublime Text的几项重要配置
 
 打开 Preferences > Settings 菜单，然后会看到两个配置文件。左边的是默认的配置，右边的是用户自定义的配置。我们把以下的配置代码粘贴进右边的配置文件中。这些代码主要是完成给编辑器中代码设置合适的字号（这里设置成13）、解决经常启动时提示你要更新sublime text软件的问题 以及 每次换行光标自动跑到行首去了的问题。
@@ -78,16 +80,16 @@ ctrl + shift + p 输入 install package
 全选中它，或者将光标置于该行的行尾，按ctrl+e会生成如下代码：
 
 ```
-    <div id="container" class="container">
-		<ul>
-			<li class="item">列表项</li>
-			<li class="item">列表项</li>
-			<li class="item">列表项</li>
-			<li class="item">列表项</li>
-			<li class="item">列表项</li>
-		</ul>
-	</div>
-	<p class="description">描述文案</p>
+<div id="container" class="container">
+    <ul>
+        <li class="item">列表项</li>
+        <li class="item">列表项</li>
+        <li class="item">列表项</li>
+        <li class="item">列表项</li>
+        <li class="item">列表项</li>
+    </ul>
+</div>
+<p class="description">描述文案</p>
 ```
 
 另外，安装一个sidebarenhancement插件会大大扩展邮件的功能，最典型的就是邮件单击文件，选择在所需的浏览器中打开。
