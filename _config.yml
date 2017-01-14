@@ -85,16 +85,31 @@ featured-condition-size: 0              # A tag will be featured if the size of 
 # Friends
 friends: [
     {
-        title: "百度技术周刊",
-        href: "http://fex.baidu.com/weekly/"
-    },{
-        title: "奇舞周刊",
-        href: "http://old.75team.com/weekly/"
-    },{
-        title: "推酷技术周刊",
-        href: "http://www.tuicool.com/mags/"
-    },{
+        title: "css-tricks",
+        href: "https://css-tricks.com/"
+    },
+    {
         title: "前端外刊评论",
         href: "http://qianduan.guru/"
+    },
+    {
+        title: "uptodate  ",
+        href: "https://uptodate.frontendrescue.org/"
+    },
+    {
+        title: "百度技术周刊",
+        href: "http://fex.baidu.com/weekly/"
+    },
+    {
+        title: "JS weekly",
+        href: "http://javascriptweekly.com/latest"
+    },
+    {
+        title: "推酷技术周刊",
+        href: "http://www.tuicool.com/mags/"
+    },
+    {
+        title: "奇舞周刊",
+        href: "http://old.75team.com/weekly/"
     }
 ]
