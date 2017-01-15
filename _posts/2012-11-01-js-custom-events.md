@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Javascript中的类型检测"
+title:      "JavaScript自定义事件的实现"
 subtitle:   ""
 date:       2012-11-01 21:23:12
 author:     "Paian"

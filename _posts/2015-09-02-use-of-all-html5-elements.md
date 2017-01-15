@@ -41,7 +41,7 @@ HTML5共有103个元素。它们是：
 
 'script', 'noscript', 'template', 'canvas'
 
-![](http://mobilesite.github.io/img/in-post/html5-elements-table.png)
+![](https://mobilesite.github.io/img/in-post/html5-elements-table.png)
 
 具体的使用及其语义，请看如下代码，里面都有详细的介绍。
 
