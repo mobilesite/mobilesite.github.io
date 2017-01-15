@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "HTML5到底有哪些元素，它们都怎么用"
+title:      "HTML5标准中有多少个标签元素，都怎么用"
 subtitle:   ""
 date:       2015-09-02 23:13:25
 author:     "Paian"
@@ -9,7 +9,9 @@ tags:
     - HTML5
 ---
 
-## HTML5到底有哪些元素，它们都怎么用？
+## HTML5标准中有多少个标签元素，都怎么用？
+
+虽然每天都在写HTML5页面，但是当被问起这个问题时，相信很多人都不知道。因此，有必要对它们进行一番盘点，做到心中有数。
 
 HTML5共有103个元素。它们是：
 
@@ -39,12 +41,11 @@ HTML5共有103个元素。它们是：
 
 'script', 'noscript', 'template', 'canvas'
 
-![](in-post/html5-elements-table.png)
+![](img/in-post/html5-elements-table.png)
+
+具体的使用及其语义，请看如下代码，里面都有详细的介绍。
 
 ```
-
-具体的使用请看如下代码，里面都有详细的介绍。
-
 <!DOCTYPE html>
 <html lang="en">
 
