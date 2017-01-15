@@ -182,7 +182,7 @@ function asyncJob() {
 
 Generator函数是协程在ES6中的实现，最大的特点就是可以交出函数的执行权（即暂停执行）。整个Generator函数就是一个封装的异步任务，或者说就是异步任务的容器。
 
-#####（1）使用`function*`定义一个Generator函数。
+**（1）使用`function*`定义一个Generator函数。**
 
 ```
 function* gen(x) {
@@ -200,7 +200,7 @@ g.next() // { value: undefined, done: true }
 
 换而言之，next()方法的作用是分阶段执行Generator函数。每次调用next()方法，会返回一个对象，表示当前阶段的信息（包括value属性和done属性）。value属性是yield语句后面表达式的值，表示当前阶段的值；done属性是一个布尔值，表示Generator函数是否执行完毕，即是否还有一个阶段。
 
-#####（2）**`yield`不能用在普通函数内部。**
+**（2）`yield`不能用在普通函数内部。**
 
 ```
 var flat = function* (a) {
@@ -215,7 +215,7 @@ var flat = function* (a) {
 };
 ```
 
-#####（3）**`yield`语句如果用在一个表达式之中，必须放在圆括号里面。**
+**（3）`yield`语句如果用在一个表达式之中，必须放在圆括号里面。**
 
 ```
 console.log('Hello' + yield); // SyntaxError
@@ -225,7 +225,7 @@ console.log('Hello' + (yield)); // OK
 console.log('Hello' + (yield 123)); // OK
 ```
 
-#####（4）Generator函数的数据交换和错误处理
+**（4）Generator函数的数据交换和错误处理**
 
 **Generator函数可以暂停执行和恢复执行，这是它封装异步任务的根本原因。除此之外，它还有两个特性，使它可以作为异步编程的解决方案：函数体内外的数据交换和错误处理机制。next()方法返回值的value属性，是Generator函数向外输出的数据；next()方法还可以接受参数，向Generator函数体内输入数据。由于 next()传入的参数为上一个 yield 语句的值，所以第一次调用next()时传入参数没有意义。**
 
@@ -244,8 +244,8 @@ g.next(2);    // 再次调用next()方法，会继续往前执行，直到将下
 
 上面的代码中，第一个next()方法的value属性，返回表达式x+2的值（3）。第二个next()方法带有参数2，这个参数可以传入Generator函数，作为上个阶段异步任务的返回结果，被函数体内的变量y接收，因此这一步的value属性返回的就是2（变量y的值）。
 
-**
-注意:
+
+**注意:**
 
 （1）`g.next(2)`中传入的参数2，是作为上一阶段g这一Generator函数的执行结果而传入的，不是作为`gen(x)`中的x参数而传入的。
 
@@ -254,7 +254,6 @@ g.next(2);    // 再次调用next()方法，会继续往前执行，直到将下
 （3）另外，需要注意，不管调用next()多少次，Generator函数从头至尾只会完整执行一遍，不会是循环执行多遍，这是惯性思维上容易出错的地方。
 
 （4）当Generator的返回的done状态还是false的时候，对应的返回的value属性是 yield 后面跟的表达式的值。当Generator的返回的done状态是true的时候，对应的返回的value属性是Generator函数中return回来的值，如果没有return，则返回的value属性是undefined。
-**
 
 Generator函数内部还可以部署错误处理代码，捕获函数体外抛出的错误。
 
@@ -309,7 +308,7 @@ result.value.then(function(data) {
 
 上面代码中，首先执行Generator函数，获取遍历器对象。然后使用next()方法，执行异步任务的第一阶段。**由于Fetch模块返回的是一个Promise对象，因此需要用then()方法调用下一个next()方法。**
 
-#####（5）多指针交叉执行next
+**（5）多指针交叉执行next**
 
 那么，如果对于同一个Generator函数，如果我们建立多个指针，并让这多个指针交叉执行`next()`会怎么样呢？
 
@@ -336,7 +335,7 @@ console.log(gen.next()); // 3
 
 可以看到，**虽然Generator函数将异步操作表示得很简洁，但是流程管理却不方便（即何时执行第一阶段，何时执行第二阶段）。**
 
-#####（6）for...of循环
+**（6）for...of循环**
 
 **for...of循环可以自动遍历Generator函数时生成的Iterator对象，且此时不再需要调用next方法。**
 
@@ -356,7 +355,7 @@ for (let v of foo()) {
 // 1 2 3 4 5  这里需要注意，一旦next方法的返回对象的done属性为true，for...of循环就会中止，且不包含该返回对象，所以上面代码的return语句返回的6，不包括在for...of循环之中。
 ```
 
-#####（7）`Generator.prototype.throw()`
+**（7）`Generator.prototype.throw()`**
 
 Generator函数返回的遍历器对象，都有一个throw方法，可以在函数体外抛出错误，然后在Generator函数体内捕获。
 
@@ -406,7 +405,7 @@ g.throw() // b
 g.next() // c
 ```
 
-#####（8）`Generator.prototype.return()`
+**（8）`Generator.prototype.return()`**
 
 **Generator函数返回的遍历器对象，还有一个return方法，可以返回给定的值，并且终结遍历Generator函数。**
 
@@ -424,7 +423,7 @@ g.return('foo') // { value: "foo", done: true }  value 值变成了 return 的�
 g.next()        // { value: undefined, done: true }  return 方法 导致 generator 函数结束，所以 value 为 undefined
 ```
 
-#####（9）`yield*`语句
+**（9）`yield*`语句**
 
 带有 iterator 接口的，都可以被 `yield*` 遍历。
 
@@ -456,7 +455,7 @@ function* gen(){
 gen().next() // { value:"a", done:false }
 ```
 
-#####（10）Generator与状态机
+**（10）Generator与状态机**
 
 ```
 var clock = function*() {
@@ -513,7 +512,6 @@ var asyncReadFile = async function() {
 
 发现了吧，**async函数就是将Generator函数的星号替换成了async，将yield替换成await，除此之外，还对 Generator做了以下四点改进：**
 
-**
 （1）内置执行器。Generator函数的执行比如靠执行器，所以才有了co模块等异步执行器，而async函数是自带执行器的。也就是说：async函数的执行，与普通函数一模一样，只要一行：
 
 ```
@@ -527,7 +525,6 @@ var result = asyncReadFile();
 （4）更广的适用性。async函数的await命令后面可以是Promise对象和原始类型的值（数值、字符串和布尔值，而这是等同于同步操作）。
 
 （5）返回值是Promise，这比Generator函数返回的是Iterator对象方便多了。你可以用then()指定下一步操作。
-**
 
 进一步说，async函数完全可以看作由多个异步操作包装成的一个Promise对象，而await命令就是内部then()命令的语法糖。
 
@@ -597,15 +594,14 @@ async function asyncPrint(value, ms) {
 asyncPrint('Hello World!', 500);
 ```
 
-注意事项
+**注意事项**
 
-**
 （1）await命令后面的Promise对象，运行结果可能是reject，所以最好把await命令放在try...catch代码块中。
 
 （2）await命令只能用在async函数中，用在普通函数中会报错。
 
 （3）ES6将await增加为保留字。如果使用这个词作为标识符，在ES5中是合法的，但是ES6会抛出 SyntaxError（语法错误）。
-**
+
 
 ### 六、分别用async函数和Promise、Generator实现同一功能
 
