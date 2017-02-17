@@ -37,8 +37,8 @@
       <file leaf-file-name="2016-07-08-the-power-of-introverts.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-07-08-the-power-of-introverts.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+            <state relative-caret-position="96">
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -411,12 +411,12 @@
       <workItem from="1484371476750" duration="513000" />
       <workItem from="1484464757049" duration="6234000" />
       <workItem from="1484901398812" duration="26000" />
-      <workItem from="1487318885250" duration="2138000" />
+      <workItem from="1487318885250" duration="2251000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99691000" />
+    <option name="totallyTimeSpent" value="99804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -605,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-07-08-the-power-of-introverts.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="13" column="78" selection-start-line="13" selection-start-column="78" selection-end-line="13" selection-end-column="78" />
+        <state relative-caret-position="96">
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding />
         </state>
       </provider>
