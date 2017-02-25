@@ -1,12 +1,13 @@
 ---
 layout:     post
-title:      "让你有一点与众不同"
+title:      "《卓有成效的管理者》读书笔记"
 subtitle:   ""
 date:       2017-02-25 16:45:30
 author:     "Paian"
 catalog: true
 tags:
-    - 《卓有成效的管理者》读书笔记
+    - 管理
+    - 读书笔记
 ---
 
 #《卓有成效的管理者》读书笔记
