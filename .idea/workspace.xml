@@ -57,8 +57,8 @@
       <file leaf-file-name="2017-02-25-reading-notes-of-the-effective-executive.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-02-25-reading-notes-of-the-effective-executive.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="357">
+              <caret line="324" column="14" selection-start-line="324" selection-start-column="14" selection-end-line="324" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -389,12 +389,12 @@
       <workItem from="1484901398812" duration="26000" />
       <workItem from="1487318885250" duration="3231000" />
       <workItem from="1487499900250" duration="3270000" />
-      <workItem from="1488012081953" duration="1017000" />
+      <workItem from="1488012081953" duration="1941000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105071000" />
+    <option name="totallyTimeSpent" value="105995000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -585,8 +585,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-02-25-reading-notes-of-the-effective-executive.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="357">
+          <caret line="324" column="14" selection-start-line="324" selection-start-column="14" selection-end-line="324" selection-end-column="14" />
           <folding />
         </state>
       </provider>
