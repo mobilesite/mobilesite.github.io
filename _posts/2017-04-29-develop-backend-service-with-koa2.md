@@ -26,7 +26,7 @@ npm i
 ### 二、熟悉用到的各种中间件
 
 
-#### koa-logger
+#### 1、koa-logger
 
 Development style logger middleware for koa。
 
@@ -39,7 +39,7 @@ app.use(logger());
 
 建议把`app.use(logger());`放在其它的中间件被`app.use(...)`之前。
 
-#### koa-views
+#### 2、koa-views
 
 koa-view 是用在koa上的模板渲染中间件。详见[官方文档](https://www.npmjs.com/package/koa-views)
 
@@ -78,19 +78,19 @@ app.use(views(__dirname + '/views', {
 
 另一个是opt，这里面又包含着四个配置项：
 
-- 1. extension，用于指明view文件的默认后缀名。
+- extension，用于指明view文件的默认后缀名。
 
-- 2. map，指明后缀名为某种类型的文件采用何种引擎进行处理。如上例中即指明后缀为.html的文件使用underscore引擎进行处理。
+- map，指明后缀名为某种类型的文件采用何种引擎进行处理。如上例中即指明后缀为.html的文件使用underscore引擎进行处理。
 
-- 3. engineSource，指明后缀名为某类型的文件采用某engine source来进行处理，替换掉默认的engine source —— consolidate。上例中表示所有以.foo为后缀的文件会被返回'bar'。
+- engineSource，指明后缀名为某类型的文件采用某engine source来进行处理，替换掉默认的engine source —— consolidate。上例中表示所有以.foo为后缀的文件会被返回'bar'。
 
-- 4. options，这是传入helpers和partials的地方，这些options会被传入到view engine中。
+- options，这是传入helpers和partials的地方，这些options会被传入到view engine中。
 
 开启koa-views的debug模式：
 
 在启动koa服务的时候添加一个 DEBUG=koa-views 环境变量。
 
-#### koa-json
+#### 3、koa-json
 
 美观的输出JSON response的Koa中间件，详见[https://www.npmjs.com/package/koa-json](https://www.npmjs.com/package/koa-json)。
 
@@ -130,7 +130,7 @@ redirect: if accepct html, can redirect to another error page
 
 koa-onerror 会自动地把err.status当作response的status code, 而且自动地把err.headers当作response的headers。
 
-#### koa-bodyparser
+#### 4、koa-bodyparser
 
 一个koa的body parser，详见[https://www.npmjs.com/package/koa-bodyparser](https://www.npmjs.com/package/koa-bodyparser)
 
@@ -148,19 +148,19 @@ app.use(async ctx => {
 
 `bodyParser()`中可以传入一个参数option，其中可包含如下这些配置项：
 
-- 1. enableTypes: bodyParser只有在请求的类型匹配enableTypes（默认为['json', 'form']）的时候才会工作。
+- enableTypes: bodyParser只有在请求的类型匹配enableTypes（默认为['json', 'form']）的时候才会工作。
 
-- 2. encode: requested encoding. 默认是utf-8
+- encode: requested encoding. 默认是utf-8
 
-- 3. formLimit: the urlencoded body的大小限制。如果超出大小限制，将会返回413错误码。默认的限制大小是56kb。
+- formLimit: the urlencoded body的大小限制。如果超出大小限制，将会返回413错误码。默认的限制大小是56kb。
 
-- 4. jsonLimit: limit of the json body. Default is 1mb.
+- jsonLimit: limit of the json body. Default is 1mb.
 
-- 5. textLimit: limit of the text body. Default is 1mb.
+- textLimit: limit of the text body. Default is 1mb.
 
-- 6. strict: when set to true, JSON parser will only accept arrays and objects. Default is true. In strict mode, ctx.request.body will always be an object(or array), this avoid lots of type judging. But text body will always return string type.
+- strict: when set to true, JSON parser will only accept arrays and objects. Default is true. In strict mode, ctx.request.body will always be an object(or array), this avoid lots of type judging. But text body will always return string type.
 
-- 7. detectJSON: 自定义 json request 检测函数。 Default is null.
+- detectJSON: 自定义 json request 检测函数。 Default is null.
 
 ```
 app.use(bodyparser({
@@ -170,7 +170,7 @@ app.use(bodyparser({
 }));
 ```
 
-- 8. extendTypes: support extend types:
+- extendTypes: support extend types:
 
 ```
 app.use(bodyparser({
@@ -180,7 +180,7 @@ app.use(bodyparser({
 }));
 ```
 
-- 9. onerror: support 自定义的 error handle, 如果koa-bodyparser抛出错误异常, 你可以像如下这样来自定义response:
+- onerror: support 自定义的 error handle, 如果koa-bodyparser抛出错误异常, 你可以像如下这样来自定义response:
 
 ```
 app.use(bodyparser({
@@ -190,7 +190,7 @@ app.use(bodyparser({
 }));
 ```
 
-- 10. disableBodyParser: you can dynamic disable body parser by set ctx.disableBodyParser = true.
+- disableBodyParser: you can dynamic disable body parser by set ctx.disableBodyParser = true.
 
 ```
 app.use(async (ctx, next) => {
@@ -200,7 +200,7 @@ app.use(async (ctx, next) => {
 app.use(bodyparser());
 ```
 
-#### koa-static
+#### 5、koa-static
 
 用于koa的静态文件服务中间件。详见[https://www.npmjs.com/package/koa-static](https://www.npmjs.com/package/koa-static)
 
@@ -217,31 +217,31 @@ app.use(staticServe(root, opts));
 
 另一个是option，其中包含如下配置项：
 
-- 1. maxage
+- maxage
 
 浏览器缓存的最大时间（max-age），单位是milliseconds（毫秒）。默认为0
 
-- 2. hidden
+- hidden
 
 允许传送隐藏文件，默认为false
 
-- 3. index
+- index
 
 Default file name, defaults to 'index.html'
 
-- 4. defer
+- defer
 
 If true, serves after yield next, allowing any downstream middleware to respond first.
 
-- 5. gzip
+- gzip
 
 当client支持 gzip 而且被请求的文件也有一个以 .gz 为扩展名的文件的时候，自动以所请求文件对应的 .gz 文件进行返回。默认为true
 
-- 6. extensions
+- extensions
 
 Try to match extensions from passed array to search for file when no extension 是合格的 in URL. First found is served. (defaults to false)
 
-#### koa-router
+#### 6、koa-router
 
 koa路由中间件。
 
@@ -249,7 +249,7 @@ koa路由中间件。
 
 使用：
 
-- 1、基本用法
+- 基本用法
 
 ```
 var Router = require('koa-router');
@@ -264,7 +264,7 @@ app
 
 ```
 
-- 2、router.get|post|put|del|all
+- router.get/post/put/del/all
 
 ```
 router
@@ -287,7 +287,7 @@ router
 
 `router.all()` can be used to match against all methods.
 
-- 3、多个中间件例子
+- 多个中间件例子
 
 ```
 router.get(
@@ -305,7 +305,7 @@ router.get(
 );
 ```
 
-- 4、嵌套路径
+- 嵌套路径
 
 ```
 var forums = new Router();
@@ -319,7 +319,7 @@ forums.use('/forums/:fid/posts', posts.routes(), posts.allowedMethods());
 app.use(forums.routes());
 ```
 
-- 5、路由前缀
+- 路由前缀
 
 ```
 var router = new Router({
@@ -330,7 +330,7 @@ router.get('/', ...); // responds to "/users"
 router.get('/:id', ...); // responds to "/users/:id"
 ```
 
-- 6、重定向
+- 重定向
 
 ```
 router.redirect('/login', 'sign-in');
@@ -344,7 +344,7 @@ router.all('/login', function (ctx) {
 });
 ```
 
-- 7、命名路由
+- 命名路由
 
 ```
 router.get('user', '/users/:id', function (ctx, next) {
@@ -359,7 +359,7 @@ router.url('user', 3);
 
 即：`router.url(name, params)`
 
-- 8、URL parameters
+- URL parameters
 
 ```
 router.get('/:category/:title', function (ctx, next) {
@@ -372,7 +372,7 @@ router.get('/:category/:title', function (ctx, next) {
 
 ### 三、一些其它模块的使用
 
-#### cross-env模块
+#### 1、cross-env模块
 
 跨平台配置环境变量的模块。
 
@@ -388,7 +388,7 @@ npm install --save-dev cross-env
 
 ./node_modules/.bin/cross-env NODE_ENV=development  DEBUG=*,-not_this
 
-#### debug模块
+#### 2、debug模块
 
 大概可以把它理解为一个封装过的`console.log()`。详见[https://www.npmjs.com/package/debug](https://www.npmjs.com/package/debug)
 
@@ -398,7 +398,7 @@ npm install --save-dev cross-env
 
 DEBUG_COLORS是用来配置是否以彩色输出debug信息的，默认情况下是开启的。若要将它关闭，配置环境变量DEBUG_COLORS=false即可。
 
-#### nodemon模块
+#### 3、nodemon模块
 
 nodemon的作用是在你的服务正在运行的情况下，修改文件可以自动重启服务。
 
@@ -406,7 +406,7 @@ nodemon的作用是在你的服务正在运行的情况下，修改文件可以�
 npm install --save-dev nodemon
 ```
 
-#### log4js模块
+#### 4、log4js模块
 
 上文中已经讲到过koa-logger这个中间件，它是tj大神写的koa开发时替换console.log输出的一个插件。不过，如果你需要按照时间或者按照文件大小，本地输出log文件的话，建议还是采用log4js。
 
@@ -634,7 +634,7 @@ app.use(async (ctx, next) => {
 
 这样，在服务器运行的时候，相应的响应（response）日志 和 错误日志会被分别记录到server/logs/response 和 server/logs/error 目录下。
 
-### npm script中的四个缩写
+顺便提一下，npm script中的四个缩写
 
 在npm中，有四个常用的缩写：
 
@@ -646,7 +646,7 @@ app.use(async (ctx, next) => {
 
 `npm restart`是`npm run stop && npm run restart && npm run start`的简写
 
-### 用mocha和chai测试
+### 四、用mocha和chai测试
 
 ```
 npm i mocha --save-dev
