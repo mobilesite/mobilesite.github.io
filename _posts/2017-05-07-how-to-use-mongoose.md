@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "怎样使用mongoose？"
+title:      "mongoose开发详解"
 subtitle:   ""
 date:       2017-05-07 01:18:55
 author:     "Paian"
@@ -11,7 +11,7 @@ tags:
     - 服务端开发
     - node.js
 ---
-## 怎样使用mongoose？
+## mongoose开发详解
 
 ### 一、连接数据库
 

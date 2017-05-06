@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "MongoDB的使用详解"
+title:      "MongoDB的基本使用"
 subtitle:   ""
 date:       2017-05-06 12:15:19
 author:     "Paian"
@@ -11,7 +11,7 @@ tags:
     - node.js
 ---
 
-## MongoDB的使用详解
+## MongoDB的基本使用
 
 本文以windows 10中v3.3.4版MongoDB的安装与使用为例。
 
@@ -61,35 +61,35 @@ primary key（主键） —— 对应关系数据库上的主键（primary key�
 
 MongoDB支持的数据类型有：
 
-String: 这是最常用的数据类型。在MongoDB中的String类型必须是有效的UTF-8。
+- String: 这是最常用的数据类型。在MongoDB中的String类型必须是有效的UTF-8。
 
-Integer: 这种类型是用来存储一个数值。整数可以是32位或64位，这取决于您的服务器。
+- Integer: 这种类型是用来存储一个数值。整数可以是32位或64位，这取决于您的服务器。
 
-Boolean: 此类型用于存储一个布尔值 (true/ false) 。
+- Boolean: 此类型用于存储一个布尔值 (true/ false) 。
 
-Double: 这种类型是用来存储浮点值。
+- Double: 这种类型是用来存储浮点值。
 
-Min/Max keys: 这种类型被用来对BSON（二进制的JSON）元素的最低和最高值比较。
+- Min/Max keys: 这种类型被用来对BSON（二进制的JSON）元素的最低和最高值比较。
 
-Arrays: 使用此类型的数组或列表或多个值存储到一个键。
+- Arrays: 使用此类型的数组或列表或多个值存储到一个键。
 
-Timestamp: 时间戳。这可以方便记录文件修改或添加的具体时间。
+- Timestamp: 时间戳。这可以方便记录文件修改或添加的具体时间。
 
-Object: 用于内嵌文档。
+- Object: 用于内嵌文档。
 
-Null: 这种类型是用来存储一个Null值。
+- Null: 这种类型是用来存储一个Null值。
 
-Symbol: 此数据类型用与String大体相同，但它通常是保留给特定符号类型的语言使用。
+- Symbol: 此数据类型用与String大体相同，但它通常是保留给特定符号类型的语言使用。
 
-Date: 此数据类型用于存储当前日期或时间的UNIX时间格式。可以指定自己的日期和时间，日期和年，月，日到创建对象。
+- Date: 此数据类型用于存储当前日期或时间的UNIX时间格式。可以指定自己的日期和时间，日期和年，月，日到创建对象。
 
-Object ID: 此数据类型用于存储文档的ID。
+- Object ID: 此数据类型用于存储文档的ID。
 
-Binary data: 此数据类型用于存储二进制数据。
+- Binary data: 此数据类型用于存储二进制数据。
 
-Code: 此数据类型用于存储到文档中的JavaScript代码。
+- Code: 此数据类型用于存储到文档中的JavaScript代码。
 
-Regular expression: 此数据类型用于存储正则表达式
+- Regular expression: 此数据类型用于存储正则表达式
 
 ### 三、MongoDB常用命令
 
