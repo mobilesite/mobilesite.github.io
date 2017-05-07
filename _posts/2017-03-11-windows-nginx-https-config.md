@@ -23,7 +23,7 @@ tags:
 
 然后配置环境变量。在系统环境变量中添加环境变量：
 
-变量名： OPENSSL_HOME
+变量名：OPENSSL_HOME
 
 变量值：C:\OpenSSL-Win64\bin;
 
@@ -58,6 +58,7 @@ cd C:\nginx\ssl
 
 ```
 openssl genrsa -des3 -out buduhuisi.key 1024     # buduhuisi文件名是自己随便起即可
+```
 
 输入密码后，再次重复输入确认密码。记住此密码，后面会用到。
 
