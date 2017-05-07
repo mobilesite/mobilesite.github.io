@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-03-11-windows-nginx-https-config.md" afterPath="$PROJECT_DIR$/_posts/2017-03-11-windows-nginx-https-config.md" />
-    </list>
+    <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="" />
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,7 +44,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-03-11-windows-nginx-https-config.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="224">
-              <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+              <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -487,12 +485,12 @@
       <workItem from="1488012081953" duration="3007000" />
       <workItem from="1490411208828" duration="12232000" />
       <workItem from="1493659431521" duration="2382000" />
-      <workItem from="1494090099255" duration="7519000" />
+      <workItem from="1494090099255" duration="7635000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129194000" />
+    <option name="totallyTimeSpent" value="129310000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -727,7 +725,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-03-11-windows-nginx-https-config.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
-          <caret line="67" column="10" lean-forward="true" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
+          <caret line="67" column="10" lean-forward="false" selection-start-line="67" selection-start-column="10" selection-end-line="67" selection-end-column="10" />
           <folding />
         </state>
       </provider>
