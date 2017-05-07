@@ -6,9 +6,9 @@ date:       2017-03-11 20:12:32
 author:     "Paian"
 catalog: true
 tags:
-    - MongoDB
+    - Nginx配置
     - 服务端开发
-    - node.js
+    - https
 ---
 
 ## Windows下用Nginx配置https服务器
@@ -69,7 +69,6 @@ openssl genrsa -des3 -out buduhuisi.key 1024     # buduhuisi文件名是自己�
 
 ```
 openssl req -new -key buduhuisi.key -out buduhuisi.csr
-
 ```
 
 其中key文件为刚才生成的文件。
