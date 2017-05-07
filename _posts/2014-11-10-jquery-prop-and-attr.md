@@ -7,7 +7,7 @@ author:     "Paian"
 catalog: true
 tags:
     - jQuery的`attr()`和`prop()`
-    - 坑
+    - bug
     - 日常拾遗
 ---
 

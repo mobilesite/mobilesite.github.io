@@ -7,7 +7,7 @@ author:     "Paian"
 catalog: true
 tags:
     - Gulp
-    - 坑
+    - bug
     - 日常拾遗
 ---
 
