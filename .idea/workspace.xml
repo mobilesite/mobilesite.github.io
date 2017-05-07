@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-11-10-jquery-prop-and-attr.md" afterPath="$PROJECT_DIR$/_posts/2014-11-10-jquery-prop-and-attr.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2015-07-05-gulp-use-tips.md" afterPath="$PROJECT_DIR$/_posts/2015-07-05-gulp-use-tips.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-10-phantomjs-startup-error.md" afterPath="$PROJECT_DIR$/_posts/2017-01-10-phantomjs-startup-error.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2015-07-05-gulp-use-tips.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2015-07-05-gulp-use-tips.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2015-07-05-gulp-use-tips.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+            <state relative-caret-position="60">
+              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-02-04-all-the-errors-encountered-in-webpack.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-02-04-all-the-errors-encountered-in-webpack.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="377" column="0" lean-forward="true" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,6 +114,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-01-10-phantomjs-startup-error.md" />
         <option value="$PROJECT_DIR$/_posts/2014-11-10-jquery-prop-and-attr.md" />
         <option value="$PROJECT_DIR$/_posts/2015-07-05-gulp-use-tips.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-02-04-all-the-errors-encountered-in-webpack.md" />
       </list>
     </option>
   </component>
@@ -399,7 +408,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="J:/vueapp" />
     <property name="nodejs_interpreter_path" value="$USER_HOME$/.nvm/versions/node/v6.0.0/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
   </component>
@@ -542,12 +551,12 @@
       <workItem from="1488012081953" duration="3007000" />
       <workItem from="1490411208828" duration="12232000" />
       <workItem from="1493659431521" duration="2382000" />
-      <workItem from="1494090099255" duration="19786000" />
+      <workItem from="1494090099255" duration="26680000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141461000" />
+    <option name="totallyTimeSpent" value="148355000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -604,7 +613,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_site/2011/12/12/http-status/index.html" />
     <entry file="file://$PROJECT_DIR$/_posts/2011-12-11-http-status.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2006-06-16-pronunciation_error.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2006-07-06-photograph-basic-knowledge.md" />
@@ -818,8 +826,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-07-05-gulp-use-tips.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        <state relative-caret-position="60">
+          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-02-04-all-the-errors-encountered-in-webpack.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="377" column="0" lean-forward="true" selection-start-line="377" selection-start-column="0" selection-end-line="377" selection-end-column="0" />
           <folding />
         </state>
       </provider>
