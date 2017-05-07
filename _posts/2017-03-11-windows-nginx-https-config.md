@@ -15,7 +15,7 @@ tags:
 
 以Windows 10系统为例。
 
-一、安装OpenSSL
+### 一、安装OpenSSL
 
 先到[http://slproweb.com/products/Win32OpenSSL.html](http://slproweb.com/products/Win32OpenSSL.html) 去下载OpenSSL（根据系统选择32位或者64位版本下载安装）。
 
@@ -31,7 +31,7 @@ tags:
 
 并在Path变量结尾添加一条： %OPENSSL_HOME%
 
-二、安装Nginx
+### 二、安装Nginx
 
 到[Nginx官网](http://nginx.org/en/download.html)下载Nginx，我这里下载的是	nginx/Windows-1.12.0 这个版本。
 
@@ -39,10 +39,10 @@ tags:
 
 进入到C:\nginx目录下，双击nginx.exe文件即可启动服务器。在浏览器地址栏输入[http://localhost](http://localhost)，如果可以成功访问到Nginx的欢迎界面，则说明安装成功。
 
-三、生成证书　　
+### 三、生成证书　　
 
 
-1、首先在Nginx安装目录中创建ssl文件夹用于存放证书。比如我的文件目录为 C:\nginx\ssl
+#### 1、首先在Nginx安装目录中创建ssl文件夹用于存放证书。比如我的文件目录为 C:\nginx\ssl
 
 
 在控制台中执行：
@@ -51,7 +51,7 @@ tags:
 cd C:\nginx\ssl
 ```
 
-2、创建私钥
+#### 2、创建私钥
 
 
 在命令行中执行命令：
@@ -62,7 +62,7 @@ openssl genrsa -des3 -out buduhuisi.key 1024     # buduhuisi文件名是自己�
 输入密码后，再次重复输入确认密码。记住此密码，后面会用到。
 
 
-3、创建csr证书
+#### 3、创建csr证书
 
 在命令行中执行命令：
 
@@ -77,7 +77,7 @@ openssl req -new -key buduhuisi.key -out buduhuisi.csr
 
 以上步骤完成后，ssl文件夹内出现两个文件：buduhuisi.csr 和 buduhuis.key
 
-4、去除密码。
+#### 4、去除密码。
 
 在加载SSL支持的Nginx并使用上述私钥时除去必须的口令，否则会在启动nginx的时候需要输入密码。
 
@@ -92,7 +92,7 @@ openssl rsa -in buduhuisi.key.org -out buduhuisi.key
 然后输入密码，这个密码就是上文中在创建私钥的时候输入的密码。
 
 
-5、生成crt证书
+#### 5、生成crt证书
 
 在命令行中执行此命令：
 
@@ -102,7 +102,7 @@ openssl x509 -req -days 365 -in buduhuisi.csr -signkey buduhuisi.key -out buduhu
 
 至此，证书生成完毕。我们发现，ssl文件夹中一共生成了4个文件。下面，配置https服务器的时候，我们需要用到的是其中的buduhuisi.crt和buduhuisi.key这两个文件。
 
-四、修改Nginx的nginx.conf配置文件
+### 四、修改Nginx的nginx.conf配置文件
 
 我的这个文件在C:\nginx\conf目录下。用任意一个编辑器（如Sublime Text之类）打开这个nginx.conf文件。
 
@@ -131,7 +131,7 @@ server {
 
 注意一下那两个证书的文件路径的写法。
 
-五、Nginx的常用操作
+### 五、Nginx的常用操作
 
 在继续后面的内容之前，先简单介绍下Windows命令行中操作Nginx的几个常用的语句：
 
@@ -160,7 +160,7 @@ start nginx
 
 但是，也许你可能还想要用一个别的域名（例如：https://m.test.com）来访问这个服务器。那么怎么做呢？这就需要继续往下看了。
 
-六、修改hosts配置，实现域名映射
+### 六、修改hosts配置，实现域名映射
 
 要想用别的域名来访问上文配置好的https服务器，也很简单，修改hosts配置就可以了。你可以到[这里](http://www.xiazaiba.com/html/23970.html)下载一个hosts管理工具——SwitchHosts。安装号好之后，以管理员身份运行它。并添加上一个hosts项：
 
