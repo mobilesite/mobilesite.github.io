@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/_posts/2017-02-04-all-the-errors-encountered-in-webpack.md" afterPath="$PROJECT_DIR$/_posts/2017-02-18-all-the-errors-encountered-in-webpack.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-01-15-workspace-prepare-lesson.md" afterPath="$PROJECT_DIR$/_posts/2017-01-15-workspace-prepare-lesson.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -22,21 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="2015-07-05-gulp-use-tips.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-07-05-gulp-use-tips.md">
+      <file leaf-file-name="2017-01-15-workspace-prepare-lesson.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-01-15-workspace-prepare-lesson.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-02-18-all-the-errors-encountered-in-webpack.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2017-02-18-all-the-errors-encountered-in-webpack.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+            <state relative-caret-position="216">
+              <caret line="160" column="3" lean-forward="false" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -110,11 +100,11 @@
         <option value="$PROJECT_DIR$/_posts/2017-03-12-npm-link-local-module.md" />
         <option value="$PROJECT_DIR$/_posts/2015-07-10-why-can-not-clear-cache.md" />
         <option value="$PROJECT_DIR$/_posts/2014-11-10-jquery-property-and-attr.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-01-15-workspace-prepare-lesson.md" />
         <option value="$PROJECT_DIR$/_posts/2017-01-10-phantomjs-startup-error.md" />
         <option value="$PROJECT_DIR$/_posts/2014-11-10-jquery-prop-and-attr.md" />
         <option value="$PROJECT_DIR$/_posts/2015-07-05-gulp-use-tips.md" />
         <option value="$PROJECT_DIR$/_posts/2017-02-04-all-the-errors-encountered-in-webpack.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-01-15-workspace-prepare-lesson.md" />
       </list>
     </option>
   </component>
@@ -573,12 +563,12 @@
       <workItem from="1488012081953" duration="3007000" />
       <workItem from="1490411208828" duration="12232000" />
       <workItem from="1493659431521" duration="2382000" />
-      <workItem from="1494090099255" duration="26734000" />
+      <workItem from="1494090099255" duration="27523000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="148409000" />
+    <option name="totallyTimeSpent" value="149198000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -774,14 +764,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-01-15-workspace-prepare-lesson.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3600">
-          <caret line="118" column="4" lean-forward="false" selection-start-line="118" selection-start-column="1" selection-end-line="118" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-01-10-phantomjs-startup-error.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -846,6 +828,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-02-18-all-the-errors-encountered-in-webpack.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="29" column="3" lean-forward="false" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2015-07-05-gulp-use-tips.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -854,10 +844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-02-18-all-the-errors-encountered-in-webpack.md">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-01-15-workspace-prepare-lesson.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="29" column="3" lean-forward="true" selection-start-line="29" selection-start-column="3" selection-end-line="29" selection-end-column="3" />
+        <state relative-caret-position="216">
+          <caret line="160" column="3" lean-forward="false" selection-start-line="160" selection-start-column="3" selection-end-line="160" selection-end-column="3" />
           <folding />
         </state>
       </provider>

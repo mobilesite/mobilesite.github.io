@@ -118,4 +118,46 @@ brew search /apache*/
 
 [http://www.cnblogs.com/ys-wuhan/p/5840305.html](http://www.cnblogs.com/ys-wuhan/p/5840305.html)
 
+### 十三、Nginx
+
+Mac安装nginx：
+
+```
+brew search nginx
+brew install nginx
+```
+
+启动nginx：
+
+```
+sudo nginx
+```
+
+访问localhost:8080 发现已出现nginx的欢迎页面了。
+
+备注：
+
+`ln -s  /usr/local/sbin/nginx /usr/bin/nginx`可以做个软连接。
+
+常用的指令有：
+
+```
+nginx -V 查看版本，以及配置文件地址
+
+nginx -v 查看版本
+
+nginx -c filename 指定配置文件
+
+nginx -h 帮助
+
+nginx -s reload|reopen|stop|quit   # 重新加载配置|重启|停止|退出 nginx
+
+sudo nginx    # 打开 nginx
+
+nginx -t         # 测试配置是否有语法错误
+
+vim /usr/local/etc/nginx/nginx.conf  # 打开 nginx.config 文件
+
+```
+
 感谢这些优秀的软件带给我们学习上的便利，链接仅供学习试用。请支持正版。内容来自网络，若有侵权请联系删除。
