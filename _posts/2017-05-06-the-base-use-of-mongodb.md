@@ -290,4 +290,54 @@ db.user.group({
 
 ```
 
+### 四、注意事项
+
+连接mongodb的网站没有关，直接关闭了mongodb的cmd窗口。再次打开mongodb时，会出现失败。
+
+解决办法：网上说是删除 *.lock文件，再进行 --repair，最后再打开mongodb就可以了（我没有删除 *.lock，也可以）
+
+参考： http://dochub.mongodb.org/core/repair for recovery instructions.
+
+错误信息如下:
+
+```
+$ ./mongod.exe --dbpath="d:\mongodb\data\db"
+2017-07-16T15:11:51.852+0800 I CONTROL  [initandlisten] MongoDB starting : pid=3                       2064 port=27017 dbpath=d:\mongodb\data\db 64-bit host=LAPTOP-AH696RIM
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten] targetMinOS: Windows 7/W                       indows Server 2008 R2
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten] db version v3.4.4
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten] git version: 88839051587                       4a9debd1b6c5d36559ca86b44babd
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten] OpenSSL version: OpenSSL                        1.0.1u-fips  22 Sep 2016
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten] modules: none
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten] build environment:
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten]     distmod: 2008plus-ss                       l
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten]     distarch: x86_64
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-07-16T15:11:51.853+0800 I CONTROL  [initandlisten] options: { storage: { db                       Path: "d:\mongodb\data\db" } }
+2017-07-16T15:11:51.855+0800 W -        [initandlisten] Detected unclean shutdow                       n - d:\mongodb\data\db\mongod.lock is not empty.
+2017-07-16T15:11:51.857+0800 I -        [initandlisten] Detected data files in d                       :\mongodb\data\db created by the 'mmapv1' storage engine, so setting the active                        storage engine to 'mmapv1'.
+2017-07-16T15:11:51.866+0800 I STORAGE  [initandlisten] **************
+old lock file: d:\mongodb\data\db\mongod.lock.  probably means unclean shutdown,
+but there are no journal files to recover.
+this is likely human error or filesystem corruption.
+please make sure that your journal directory is mounted.
+found 5 dbs.
+see: http://dochub.mongodb.org/core/repair for more information
+*************
+2017-07-16T15:11:51.869+0800 I STORAGE  [initandlisten] exception in initAndList                       en: 12596 old lock file, terminating
+2017-07-16T15:11:51.869+0800 I NETWORK  [initandlisten] shutdown: going to close                        listening sockets...
+2017-07-16T15:11:51.869+0800 I NETWORK  [initandlisten] shutdown: going to flush                        diaglog...
+2017-07-16T15:11:51.869+0800 I CONTROL  [initandlisten] now exiting
+2017-07-16T15:11:51.869+0800 I CONTROL  [initandlisten] shutting down with code:                       100
+```
+
+解决办法：
+
+```
+cd d:/mongodb/bin
+./mongod.exe --dbpath "d:\mongodb\data\db" --repair
+```
+
+
+
 
