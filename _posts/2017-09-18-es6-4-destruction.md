@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "变量的解构赋值——ES6学习笔记3"
+title:      "变量的解构赋值——ES6学习笔记4"
 subtitle:   ""
 date:       2017-09-11 18:25:13
 author:     "Paian"
