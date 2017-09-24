@@ -11,20 +11,21 @@ tags:
 ---
 ## 《Nodejs项目的线上服务器部署与发布》学习笔记
 
-### 生产环境所需要素：
+### 一、生产环境所需要素
 
-购买自己的域名
+- 购买自己的域名
 
-购买自己的服务器
+- 购买自己的服务器
 
-域名备案
+- 域名备案
 
-配置服务器应用环境
+- 配置服务器应用环境
 
-安装配置数据库
+- 安装配置数据库
 
-项目远程部署发布与更新
+- 项目远程部署发布与更新
 
+### 二、如何跑起来一个node.js服务
 
 ```
 //app.js
@@ -72,19 +73,23 @@ http.createServer((req, res) => {
 
 然后我们通过`node app.js`就可以启动服务器并通过http://localhost:3000访问到了。`node app.js`命令也可以简写成`node app`，即不带后缀。
 
+我们使用的演示版本：
+
 node 6.9.5
+
 mongodb 3.0.1
+
 grunt 0.1.13
 
 先下载movie项目的源码：http://www.imooc.com/video/3765
 
 然后更新package.json中的几个包的版本：
 
-bcrypt@0.8.7
+bcrypt ^0.8.7
 
-jade@1.11.0
+jade ^1.11.0
 
-mongoose@4.8.2
+mongoose ^4.8.2
 
 也可以用命令单独更新：
 
@@ -211,21 +216,26 @@ http://localhost:3000/admin/movie/new
 react-native run-ios
 ```
 
-### 如何部署一个小程序
+如何部署一个小程序？
 
 小程序名称：工业风装修
 
 可以在微信中搜索到。
 
-### 如何部署一个微信公众号的开发项目
+如何部署一个微信公众号的开发项目？
 
-### 域名选择
+这是我们后续要讨论的问题。我们一共要在一台服务器上部署四个应用。
+
+### 三、域名选择
 
 选择知名厂商。在国内尽可能选择阿里云的域名，备案方便，背靠阿里云团队。
 
 阿里云（中国万网）
+
 爱名网（www.22.cn）
+
 DNSPOD
+
 GoDaddy(国外的，有一个风险就是不知道将来政府会不会不允许在国内部署GoDaddy这种国外平台申请的域名)
 
 纯英文好于纯数字，千万不要既有数字又有字母那种。
@@ -236,31 +246,38 @@ GoDaddy(国外的，有一个风险就是不知道将来政府会不会不允许
 
 购买域名的时候，不需要购买SSL证书，可以自己生成，省点钱。
 
-### 主机选择
+### 四、主机选择
 
 国外：
 
 亚马逊AWS
+
 Linode
+
 DigitOceam/Heroku
 
 国内：
+
 阿里云ECS
+
 青云/UCloud/百度云
 
 建议：
 
 尽量选择大厂商。
+
 尽量选择国内的主机商，不会被墙，速度快，审核备案易通过。
 
 阿里云明显拉开了与青云和UCloud的差距。
 
-这里我们选择
-阿里云ECS服务器入门型（CPU 1核  内存1G 系统盘40G）进行讲解。
+这里我们选择阿里云ECS服务器入门型（CPU 1核  内存1G 系统盘40G）进行讲解。
 
 选择Ubuntu 64位14.04版本
+
 带宽选1M
+
 网络选经典网络
+
 计算方式里是选择包年包月还是按量计费，得根据你自己的情况，如果你的服务器不对外提供服务，那么按量付费可能更便宜。
 
 1核1G的服务器大概可以应付2-3万个请求，折合在线人数的话应该在几百或上千，如果你的在线用户上万，则可以选择两核4G的。
@@ -269,9 +286,10 @@ DigitOceam/Heroku
 
 购买了阿里云的服务器的话，就可以在阿里云进行域名备案，备案时需要域名，域名可以在阿里云买，也可以在其它平台购买。
 
-### 远程登陆服务器
+### 五、远程登陆服务器
 
-windows平台的命令行
+windows平台的命令行：
+
 http://www.putty.org/
 
 填入ip，端口填22。
@@ -279,6 +297,7 @@ http://www.putty.org/
 阿里云的Ubuntu默认的用户名是root
 
 默认端口是22。
+
 
 MAC下用命令行操作是用ssh命令来登陆：
 
@@ -288,7 +307,7 @@ ssh root@120.26.235.4(这里的ip替换成你自己的服务器的)
 
 查看硬盘使用情况的命令是
 
-df -h
+```df -h```
 
 建议你新分出一个数据盘来放你的网站的内容，否则，如果你将网站的数据放在系统盘上的话，一旦重装系统，系统盘上的数据就都没有了。
 
@@ -298,19 +317,21 @@ df -h
 
 如果你的电脑安装了zsh，那么会有一个.zshrc配置文件。我们用sublime text打开这个配置文件。在其中可以添加一些软链接。
 
-alias ssh_mooc="ssh root@120.26.235.4"
+```alias ssh_mooc="ssh root@120.26.235.4"```
 
 保存。
 
 再用
-source .zshrc
+
+```source .zshrc```
+
 重新载入一下刚刚修改的配置。就可以用把ssh_mooc当作ssh root@120.26.235.4这句命令来用。从而简化控制台的输入。
 
 上面是用root这个最高权限的用户在操作，这其实是比较危险的。我们最好分配一些其它的用户来完成不同的操作。
 
 所以，我们得新建一个用户：
 
-adduser imooc_manager
+```adduser imooc_manager```
 
 然后会让你输入该用户的密码和一些无关紧要的信息。
 
@@ -318,23 +339,25 @@ adduser imooc_manager
 
 接下来对这个用户进行授权：
 
+```
 gpasswd -a imooc_manager sudo
 
 sudo visudo
+```
 
-找到root ALL=(ALL:ALL) ALL
+找到`root ALL=(ALL:ALL) ALL`
 
 在该行下面增加一行：
 
-imooc_manager ALL=(ALL:ALL) ALL
+```imooc_manager ALL=(ALL:ALL) ALL```
 
 通过这几句设置，让imooc_manager可以通过sudo且输入密码的情况下，执行root账户所能执行的一切操作。
 
 然后control + x退出该配置文件，然后按shift + y 进行保存。
 
-用ssh imooc_manger@120.26.235.4登陆ssh。
+用`ssh imooc_manger@120.26.235.4`登陆ssh。
 
-用service ssh restart 重启ssh服务。
+用`service ssh restart` 重启ssh服务。
 
 这就可以通过imooc_manager账户通过输入密码来执行原本只有root才能执行的那些命令了。
 
@@ -424,7 +447,7 @@ sudo ssh restart
 命令来直接登陆服务器，无需再输入密码了。
 
 
-### 增强服务器安全等级
+### 六、增强服务器安全等级
 
 因为服务器默认端口为22，这就等于所有人都知道你的服务器登陆端口就是22，这不太安全，所以我们需要修改一下。
 
@@ -647,7 +670,7 @@ sudo service fail2ban start
 
 关于iptables配置的详细内容，慕课网上有专门的教程。
 
-### 配置服务器的node环境
+### 七、配置服务器的node环境
 
 先更新
 
@@ -665,7 +688,7 @@ apt-get是一款适应于Unix和Linux系统的应用程序管理器。其更多�
 
 https://baike.baidu.com/item/apt-get/2360755?fr=aladdin
 
-### 配置Nginx实现反向代理
+### 八、配置Nginx实现反向代理
 
 让web服务可以通过80端口被外网访问到
 
@@ -794,7 +817,7 @@ sudo nginx -s reload
 
 可以设置在/etc/nginx/nginx.conf 中把 server_tokens off 这一句的注释放开，然后重新保存，然后执行`sudo service nginx reload`刷新nginx服务。这样返回的Server就只有nginx，而没有版本号了。
 
-### 利用DNSPod将域名解析到DNS服务器。
+### 九、利用DNSPod将域名解析到DNS服务器
 
 上面，我们实现了用ip地址访问，但是，怎么让用户能通过域名来访问我们的网站呢？这就需要将域名解析后指向到我们的服务器。通常，我们需要一个域名解析服务器（DNS），通常，这是由你所购买的域名的那个平台的服务商提供的。一个域名只能对应一个IP地址，但是一个IP地址可以绑定多个域名。
 
@@ -921,7 +944,7 @@ TTL： 600
 
 配置好之后，到七牛中找到对应的存储空间（如induscreation）中的内容管理中，找一张之前上传的图片，右边点那个眼睛，就会看到一个外链地址，我们把外链地址中七牛的域名部分改成indust.creation.test.cn就可以访问了。不过，由于七牛的添加自定义域名的配置有一定的审批时间，最长12小时之后，其实一般10分钟左右，我们才可以用自定义的域名访问到七牛中的图片。暂时性的测试方法是用ping indust.creation.test.cn，如果能够ping成功，说明配置的DNS已经生效了。
 
-### 服务器MongoDB的安装配置
+### 十、服务器MongoDB的安装配置
 
 阿里云也有付费的MongoDB。不过，我们个人的话，还是自己在服务器上配。
 
@@ -1001,7 +1024,7 @@ cat /var/log/mongodb/mongod.log
 sudo vi /etc/iptables.up.rules
 ```
 
-# log denied calls
+`# log denied calls`
 上方增加一句：
 
 ```
