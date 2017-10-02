@@ -23,8 +23,18 @@
       <file leaf-file-name="2017-10-01-health-advice.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-01-health-advice.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state relative-caret-position="210">
+              <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2017-08-23-the-marginalia-of-life.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2017-08-23-the-marginalia-of-life.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -40,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2016-11-19-my-yunqi-articels.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2016-11-19-my-yunqi-articels.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="810">
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -82,7 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2013-03-06-CSS-selectors.md" />
         <option value="$PROJECT_DIR$/_posts/2014-03-06-CSS-selectors.md" />
         <option value="$PROJECT_DIR$/_posts/2012-04-01-js-closure.md" />
         <option value="$PROJECT_DIR$/_posts/2011-12-11-http-status.md" />
@@ -133,6 +142,7 @@
         <option value="$PROJECT_DIR$/less/hux-blog.less" />
         <option value="$PROJECT_DIR$/about.html" />
         <option value="$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md" />
+        <option value="$PROJECT_DIR$/_posts/2017-08-23-the-marginalia-of-life.md" />
       </list>
     </option>
   </component>
@@ -443,8 +453,8 @@
       <recent name="$PROJECT_DIR$/blogs" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\mobilesite.github.io" />
       <recent name="D:\mobilesite.github.io\_posts" />
+      <recent name="D:\mobilesite.github.io" />
       <recent name="D:\mobilesite.github.io\img" />
       <recent name="D:\mobilesite.github.io\_site\img" />
       <recent name="D:\mobilesite.github.io\_site\img\in-post" />
@@ -588,12 +598,12 @@
       <workItem from="1500189744361" duration="2043000" />
       <workItem from="1502613452895" duration="3853000" />
       <workItem from="1506263462244" duration="2185000" />
-      <workItem from="1506922314272" duration="6621000" />
+      <workItem from="1506922314272" duration="7376000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="167198000" />
+    <option name="totallyTimeSpent" value="167953000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -650,7 +660,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/booksnotes/前端基础系列/前端基础入门学习资料/demo/src/script/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/前端基础系列/前端基础入门学习资料/demo/src/script/jquery.js" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/webpackdemo/webpack.config.js" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/vue.js的使用.md" />
@@ -980,14 +989,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-01-health-advice.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -998,8 +999,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+        <state relative-caret-position="810">
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-01-health-advice.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2017-08-23-the-marginalia-of-life.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding />
         </state>
       </provider>
