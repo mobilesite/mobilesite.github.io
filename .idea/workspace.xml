@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/about.html" afterPath="$PROJECT_DIR$/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md" afterPath="$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +33,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/about.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="660">
-              <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-11-19-my-yunqi-articels.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1290">
+              <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -74,7 +85,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2014-12-25-markdown.md" />
         <option value="$PROJECT_DIR$/_posts/2013-03-06-CSS-selectors.md" />
         <option value="$PROJECT_DIR$/_posts/2014-03-06-CSS-selectors.md" />
         <option value="$PROJECT_DIR$/_posts/2012-04-01-js-closure.md" />
@@ -125,6 +135,7 @@
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
         <option value="$PROJECT_DIR$/less/hux-blog.less" />
         <option value="$PROJECT_DIR$/about.html" />
+        <option value="$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md" />
       </list>
     </option>
   </component>
@@ -354,6 +365,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -368,21 +407,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="_layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobilesite.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobilesite.github.io" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="_includes" />
+              <option name="myItemId" value="_posts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -552,12 +577,12 @@
       <workItem from="1500189744361" duration="2043000" />
       <workItem from="1502613452895" duration="3853000" />
       <workItem from="1506263462244" duration="2185000" />
-      <workItem from="1506922314272" duration="6084000" />
+      <workItem from="1506922314272" duration="6474000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="166661000" />
+    <option name="totallyTimeSpent" value="167051000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -614,7 +639,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/booksnotes/前端基础系列/前端基础入门学习资料/demo/Gruntfile.js" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/前端基础系列/前端基础入门学习资料/demo/src/script/bootstrap.js" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/前端基础系列/前端基础入门学习资料/demo/src/script/jquery.js" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/webpackdemo/webpack.config.js" />
@@ -956,7 +980,15 @@
     <entry file="file://$PROJECT_DIR$/about.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="22" column="17" lean-forward="true" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2016-11-19-my-yunqi-articels.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="48" column="25" lean-forward="false" selection-start-line="48" selection-start-column="25" selection-end-line="48" selection-end-column="25" />
           <folding />
         </state>
       </provider>
