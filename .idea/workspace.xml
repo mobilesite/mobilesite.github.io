@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/star.html" afterPath="$PROJECT_DIR$/_includes/star.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/hux-blog.css" afterPath="$PROJECT_DIR$/css/hux-blog.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/hux-blog.less" afterPath="$PROJECT_DIR$/less/hux-blog.less" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,7 +25,7 @@
       <file leaf-file-name="2017-10-01-health-advice.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-01-health-advice.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-12367">
+            <state relative-caret-position="-12487">
               <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
@@ -36,8 +35,8 @@
       <file leaf-file-name="star.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/star.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+            <state relative-caret-position="90">
+              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
               <folding>
                 <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
               </folding>
@@ -45,11 +44,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hux-blog.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hux-blog.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/hux-blog.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="216">
-              <caret line="662" column="20" lean-forward="false" selection-start-line="662" selection-start-column="20" selection-end-line="662" selection-end-column="20" />
+              <caret line="662" column="21" lean-forward="true" selection-start-line="662" selection-start-column="21" selection-end-line="662" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="hux-blog.less" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/less/hux-blog.less">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="557" column="22" lean-forward="false" selection-start-line="557" selection-start-column="22" selection-end-line="557" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -89,6 +98,7 @@
       <find>###</find>
       <find>ds-share</find>
       <find>居然被你看到底了，学霸，赶紧甩个star告诉我吧</find>
+      <find>.post-content-preview</find>
     </findStrings>
     <replaceStrings>
       <replace>###</replace>
@@ -105,7 +115,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/_posts/2016-11-24-css-grid-layout-guide.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/2014-12-25-markdown.md" />
         <option value="$PROJECT_DIR$/_posts/2013-03-06-CSS-selectors.md" />
@@ -156,6 +165,7 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-01-health-advice.md" />
         <option value="$PROJECT_DIR$/_includes/star.html" />
         <option value="$PROJECT_DIR$/css/hux-blog.css" />
+        <option value="$PROJECT_DIR$/less/hux-blog.less" />
       </list>
     </option>
   </component>
@@ -371,6 +381,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="less" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mobilesite.github.io" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -569,12 +593,12 @@
       <workItem from="1500189744361" duration="2043000" />
       <workItem from="1502613452895" duration="3853000" />
       <workItem from="1506263462244" duration="2185000" />
-      <workItem from="1506922314272" duration="5411000" />
+      <workItem from="1506922314272" duration="5501000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165988000" />
+    <option name="totallyTimeSpent" value="166078000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -631,7 +655,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/booksnotes/devtoolexmple/profiles-3-内存去哪了.html" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/gen-learning/generators/app/index.js" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/gen-learning/generators/app/templates/react/src/main.js" />
     <entry file="file://$PROJECT_DIR$/img/booksnotes/前端基础系列/前端基础入门学习资料/demo/Gruntfile.js" />
@@ -933,7 +956,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-01-health-advice.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12367">
+        <state relative-caret-position="-12487">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
@@ -941,8 +964,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/star.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="3" column="16" lean-forward="true" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        <state relative-caret-position="90">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
           <folding>
             <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
           </folding>
@@ -952,7 +975,15 @@
     <entry file="file://$PROJECT_DIR$/css/hux-blog.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
-          <caret line="662" column="20" lean-forward="false" selection-start-line="662" selection-start-column="20" selection-end-line="662" selection-end-column="20" />
+          <caret line="662" column="21" lean-forward="true" selection-start-line="662" selection-start-column="21" selection-end-line="662" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/hux-blog.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="557" column="22" lean-forward="false" selection-start-line="557" selection-start-column="22" selection-end-line="557" selection-end-column="22" />
           <folding />
         </state>
       </provider>
