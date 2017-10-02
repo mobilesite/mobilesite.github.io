@@ -7,7 +7,7 @@ author:     "Paian"
 catalog: true
 tags:
     - 健康
-    - 学习笔记
+    - 读书笔记
 ---
 ## 读《健康忠告》
 
