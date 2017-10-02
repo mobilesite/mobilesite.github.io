@@ -660,7 +660,7 @@ pre code {
 }
 .post-content-preview {
   font-size: 13px;
-  font-style: italic;
+  font-style: normal;
   color: #a3a3a3;
 }
 .post-content-preview:hover {
