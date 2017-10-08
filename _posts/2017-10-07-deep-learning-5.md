@@ -45,7 +45,7 @@ SVM算法最早是由 Vladimir N. Vapnik 和 Alexey Ya. Chervonenkis 在1963年�
 
 超平面可以定义为：
 
-W$\cdot$X + b = 0
+$$W\cdotX + b = 0$$
 
 W是weight vectot，是一个权重向量，W = {w~1~, w~2~, ... , w~n~}，其中n是特征值的个数；
 
