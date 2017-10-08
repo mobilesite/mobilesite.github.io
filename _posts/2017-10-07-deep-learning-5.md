@@ -371,7 +371,7 @@ $$K(X_i,X_j)={\phi(X_i)}\cdot{\phi(X_j)}$$
 
 h度多项式核函数(polynomial kernel of degree h)：
 
-$$（K(X_i,X_j)=（{X_i}\cdot{X_j} + 1)^h$$
+$$K(X_i,X_j)=（{X_i}\cdot{X_j} + 1)^h$$
 
 高斯径向基核函数(Gaussian radial basis function kernel):
 
