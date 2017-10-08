@@ -43,9 +43,7 @@ tags:
 
 变量的不确定性越大，熵也就越大。
 
-```
--（p1*logp1 + p2*logp2 + ... + p32*logp32）
-```
+$$-（p1\timeslog_2p1 + p2\timeslog_2p2 + ... + p32\timeslog_2p32）$$
 
 （2）决策树归纳算法 （ID3）
 
@@ -108,7 +106,7 @@ $$Gain(age) = Info(D) - Info_age(D)  = 0.940 - 0.694 = 0.246 bits$$
 
 (c) 分枝
 
-$test_attribute = a_i$ 没有样本（步骤11）。在这种情况下，以 samples 中的多数类
+test_attribute = $a_i$ 没有样本（步骤11）。在这种情况下，以 samples 中的多数类
 创建一个树叶（步骤12）
 
 #### 4、其他算法：

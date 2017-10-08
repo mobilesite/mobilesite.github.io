@@ -23,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+            <state relative-caret-position="234">
+              <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,11 +53,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-07-deep-learning-3.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-10-07-deep-learning-3.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-3.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="78" column="167" lean-forward="false" selection-start-line="78" selection-start-column="167" selection-end-line="78" selection-end-column="167" />
+            <state relative-caret-position="240">
+              <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
               <folding />
             </state>
           </provider>
@@ -172,8 +172,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-4.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-1.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-3.md" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-3.md" />
       </list>
     </option>
   </component>
@@ -587,12 +587,12 @@
       <workItem from="1502613452895" duration="3853000" />
       <workItem from="1506263462244" duration="2185000" />
       <workItem from="1506922314272" duration="14472000" />
-      <workItem from="1507432886799" duration="11253000" />
+      <workItem from="1507432886799" duration="11483000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186302000" />
+    <option name="totallyTimeSpent" value="186532000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1015,18 +1015,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-3.md">
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="78" column="167" lean-forward="false" selection-start-line="78" selection-start-column="167" selection-end-line="78" selection-end-column="167" />
+        <state relative-caret-position="234">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-3.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="49" column="22" lean-forward="true" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="45" column="66" lean-forward="false" selection-start-line="45" selection-start-column="66" selection-end-line="45" selection-end-column="66" />
           <folding />
         </state>
       </provider>
