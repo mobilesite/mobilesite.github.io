@@ -160,17 +160,17 @@ Classification and Regression Trees (CART): (L. Breiman, J. Friedman, R. Olshen,
 
 #### 2、Anaconda
 
-相比于单独安装scikit-learn及其依赖，更推荐使用Anaconda（其中包含numpy、SciPy、scikit-learn等科学计算常用package，它也包含了Python的interpreter），到https://www.anaconda.com/download/下载安装。因为官网下载较慢，国内用户建议到https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/镜像中下载。把Anaconda安装到C:\Anaconda3目录下。
+相比于单独安装scikit-learn及其依赖，更推荐使用Anaconda（其中包含numpy、SciPy、scikit-learn等科学计算常用package，它也包含了Python的interpreter），到[https://www.anaconda.com/download/](https://www.anaconda.com/download/)下载安装。因为官网下载较慢，国内用户建议到[https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/](https://mirrors.tuna.tsinghua.edu.cn/anaconda/archive/)镜像中下载。把Anaconda安装到C:\Anaconda3目录下。
 
 安装好Anaconda之后，在开始菜单中打开Anaconda Navigator （导航），在Environments（管理版本和包的）可以看到numpy, scipy, scikit-learn, matplotlib等库都已经安装好了。
 
 安装完之后，将C:\Anaconda3和C:\Anaconda3\Scripts加入到系统环境变量中，以便于能够在控制台中使用conda命令。
 
-关于Anaconda和conda的详细使用，参见：http://www.jianshu.com/p/2f3be7781451#
+关于Anaconda和conda的详细使用，参见：[http://www.jianshu.com/p/2f3be7781451#](http://www.jianshu.com/p/2f3be7781451#)
 
 #### 3、GraphViz（Graph Visualization）
 
-下载：http://www.graphviz.org/Download..php
+下载：[http://www.graphviz.org/Download..php](http://www.graphviz.org/Download..php)
 
 把它安装到C:\Program Files (x86)\Graphviz2.38\，然后把C:\Program Files (x86)\Graphviz2.38\bin目录添加到系统环境变量Path中。这样就可以在控制台中通过命令来用GraphViz将dot文件转换成pdf文件了。
 
@@ -318,7 +318,7 @@ print('预测结果predictedY:', '\n', predictedY, '\n')
 | :---: | :--------: | :----: | :--: | :----: | :--: | :----------: | ------------ | :--: | :-------: | :--: |
 |   1   |     0      |   0    |  1   |   0    |  0   |      0       | 1            |  1   |     0     |  0   |
 
-文档： http://scikit-learn.org/stable/modules/tree.html
+文档： [http://scikit-learn.org/stable/modules/tree.html](http://scikit-learn.org/stable/modules/tree.html)
 
 转化dot文件至pdf形式的可视化决策树：
 

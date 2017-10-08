@@ -67,7 +67,7 @@ Euclidean Distance（欧几里得距离）定义：
 
 $$E(x, y) = \sqrt{\sum_{i=1}^{n}(x_{i}-y_{i})^2}$$
 
-*注：关于公式的LaTex公式的MarkDown写法参见：http://blog.csdn.net/fansongy/article/details/45368915*
+*注：关于公式的LaTex公式的MarkDown写法参见：[http://blog.csdn.net/fansongy/article/details/45368915](http://blog.csdn.net/fansongy/article/details/45368915)*
 
 其他距离衡量：余弦值（cos）, 相关度 （correlation）, 曼哈顿距离 （Manhattan distance，多少个街区）
 

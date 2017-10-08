@@ -65,7 +65,7 @@ tags:
 
 LinkedIn所有职业技能需求量第一：机器学习，数据挖掘和统计分析人才
 
-http://blog.linkedin.com/2014/12/17/the-25-hottest-skills-that-got-people-hired-in-2014/
+[http://blog.linkedin.com/2014/12/17/the-25-hottest-skills-that-got-people-hired-in-2014/](http://blog.linkedin.com/2014/12/17/the-25-hottest-skills-that-got-people-hired-in-2014/)
 
 ### 第二节 深度学习（Deep Learning）简介
 
