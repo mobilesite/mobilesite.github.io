@@ -46,14 +46,21 @@
     <!-- support Tex -->
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
+            showProcessingMessages: false,
+            messageStyle: "none",
             extensions: ["tex2jax.js"],
             jax: ["input/TeX", "output/HTML-CSS"],
             tex2jax: {
               inlineMath: [ ['$','$'], ["\\(","\\)"] ],
               displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-              processEscapes: true
+              processEscapes: true,
+              skipTags: ['script', 'noscript', 'style', 'textarea', 'pre','code','a'],
+              ignoreClass:"comment-content"
             },
-            "HTML-CSS": { availableFonts: ["TeX"] }
+            "HTML-CSS": {
+                availableFonts: ["STIX","TeX"],
+                showMathMenu: false
+            }
           });
 
 
