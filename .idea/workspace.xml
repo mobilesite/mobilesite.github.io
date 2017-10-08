@@ -46,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
-              <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+              <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -633,12 +633,12 @@
       <workItem from="1502613452895" duration="3853000" />
       <workItem from="1506263462244" duration="2185000" />
       <workItem from="1506922314272" duration="14472000" />
-      <workItem from="1507432886799" duration="10435000" />
+      <workItem from="1507432886799" duration="10524000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="185484000" />
+    <option name="totallyTimeSpent" value="185573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1072,7 +1072,7 @@
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
-          <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+          <caret line="75" column="41" lean-forward="false" selection-start-line="75" selection-start-column="41" selection-end-line="75" selection-end-column="41" />
           <folding />
         </state>
       </provider>
