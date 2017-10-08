@@ -19,7 +19,7 @@ Python一词，美国发音为：/ˈpaɪθɑːn/，英国发音为：/ˈpaɪθə
 
 首先下载Python 3.6.3，安装至C:\Python36目录，下载地址：
 
-https://www.Python.org/downloads/release/Python-363/
+[https://www.Python.org/downloads/release/Python-363/](https://www.Python.org/downloads/release/Python-363/)
 
 #### 1. Python Interpreter
 
@@ -53,13 +53,13 @@ print('hello world')
 
 先来安装Eclipse：
 
-##### 1）下载并安装JRE：http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html
+##### 1）下载并安装JRE：[http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 
 如果你没有自定义JRE的安装目录，那应该是安装到了C:\Program Files\Java\jre1.8.0_144\目录下。安装好后需要配置环境变量，才能在控制台中执行`java -version`命令，所以先需要把C:\Program Files\Java\jre1.8.0_144\bin添加到系统环境变量Path中。添加完成后重启控制台，再执行`java -version`命令，看到正确的java版本号，则表明配置成功。
 
 ##### 2）下载并安装Eclipse：
 
-在使用https://www.eclipse.org/downloads/下载的eclipse-inst-win64.exe文件进行安装时，老是提示“Installation failed with an error”这样一个不明原因的错误，最后改用https://www.eclipse.org/downloads/eclipse-packages/下载了一个直接解压能用的包。我们把这个压缩包解压后的内容放到c:\eclipse下。
+在使用[https://www.eclipse.org/downloads/](https://www.eclipse.org/downloads/)下载的eclipse-inst-win64.exe文件进行安装时，老是提示“Installation failed with an error”这样一个不明原因的错误，最后改用[https://www.eclipse.org/downloads/eclipse-packages/](https://www.eclipse.org/downloads/eclipse-packages/)下载了一个直接解压能用的包。我们把这个压缩包解压后的内容放到c:\eclipse下。
 
 启动eclipse并且指定work space为D:\eclipseworkspace文件夹。如果启动失败，可能你需要显式地给Eclipse配置Java虚拟机：
 
@@ -101,7 +101,7 @@ Eclipse里面怎么将界面恢复到默认状态？
 
 但是，目前Eclipse只能创建Java项目，接下来我们安装PyDev，让Eclipse中能够创建Python项目。
 
-help==>install new software==>add==>Name输入：PyDev，Location输入：http://www.pydev.org/updates ==>勾选PyDev继续直至安装完成。安装完成后重启Eclipse。
+help==>install new software==>add==>Name输入：PyDev，Location输入：[http://www.pydev.org/updates](http://www.pydev.org/updates) ==>勾选PyDev继续直至安装完成。安装完成后重启Eclipse。
 
 #### 5. 新建第一个Python项目
 
@@ -205,7 +205,7 @@ ISO-8859-1
 
 可以直接以字面的意义使用他们：
 
-如：6，2.24，3.45e-3，"This is a string!"
+如：6，2.24，3.45e-3，“This is a string!”
 
 常量不会被改变。
 
@@ -1411,7 +1411,7 @@ lpthw这个东西只在 Python2.7版本才支持。
 
 因为我本机已经安装过Python2.7版本，所以只需要进行剩余的配置：
 
-首先安装easy_install：http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11.win32-py2.7.exe#md5=57e1e64f6b7c7f1d2eddfc9746bbaf20
+首先安装easy_install：[http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11.win32-py2.7.exe#md5=57e1e64f6b7c7f1d2eddfc9746bbaf20](http://pypi.python.org/packages/2.7/s/setuptools/setuptools-0.6c11.win32-py2.7.exe#md5=57e1e64f6b7c7f1d2eddfc9746bbaf20)
 
 其次安装lpthw.web：
 
@@ -1435,9 +1435,9 @@ C:\Python27\python TestWebPage.py
 
 Django是一个基于Python的高级web开发框架，它能够让开发人员进行高效且快速的开发。高度集成（不用自己造轮子），免费并且开源。
 
-安装Django
+安装Django：
 
-https://www.djangoproject.com/download/
+[https://www.djangoproject.com/download/](https://www.djangoproject.com/download/)
 
 ```
 pip install Django==1.11.6
@@ -1453,7 +1453,5 @@ Tht Python Language Reference：[https://docs.python.org/3.6/reference/index.htm
 
 The Python Standard Library：[https://docs.python.org/3.6/library/index.html](https://docs.python.org/3.6/library/index.html)
 
-- 中文翻译资源
-
-[http://www.pythondoc.com/](http://www.pythondoc.com/)
+- 中文翻译资源：[http://www.pythondoc.com/](http://www.pythondoc.com/)
 
