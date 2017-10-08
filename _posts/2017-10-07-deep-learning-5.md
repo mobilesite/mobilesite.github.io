@@ -47,35 +47,35 @@ SVM算法最早是由 Vladimir N. Vapnik 和 Alexey Ya. Chervonenkis 在1963年�
 
 $$W\cdotX + b = 0$$
 
-W是weight vectot，是一个权重向量，W = {w~1~, w~2~, ... , w~n~}，其中n是特征值的个数；
+W是weight vectot，是一个权重向量，$W = {w_1, w_2, ... , w_n}，其中n是特征值的个数；
 
 X是给入的训练实例；
 
 b为bias，偏好。
 
-假设二维特征向量：X = (x1, X2)，把 b 想象为额外的 weight : w~0~，那么这时候超平面方程变为：
+假设二维特征向量：X = (x1, X2)，把 b 想象为额外的 weight : $w_0$，那么这时候超平面方程变为：
 
-w~0~ + w~1~x~1~ + w~2~x~2~ = 0
+$$w_0 + w_1x_1 + w_2x_2 = 0$$
 
 所有超平面右上方的点满足：
 
-w~0~ + w~1~x~1~ + w~2~x~2~ > 0
+$$w_0 + w_1x_1 + w_2x_2 > 0$$
 
 所有超平面左下方的点满足：
 
-w~0~ + w~1~x~1~ + w~2~x~2~ < 0
+$$w_0 + w_1x_1 + w_2x_2 < 0$$
 
 调整weight，使超平面定义边际的两边：
 
-H1：w~0~ + w~1~x~1~ + w~2~x~2~ $\geq$ 1 for y~i~ = +1,
+H1：$w_0 + w_1x_1 + w_2x_2 \geq 1 for y_i = +1$,
 
-H2：w~0~ + w~1~x~1~ + w~2~x~2~ $\leq$ -1 for y~i~ = -1,
+H2：$w_0 + w_1x_1 + w_2x_2 \leq -1 for y_i = -1$,
 
 综合以上两式，得到：
 
-y~i~(w~0~ + w~1~x~1~ + w~2~x~2~) $\geq$ 1, $\forall$~i~           公式（1）
+$y_i(w_0 + w_1x_1 + w_2x_2) \geq 1, \forall $_i$          公式（1）
 
-$\forall$~i~  是指任意i，这里指对于任意i，都满足y~i~(w~0~ + w~1~x~1~ + w~2~x~2~) $\geq$ 1
+$\forall_i$  是指任意i，这里指对于任意i，都满足$y_i(w_0 + w_1x_1 + w_2x_2)\geq1$
 
 所有坐落在边际的两边的超平面上的点被称作”支持向量(support vectors)"
 
@@ -85,11 +85,11 @@ $\frac{1}{||W||}$
 
 其中||W||是向量的范数(norm))。
 
-if  W =  {w~1~, w~2~, ... , w~n~}  then  $\sqrt{ w_1^2 + w_2^2 + ... + w_n^2}$
+if  $W = {w_1, w_2, ... , w_n}$  then  $\sqrt{ w_1^2 + w_2^2 + ... + w_n^2}$
 
 所以，最大边际距离（H1和H2之间的距离）为：
 
-$\frac{2}{||W||}$
+$$\frac{2}{||W||}$$
 
 #### 5、求解
 
@@ -98,7 +98,7 @@ SVM算法如何找出拥有最大边际的超平面呢(MMH)？
 利用一些数学推倒，以上公式 （1）可变为有限制的凸优化问题（convex quadratic optimization）。
 利用 Karush-Kuhn-Tucker (KKT)条件和拉格朗日公式，可以推出MMH可以被表示为以下“决定边界 (decision boundary)” ：
 
-$d(X^t)=\sum_{i=1}^{l}y_i\alpha_iX_iX^T + b_0$
+$$d(X^t)=\sum_{i=1}^{l}y_i\alpha_iX_iX^T + b_0$$
 
 其中，
 
@@ -122,15 +122,15 @@ l 是支持向量点的个数。
 
 又因为(1,1)和(2,3)分别在坐落在MMH边际两边的平面上，固有：
 
-a+2a+w~0~ = -1
+$$a+2a+w_0 = -1$$
 
-2a+6a+w~0~ = 1
+$$2a+6a+w_0 = 1$$
 
 解这个方程得到：
 
 a = $\frac{2}{5}$
 
-w~0~ = -$\frac{11}{5}$
+$$w_0 = -\frac{11}{5}$$
 
 所以继续求得weight vector   $\overrightarrow{\omega}$= (a,2a)=($\frac{2}{5}$, $\frac{4}{5}$)
 
@@ -320,11 +320,11 @@ print(X[1,:])
 
 有一个三维输入向量X：
 
-X=(x~1~, x~2~, x~3~)
+$$X=(x_1, x_2, x_3)$$
 
 转化到六维空间 Z 中去：
 
-$\phi_1=x_1,  \phi_2=x_2, \phi_3=x_3, \phi_4=(x_1)^2, \phi_5=x_1x_2,  \ and \ \phi_6=x_1x_3$
+$$\phi_1=x_1,  \phi_2=x_2, \phi_3=x_3, \phi_4=(x_1)^2, \phi_5=x_1x_2,  \ and \ \phi_6=x_1x_3$$
 
 新的决策超平面：
 

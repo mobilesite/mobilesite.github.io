@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_includes/head.html" afterPath="$PROJECT_DIR$/_includes/head.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md" afterPath="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,21 +66,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="head.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+            <state relative-caret-position="1680">
+              <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2017-10-07-deep-learning-5.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2017-10-07-deep-learning-5.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+            <state relative-caret-position="-4560">
+              <caret line="332" column="19" lean-forward="true" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -151,6 +151,7 @@
       <find>.jp</find>
       <find>.jpg</find>
       <find>!</find>
+      <find>~</find>
     </findStrings>
     <replaceStrings>
       <replace>###</replace>
@@ -217,8 +218,8 @@
         <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-4.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-3.md" />
         <option value="$PROJECT_DIR$/_posts/2017-10-05-几篇Tex公式编辑的参考文档.md" />
-        <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
+        <option value="$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md" />
       </list>
     </option>
   </component>
@@ -604,12 +605,12 @@
       <workItem from="1502613452895" duration="3853000" />
       <workItem from="1506263462244" duration="2185000" />
       <workItem from="1506922314272" duration="14472000" />
-      <workItem from="1507432886799" duration="8381000" />
+      <workItem from="1507432886799" duration="9037000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="183430000" />
+    <option name="totallyTimeSpent" value="184086000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1032,18 +1033,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md">
+    <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="49" column="24" lean-forward="false" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        <state relative-caret-position="1680">
+          <caret line="53" column="34" lean-forward="false" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/head.html">
+    <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="53" column="34" lean-forward="true" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="-4560">
+          <caret line="332" column="19" lean-forward="true" selection-start-line="332" selection-start-column="19" selection-end-line="332" selection-end-column="19" />
           <folding />
         </state>
       </provider>
