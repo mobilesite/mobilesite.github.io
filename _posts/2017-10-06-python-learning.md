@@ -21,11 +21,11 @@ Python一词，美国发音为：/ˈpaɪθɑːn/，英国发音为：/ˈpaɪθə
 
 [https://www.Python.org/downloads/release/Python-363/](https://www.Python.org/downloads/release/Python-363/)
 
-#### 1. Python Interpreter
+#### 1、Python Interpreter
 
 安装好Python的时候，Python Interpreter（解释器）也就被安装在了我们所设定的安装目录C:\Python36下面了，即Python.exe这个文件。所有的Python代码都需要通过这个解释器来执行。
 
-#### 2. 配置在命令行中使用Python
+#### 2、配置在命令行中使用Python
 
 安装完成后就可以在开始菜单中点击“Python 3.6”菜单项进入pyhon的命令行模式。
 
@@ -33,7 +33,7 @@ Python一词，美国发音为：/ˈpaɪθɑːn/，英国发音为：/ˈpaɪθə
 
 只需要将C:\Python36添加到环境变量的系统变量Path中，重启控制台即可。值得注意的是，如果你之前安装过Python的其它版本（如Python2.7），那么你就需要将C:\Python36放在C:\Python27之前，否则系统还是会使用Python2.7的配置。
 
-#### 3. 自带的简单编辑器IDLE
+#### 3、自带的简单编辑器IDLE
 
 在"Python 3.6"菜单项的上方，还有一个“IDLE”菜单项，这个是Python自带的一个IDE。
 
@@ -47,7 +47,7 @@ print('hello world')
 
 即可看到输出hello wolrd。
 
-#### 4. Eclipse和PyDev的安装配置
+#### 4、Eclipse和PyDev的安装配置
 
 但是，IDLE过于简单了，下面我们在Eclipse之上添加插件PyDev来作为Python的编辑器。
 
@@ -103,7 +103,7 @@ Eclipse里面怎么将界面恢复到默认状态？
 
 help==>install new software==>add==>Name输入：PyDev，Location输入：[http://www.pydev.org/updates](http://www.pydev.org/updates) ==>勾选PyDev继续直至安装完成。安装完成后重启Eclipse。
 
-#### 5. 新建第一个Python项目
+#### 5、新建第一个Python项目
 
 下面我们来建一个Python项目：
 
@@ -136,7 +136,6 @@ print('hello world')
 主要原因可能是Eclipse保存文件的时候，如果字符串内有Unicode字符的时候，它无法自动选择UTF-8编码。我们做如下配置来解决这个问题：
 
 右键单击TestPython项目==>properties==>Text file encodeing选择Other的UTF-8
-
 
 
 ### 二、Package
