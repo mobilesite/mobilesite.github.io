@@ -43,7 +43,7 @@ tags:
 
 变量的不确定性越大，熵也就越大。
 
-$$-（p1\timeslog_2p1 + p2\timeslog_2p2 + ... + p32\timeslog_2p32）$$
+$$-({p1}\times{log_2p1} + {p2}\times{log_2p2} + ... + {p32}\times{log_2p32})$$
 
 （2）决策树归纳算法 （ID3）
 
