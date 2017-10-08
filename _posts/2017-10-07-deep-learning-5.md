@@ -45,9 +45,13 @@ SVM算法最早是由 Vladimir N. Vapnik 和 Alexey Ya. Chervonenkis 在1963年�
 
 超平面可以定义为：
 
-$$W\cdotX + b = 0$$
+$${W}\cdot{X} + b = 0$$
 
-W是weight vectot，是一个权重向量，$W = {w_1, w_2, ... , w_n}，其中n是特征值的个数；
+W是weight vectot，是一个权重向量，
+
+$$W = {w_1, w_2, ... , w_n}$$
+
+其中n是特征值的个数；
 
 X是给入的训练实例；
 
@@ -73,7 +77,7 @@ H2：$w_0 + w_1x_1 + w_2x_2 \leq -1 for y_i = -1$,
 
 综合以上两式，得到：
 
-$y_i(w_0 + w_1x_1 + w_2x_2) \geq 1, \forall $_i$          公式（1）
+$y_i(w_0 + w_1x_1 + w_2x_2) \geq 1, \forall_i$          公式（1）
 
 $\forall_i$  是指任意i，这里指对于任意i，都满足$y_i(w_0 + w_1x_1 + w_2x_2)\geq1$
 
@@ -81,9 +85,9 @@ $\forall_i$  是指任意i，这里指对于任意i，都满足$y_i(w_0 + w_1x_1
 
 通过数学推导可以得到，分界的超平面到 H1 或 H2上任意一点的距离为：
 
-$\frac{1}{||W||}$
+$$\frac{1}{||W||}$$
 
-其中||W||是向量的范数(norm))。
+其中$||W||$是向量的范数(norm))。
 
 if  $W = {w_1, w_2, ... , w_n}$  then  $\sqrt{ w_1^2 + w_2^2 + ... + w_n^2}$
 
@@ -128,7 +132,7 @@ $$2a+6a+w_0 = 1$$
 
 解这个方程得到：
 
-a = $\frac{2}{5}$
+$$a = \frac{2}{5}$$
 
 $$w_0 = -\frac{11}{5}$$
 
@@ -345,17 +349,17 @@ d(z) = WZ + b
 
 在线性SVM中转化为最优化问题时求解的公式计算都是以内积(dot product)的形式出现的，
 
-$\phi(X_i)\cdot\phi(X_j)$
+$${\phi(X_i)}\cdot{\phi(X_j)}$$
 
 其中
 
-$\phi(X)$
+$$\phi(X)$$
 
 是把训练集中的向量点转化到高维的非线性映射函数，因为内积的算法复杂度非常大，所以我们利用核函数来取代计算非线性映射函数的内积
 
 （2）以下核函数和非线性映射函数的内积等同：
 
-$K(X_i,X_j)=\phi(X_i)\cdot\phi(X_j)$
+$$K(X_i,X_j)={\phi(X_i)}\cdot{\phi(X_j)}$$
 
 两者虽然内积相同，但是核函数的复杂度远低于非线性映射函数内积运算。
 
@@ -363,15 +367,15 @@ $K(X_i,X_j)=\phi(X_i)\cdot\phi(X_j)$
 
 h度多项式核函数(polynomial kernel of degree h)：
 
-$（K(X_i,X_j)=（{X_i}\cdot{X_j} + 1)^h$
+$$（K(X_i,X_j)=（{X_i}\cdot{X_j} + 1)^h$$
 
 高斯径向基核函数(Gaussian radial basis function kernel):
 
-$K(X_i,X_j)= e^{-||X_i-X_j||^2/2\sigma^2}$
+$$K(X_i,X_j)= e^{-||X_i-X_j||^2/2\sigma^2}$$
 
 S型核函数(Sigmoid function kernel):
 
-$K(X_i,X_j)=tanh(k{X_i}\cdot{X_j} - \delta)$
+$$K(X_i,X_j)=tanh(k{X_i}\cdot{X_j} - \delta)$$
 
 那么，如何选择使用哪个kernel？
 
