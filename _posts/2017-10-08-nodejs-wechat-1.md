@@ -88,17 +88,15 @@ ngrok.exe http 8000
 
 这两个网址就是提供给你从外部访问但能穿透到你本地运行在80端口上的服务的域名地址。
 
-#### 2、sunny
+#### 2、Sunny-Ngrock
 
-除了ngrok之外，你还可以选用sunny，一个国内的类似ngrok的服务
-
-[http://www.csdn.net/tag/ngrok](http://www.csdn.net/tag/ngrok)
+除了ngrok之外，你还可以选用Sunny-Ngrok，一个国内的类似ngrok的服务[http://www.sunnyos.com/article-show-67.html](http://www.sunnyos.com/article-show-67.html)
 
 注册一个，然后开通一个隧道，隧道中本地端口填入127.0.0.1:8000，然后找到隧道id，然后下载客户端，解压，然后在解压的文件中双击Sunny-Ngrok启动工具.bat，在其中输入隧道id回车，即可连上。
 
 更多其它穿透方式，参见：
 
-[http://www.sunnyos.com/article-show-67.html](http://www.sunnyos.com/article-show-67.html)
+[http://www.csdn.net/tag/ngrok](http://www.csdn.net/tag/ngrok)
 
 当然，穿透访问成功的前提是你在本地的8000端口上启动了一个服务。
 

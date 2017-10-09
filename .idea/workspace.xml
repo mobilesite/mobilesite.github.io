@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2017-10-08-nodejs-wechat-1.md" afterPath="$PROJECT_DIR$/_posts/2017-10-08-nodejs-wechat-1.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,7 +25,7 @@
       <file leaf-file-name="head.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/head.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="180">
               <caret line="69" column="108" lean-forward="false" selection-start-line="69" selection-start-column="108" selection-end-line="69" selection-end-column="108" />
               <folding />
             </state>
@@ -45,7 +45,7 @@
       <file leaf-file-name="2017-10-07-deep-learning-5.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
+            <state relative-caret-position="301">
               <caret line="373" column="2" lean-forward="false" selection-start-line="373" selection-start-column="2" selection-end-line="373" selection-end-column="2" />
               <folding />
             </state>
@@ -55,8 +55,8 @@
       <file leaf-file-name="2017-10-08-nodejs-wechat-1.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2017-10-08-nodejs-wechat-1.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="481">
+              <caret line="170" column="210" lean-forward="false" selection-start-line="170" selection-start-column="210" selection-end-line="170" selection-end-column="210" />
               <folding />
             </state>
           </provider>
@@ -604,12 +604,12 @@
       <workItem from="1507560497914" duration="202000" />
       <workItem from="1507560719216" duration="186000" />
       <workItem from="1507561153158" duration="57000" />
-      <workItem from="1507570578807" duration="75000" />
+      <workItem from="1507570578807" duration="281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="187783000" />
+    <option name="totallyTimeSpent" value="187989000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -996,7 +996,7 @@
     <entry file="file://$PROJECT_DIR$/js/MathJax.js" />
     <entry file="file://$PROJECT_DIR$/_includes/head.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="180">
           <caret line="69" column="108" lean-forward="false" selection-start-line="69" selection-start-column="108" selection-end-line="69" selection-end-column="108" />
           <folding />
         </state>
@@ -1004,7 +1004,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-07-deep-learning-5.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
+        <state relative-caret-position="301">
           <caret line="373" column="2" lean-forward="false" selection-start-line="373" selection-start-column="2" selection-end-line="373" selection-end-column="2" />
           <folding />
         </state>
@@ -1012,8 +1012,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2017-10-08-nodejs-wechat-1.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="77" column="0" lean-forward="true" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+        <state relative-caret-position="481">
+          <caret line="170" column="210" lean-forward="false" selection-start-line="170" selection-start-column="210" selection-end-line="170" selection-end-column="210" />
           <folding />
         </state>
       </provider>
