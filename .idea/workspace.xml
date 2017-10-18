@@ -75,8 +75,8 @@
       <file leaf-file-name="2016-06-09-use-of-flow.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-09-use-of-flow.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="394" column="0" lean-forward="true" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
+            <state relative-caret-position="-2040">
+              <caret line="122" column="3" lean-forward="false" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
               <folding />
             </state>
           </provider>
@@ -639,12 +639,12 @@
       <workItem from="1507560719216" duration="186000" />
       <workItem from="1507561153158" duration="57000" />
       <workItem from="1507570578807" duration="281000" />
-      <workItem from="1508340970378" duration="795000" />
+      <workItem from="1508340970378" duration="1060000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188784000" />
+    <option name="totallyTimeSpent" value="189049000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1049,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-09-use-of-flow.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="394" column="0" lean-forward="true" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
+        <state relative-caret-position="-2040">
+          <caret line="122" column="3" lean-forward="false" selection-start-line="122" selection-start-column="3" selection-end-line="122" selection-end-column="3" />
           <folding />
         </state>
       </provider>

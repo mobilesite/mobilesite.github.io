@@ -40,11 +40,15 @@ declare type person = {
 
 ### 三、执行检查
 
-```flow check```
+```
+flow check
+```
 
 或者直接通过
 
-```flow```
+```
+flow
+```
 
 语句来进行检查。
 
@@ -186,11 +190,13 @@ function vegetarianPizzas () {
 
 上述代码引用了underscore的全局变量。但是用flow检查的时候，它不认识这个全局变量，所以就会报错。
 
+```
 declare class Underscore {
   findWhere<T>(list: Array<T>, properties: {}): T;
 }
 
 declare var _: Underscore;
+```
 
 ### 八、规定函数返回值的类型
 
