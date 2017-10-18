@@ -8,6 +8,7 @@ catalog: true
 tags:
     - flow
     - 静态类型检查
+
 ---
 
 ## 静态类型检查工具flow的使用
@@ -21,7 +22,6 @@ flow init
 ```
 
 `flow init`进行初始化，初始化之后会生成一个配置文件（.flowconfig）。
-
 
 ### 配置文件：
 
@@ -183,8 +183,8 @@ function vegetarianPizzas () {
   return _.findWhere(pizzas, {vegetarian: true});
 }
 ```
-上述代码引用了underscore的全局变量。但是用flow检查的时候，它不认识这个全局变量，所以就会报错。
 
+上述代码引用了underscore的全局变量。但是用flow检查的时候，它不认识这个全局变量，所以就会报错。
 
 declare class Underscore {
   findWhere<T>(list: Array<T>, properties: {}): T;
@@ -322,7 +322,6 @@ npm i babel-cli -D
 npm i babel-plugin-transform-runtime -D
 npm i babel-preset-es2015 -D
 npm i babel-preset-stage-2 -D
-
 ```
 
 在.bablerc中配置：
@@ -338,7 +337,6 @@ npm i babel-preset-stage-2 -D
 在package.json中配置：
 
 "build": "./node_modules/.bin/babel src -d transit"
-
 
 然后通过如下命令即可移除flow的注释：
 
@@ -434,7 +432,6 @@ module.exports = {
 ```
 
 这样我们就可以执行`npm run eslint`来正常进行含有flow 标注的代码了。
-
 
 附：
 
