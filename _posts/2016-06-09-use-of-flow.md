@@ -13,7 +13,7 @@ tags:
 
 ## 静态类型检查工具flow的使用
 
-### 初始化：
+### 一、初始化
 
 ```
 npm i -g flow-bin
@@ -23,7 +23,7 @@ flow init
 
 `flow init`进行初始化，初始化之后会生成一个配置文件（.flowconfig）。
 
-### 配置文件：
+### 二、配置文件
 
 flow的配置文件放在.flowconfig中
 
@@ -38,7 +38,7 @@ declare type person = {
 
 然后像正常的基本数据类型那样用于flow检查就可以了（具体示例我们稍后演示）。
 
-### 执行检查：
+### 三、执行检查
 
 ```flow check```
 
@@ -48,7 +48,7 @@ declare type person = {
 
 语句来进行检查。
 
-### 基本数据类型的检查
+### 四、基本数据类型的检查
 
 flow支持五种基本数据类型:string、number、boolean、null、void。前四种与JS中的同名数据类型完全一致，最后一种相当于JS中的undefined。
 
@@ -95,7 +95,7 @@ setPropertyVoid(obj2, 'name', undefined);
 setPropertyVoid(obj2, 'name', 'abc');
 ```
 
-### 复杂数据类型的使用
+### 五、复杂数据类型的使用
 
 除了5种基本数据类型外，剩余的类型都被flow视作复杂数据类型。而在flow中，复杂数据又分为两类，一类是Array，除Array之外的复杂数据类型都是Object（注意此处O是大写）。
 
@@ -150,7 +150,7 @@ errorHandler({msg: '错误消息'}, function (err) {
 errorHandler({msg: '错误消息'}, 'abc');
 ```
 
-### 基于其它类型的类型
+### 六、基于其它类型的类型
 
 下面这个例子注释的是返回类型和传入参数的类型一样的情况。
 
@@ -160,7 +160,7 @@ function identity<T>(value: T): T {
 }
 ```
 
-### 自定义数据类型的检查
+### 七、自定义数据类型的检查
 
 关于自定义flow数据类型的方法，上文已经讲过了，下面看一个使用的例子（这里使用了上文自定义的person数据类型）。
 
@@ -192,7 +192,7 @@ declare class Underscore {
 
 declare var _: Underscore;
 
-### 规定函数返回值的类型
+### 八、规定函数返回值的类型
 
 ```
 //规定函数返回值的类型
@@ -209,7 +209,7 @@ function getTotal2 (numbers: Array<number>): number {
 getTotal2([1,2,3]);
 ```
 
-### 两个或两个以上数据类型的检查
+### 九、两个或两个以上数据类型的检查
 
 这种情形，用|来分隔多个可选的类型。
 
@@ -227,7 +227,7 @@ getTotal3([1,2,3]);
 getTotal3(['1',2,3]);
 ```
 
-### 一个参数可有可无时
+### 十、一个参数可有可无时
 
 在其后面加上问号来表示。
 
@@ -246,7 +246,7 @@ declare type person = {
 sayHi({name: 'milon'});
 ```
 
-### 一个参数的类型可以是指定的类型，但也可以是null或undefined时
+### 十一、一个参数的类型可以是指定的类型，但也可以是null或undefined时
 
 在指定类型的后面加?来表示。
 
@@ -267,7 +267,7 @@ sayHi({name: 'milon', age: null});
 sayHi({name: 'milon', age: undefined});
 ```
 
-### 一个参数可以是任意类型时
+### 十二、一个参数可以是任意类型时
 
 flow中有两个表示任意的类型，一个是any，一个是mixed。
 
@@ -311,7 +311,7 @@ toStr2(123);
 
 意思是因为传入的参数既有可能是number类型，也有可能是string类型，但是二者在进行`'' + value`这一+运算的时候可能表现是不一样的。所以应该向toStr2函数那样进行分支判断，以避免二义性。
 
-### 配置babel插件来移除flow相关的注释
+### 十三、配置babel插件来移除flow相关的注释
 
 安装依赖：
 
@@ -344,9 +344,9 @@ npm i babel-preset-stage-2 -D
 npm run build
 ```
 
-### .flowconfig文件的配置
+### 十四、.flowconfig文件的配置
 
-#### 额外包含的待检测文件的配置
+#### 1、额外包含的待检测文件的配置
 
 .flowconfig 所在目录下的所有文件都自动纳入待检测的范围。如果还想包含其它的目录，可以在.flowconfig中这样配置：
 
@@ -358,7 +358,7 @@ npm run build
 ../otherProject/**/coolStuff/
 ```
 
-#### 需要忽略的待检测文件的配置
+#### 2、需要忽略的待检测文件的配置
 
 .flowconfig 文件的 [ignore] 一栏，用来告诉 flow 哪些文件不需要检测， 路径匹配使用正则表达式。当然，默认为空。
 
@@ -372,21 +372,24 @@ npm run build
 该 [ignore] 配置表示忽略：
 
 所有名为 __tests__ 目录下的目录和文件
-所有 … .*/src/foo 或 .*/src/bar 下 …
+
+所有 `… .*/src/foo` 或 `.*/src/bar` 下 …
+
 所有以 .ignore.js 结尾命名的文件
 
 从 Flow v0.23.0 开始，你可以在正则中用 <PROJECT_ROOT> 占位符表示根目录的绝对路径。 对于相对路径的场景就很有用了，例如：
-
+```
 [ignore]
 <PROJECT_ROOT>/__tests__/.*
+```
 这就忽略了项目根目录下 __tests__ 的目录和文件。
 
-#### 自定义类型等的引入
+#### 3、自定义类型等的引入
 
 [libs]
 配置了 .flowconfig 文件的 [libs] 后，当检测代码的时候， flow 就会包含指定的 声明 (接口文件)。上文中已经用到过。
 
-### 配置Eslint也检查flow的语法
+### 十五、配置Eslint也检查flow的语法
 
 首先安装相应的Eslint及其插件：
 

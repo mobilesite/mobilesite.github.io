@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fdbc1acc-7fd1-425a-ba12-6d001c54fa72" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2016-06-09-use-of-flow.md" afterPath="$PROJECT_DIR$/_posts/2016-06-09-use-of-flow.md" />
     </list>
     <ignored path="mobilesite.github.io.iws" />
@@ -76,8 +75,8 @@
       <file leaf-file-name="2016-06-09-use-of-flow.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2016-06-09-use-of-flow.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9510">
-              <caret line="437" column="76" lean-forward="false" selection-start-line="437" selection-start-column="76" selection-end-line="437" selection-end-column="76" />
+            <state relative-caret-position="356">
+              <caret line="394" column="0" lean-forward="true" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -124,14 +123,11 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>分配数值</find>
-      <find>二</find>
       <find>（一）</find>
       <find>```</find>
       <find>####</find>
       <find>深处</find>
       <find>log de</find>
-      <find>###</find>
       <find>ds-share</find>
       <find>居然被你看到底了，学霸，赶紧甩个star告诉我吧</find>
       <find>post-content-preview</find>
@@ -154,6 +150,9 @@
       <find>htt</find>
       <find>info</find>
       <find>ttribute</find>
+      <find>所有</find>
+      <find>*</find>
+      <find>###</find>
     </findStrings>
     <replaceStrings>
       <replace>###</replace>
@@ -640,12 +639,12 @@
       <workItem from="1507560719216" duration="186000" />
       <workItem from="1507561153158" duration="57000" />
       <workItem from="1507570578807" duration="281000" />
-      <workItem from="1508340970378" duration="488000" />
+      <workItem from="1508340970378" duration="795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="188477000" />
+    <option name="totallyTimeSpent" value="188784000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -658,6 +657,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="0" width="1932" height="1038" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2717161" sideWeight="0.49202734" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32874617" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -667,7 +667,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32768363" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2494043" sideWeight="0.50797266" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24909486" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3462857" sideWeight="0.4853058" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3462857" sideWeight="0.4853058" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1049,8 +1049,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2016-06-09-use-of-flow.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9510">
-          <caret line="437" column="76" lean-forward="false" selection-start-line="437" selection-start-column="76" selection-end-line="437" selection-end-column="76" />
+        <state relative-caret-position="356">
+          <caret line="394" column="0" lean-forward="true" selection-start-line="394" selection-start-column="0" selection-end-line="394" selection-end-column="0" />
           <folding />
         </state>
       </provider>
