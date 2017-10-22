@@ -2,7 +2,7 @@
 layout:     post
 title:      "理解Vuex，看这篇就够了"
 subtitle:   ""
-date:       2016-12-18 24:03:15
+date:       2016-12-18 23:53:15
 author:     "Paian"
 catalog:    true
 tags:
