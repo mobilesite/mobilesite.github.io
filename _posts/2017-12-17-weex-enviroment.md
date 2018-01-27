@@ -11,13 +11,70 @@ tags:
 
 ## WEEX开发环境爬坑之旅
 
-WEEX开发环境的搭建过程简直可以说一路是坑。资源被墙是一个原因，文档不完善、版本不匹配等又是一个原因。记录一下，下次配置时可以省一些时间。图就懒得截了，过程中遇到哪个想看图的步骤，可以看文末的参考文献。
+WEEX开发环境的搭建过程简直可以说一路是坑。资源被墙是一个原因，文档不完善、版本不匹配等又是一个原因。记录一下，下次配置时可以省一些时间。图就懒得截了，过程中遇到哪个想看图的步骤，可以看文末的参考文献。本文所基于的系统是Windows 10.
 
 ### 1、安装Node.js（[https://nodejs.org/en/download/](https://nodejs.org/en/download/)）
 
 ### 2、安装Git Bash（[https://git-scm.com](https://git-scm.com)）
 
-### 3、安装Java环境（[http://www.java.com/zh_CN/](http://www.java.com/zh_CN/)）
+### 3、安装JDK和JRE
+
+我选择的是64位的。不知道为什么，我的windows系统上想装JDK 8一直装不上，装完之后tools.jar文件一直找不到。最后没办法，只能换成版本9，后来我发现，换成9也不行，它会导致Android Studio在运行代码的时候报错：
+
+    Error:Failed to complete Gradle execution.
+    Cause:Could not determine java version from '9.0.4'.
+
+无奈，只能退回到版本7：
+
+从百度网盘搜索了一个jdk-7u80-windows-x64.exe下载下来
+
+我将他们装到了C:\Program Files\Java文件夹。装完之后该目录下有jdk-9.0.4和jre-9.0.4两个文件夹，而我装版本8的时候，始终只有一个文件夹。
+
+装好后发现在Android Studio中报错：
+
+    FAILURE: Build failed with an exception.
+
+    * Where:
+    Build file '/Users/shitianci/work/Lab/panda.android/PandaAndroidDemo/build.gradle' line: 1
+
+    * What went wrong:
+    A problem occurred evaluating project ':PandaAndroidDemo'.
+    > java.lang.UnsupportedClassVersionError: com/android/build/gradle/AppPlugin : Unsupported major.minor version 52.0
+
+经查要求必须是版本8及其以上才行，所以，我又重新到[http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载了版本8，这次安装居然奇迹般地成功了。
+
+
+然后配置系统环境变量：
+
+增加系统环境变量JAVA_HOME，值为C:\Program Files\Java\jdk1.8.0_161
+
+增加系统环境变量JRE_HOME，值为C:\Program Files\Java\jre1.8.0_161
+
+然后给Path系统环境变量增加三个值:
+
+.
+
+%JAVA_HOME%\bin
+
+%JRE_HOME%\bin
+
+
+再给CLASSPATH增加三个值：
+
+.
+
+%JAVA_HOME%\lib
+
+%JRE_HOME%\lib
+
+
+```bash
+java -version  #注意这里是一个短中线
+javac
+```
+
+两者都有正确的内容输出则配置成功。
+
 
 ### 4、安装weex的相关工具
 
@@ -82,7 +139,7 @@ You should set ANDROID_HOME in your environment first.
 
 还有一种可能就是你虽然配置对了，但是配置后没有重启IDE（我在VS Code这个IDE上就遇到了这个问题），导致怎么试都不行，这时候你需要重启IDE。如果你用的是控制台执行`npm run android`那就重启控制台。然后再执行。
 
-接下来你应该会遇到No android devices found这个错误。
+接下来你应该会遇到“No android devices found”这个错误。
 
 ### 8、在Android Studio里运行weex
 
@@ -98,9 +155,7 @@ You should set ANDROID_HOME in your environment first.
 
 gradle打包时的自定义apk名称代码报错:
 
->
-Error:(30, 0) Could not set unknown property 'outputFileName' for object of type com.android.build.gradle.internal.api.ApplicationVariantImpl.
-<a href="openFile:D:\qscwork\weexwallet\platforms\android\app\build.gradle">Open File</a>
+    Error:(30, 0) Could not set unknown property 'outputFileName' for object of type com.android.build.gradle.internal.api.ApplicationVariantImpl. <a href="openFile:D:\qscwork\weexwallet\platforms\android\app\build.gradle">Open File</a>
 
 这个时候需要在Android Studio中把app目录下的build.gradle文件中的
 
@@ -128,24 +183,66 @@ variant.outputs.all { output ->
 
 在运行代码的过程中，可能会出现如下注解报错：
 
->
-Error:Execution failed for task ':app:javaPreCompileDebug'.
-Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.
+    Error:Execution failed for task ':app:javaPreCompileDebug'.Annotation processors must be explicitly declared now.  The following dependencies on the compile classpath are found to contain annotation processor.  Please add them to the annotationProcessor configuration.
     - weexplugin-processor-1.3.jar (com.taobao.android:weexplugin-processor:1.3)
-  Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.
-  See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.
+    Alternatively, set android.defaultConfig.javaCompileOptions.annotationProcessorOptions.includeCompileClasspath = true to continue with previous behavior.  Note that this option is deprecated and will be removed in the future.
+    See https://developer.android.com/r/tools/annotation-processor-error-message.html for more details.
 
 这个时候，你需要在Android Studio的app目录下的build.gradle文件中，在defaultConfig下加入：
-```
+```js
 javaCompileOptions { 
     annotationProcessorOptions { 
         includeCompileClasspath = true
     } 
 }
 ```
-然后再去运行。
+然后再去运行（Run），这样，在Adroid Studio中这个应用就可以跑起来了。
 
-似乎这两个问题都是与weex本身使用的是低版本的gradle，而在环境配置的过程中升级了gradle版本有相关性。一路各种坑，大半天的时间已经被耗费了，看来weex离好用还有相当的距离。
+似乎这两个问题都是与weex本身使用的是低版本的gradle，而在环境配置的过程中升级了gradle版本有相关性。
+
+那么，如果我们还想在执行`npm run android`的时候，也能跑起来安卓平台的应用呢？
+
+首先，我们看看现在执行`npm run android`的效果，可能会出现如下错误：
+
+    Could not find tools.jar. Please check that C:\Program Files\Java\jre1.8.0_161 contains a valid JDK installation.
+
+这时候，应该添加系统环境变量%JAVA_HOMNE%,值为C:\Program Files\Java\jre1.8.0_161\。并修改系统环境变量Path的值，追加一个%JAVA_HOMNE%\bin。
+
+这时候，你再执行`npm run android`，还会出现错误提示 “Error: No android devices found”，
+
+这时候，你需要先在Android Studio通过运行（Run）按钮先把安卓模拟机（AVD）打开，然后再执行`npm run android`。看到错误：
+
+    adb: failed to stat app/build/outputs/apk/weex-app.apk: No such file or directory
+    1:25:48 : Error: Error: Command failed: adb -s emulator-5554 install -r  app/build/outputs/apk/weex-app.apk
+    adb: failed to stat app/build/outputs/apk/weex-app.apk: No such file or directory
+
+然后再执行一下：
+
+```bash
+adb -s emulator-5554 install -r  app/build/outputs/apk/weex-app.apk
+```
+
+这样就把这个应用安装到了模拟机上。
+
+10、真机调试
+
+把安卓手机连接上，开启USB调试，选择“共享网络连接”方式。
+
+```bash
+adb devices
+```
+
+如果发现有设备，则证明连接成功。
+
+执行`npm run android`会出现错误：
+
+    adb: failed to stat app/build/outputs/apk/weex-app.apk: No such file or directory
+    1:2:46 : Error: Error: Command failed: adb -s 839c462d install -r  app/build/outputs/apk/weex-app.apk
+    adb: failed to stat app/build/outputs/apk/weex-app.apk: No such file or directory
+
+经过查看，是因为在把weex-app.apk装到sdk卡上时，weex-app.apk文件的路径没找对。但是我没找到这个路径是在哪里设置的，所以通过手工执行命令的方式解决，即执行完`npm run android`之后，再执行一下`adb -s 839c462d install -r  platforms/android/app/build/outputs/apk/debug/weex-app.apk`命令，即可把weex-app.apk安装到真机上。
+
+至此，终于可以继续进行开发了。总的看来，配置过程中一路各种坑，大半天的时间已经被耗费了。由此看来，weex离好用还有相当的距离。
 
 参考：
 
