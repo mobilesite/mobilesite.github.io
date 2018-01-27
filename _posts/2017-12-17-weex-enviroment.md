@@ -51,20 +51,13 @@ WEEX开发环境的搭建过程简直可以说一路是坑。资源被墙是一�
 增加系统环境变量JRE_HOME，值为C:\Program Files\Java\jre1.8.0_161
 
 然后给Path系统环境变量增加三个值:
-
 .
-
 %JAVA_HOME%\bin
-
 %JRE_HOME%\bin
 
-
 再给CLASSPATH增加三个值：
-
 .
-
 %JAVA_HOME%\lib
-
 %JRE_HOME%\lib
 
 
@@ -114,6 +107,7 @@ npm start
 （2）修改环境变量Path，再其末尾追加两项：
 
 %ANDROID_HOME%\platform-tools
+
 %ANDROID_HOME%\tools
 
 剩余的就按默认的设置安装即可。
@@ -132,8 +126,8 @@ weex platform add android
 
 如果出现错误
 
-Environment variable $ANDROID_HOME not found !
-You should set ANDROID_HOME in your environment first.
+    Environment variable $ANDROID_HOME not found !
+    You should set ANDROID_HOME in your environment first.
 
 一种可能就是你的系统环境变量没配置对，你只需要按上面所述配置一下即可；
 
@@ -224,7 +218,7 @@ adb -s emulator-5554 install -r  app/build/outputs/apk/weex-app.apk
 
 这样就把这个应用安装到了模拟机上。
 
-10、真机调试
+### 10、真机调试
 
 把安卓手机连接上，开启USB调试，选择“共享网络连接”方式。
 
