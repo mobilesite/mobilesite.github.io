@@ -13,11 +13,11 @@ tags:
 
 WEEX开发环境的搭建过程简直可以说一路是坑。资源被墙是一个原因，文档不完善、版本不匹配等又是一个原因。记录一下，下次配置时可以省一些时间。图就懒得截了，过程中遇到哪个想看图的步骤，可以看文末的参考文献。
 
-### 1、安装Node.js（https://nodejs.org/en/download/）
+### 1、安装Node.js（[https://nodejs.org/en/download/](https://nodejs.org/en/download/)）
 
-### 2、安装Git Bash（https://git-scm.com）
+### 2、安装Git Bash（[https://git-scm.com](https://git-scm.com)）
 
-### 3、安装Java环境（http://www.java.com/zh_CN/）
+### 3、安装Java环境（[http://www.java.com/zh_CN/](http://www.java.com/zh_CN/)）
 
 ### 4、安装weex的相关工具
 
@@ -38,9 +38,9 @@ npm start
 
 这样，就可以跑起来一个网页版的项目了。
 
-上述这几部，都简单得很，相信一定是顺风顺水。下面就要开始爬坑之旅了。
+上述这几步，都简单得很，相信一定是顺风顺水。下面就要开始爬坑之旅了。
 
-### 6、安装Android Studio（http://www.android-studio.org/）
+### 6、安装Android Studio（[http://www.android-studio.org/](http://www.android-studio.org/)）
 
 友情提示一下，网上很多教程还是Android Studio 2.x版本的，许多都还是SDK包括在安装包里的，所以安装起来不一样。如果你搜索教程，还是搜“Android Studio 3 安装教程”吧。
 
@@ -145,12 +145,12 @@ javaCompileOptions {
 ```
 然后再去运行。
 
-似乎这两个问题都是与weex本身使用的是低版本的gradle，而在环境配置的过程中升级了gradle版本有相关性。一路各种坑，大半天的时间已经被耗费了，看来weex离好用真的还很遥远。
+似乎这两个问题都是与weex本身使用的是低版本的gradle，而在环境配置的过程中升级了gradle版本有相关性。一路各种坑，大半天的时间已经被耗费了，看来weex离好用还有相当的距离。
 
 参考：
 
-http://www.jb51.net/article/128057.htm?utm_source=debugrun&utm_medium=referral
-http://jspang.com/2017/07/12/weex/
+[http://www.jb51.net/article/128057.htm?utm_source=debugrun&utm_medium=referral](http://www.jb51.net/article/128057.htm?utm_source=debugrun&utm_medium=referral)
+[http://jspang.com/2017/07/12/weex/](http://jspang.com/2017/07/12/weex/)
 
 
 
