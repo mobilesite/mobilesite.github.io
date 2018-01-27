@@ -139,7 +139,7 @@ weex platform add android
 
 在Android Studio的启动界面，选择Open an exsting Android Studio Project。然后选择你刚才用`weex create weexwallet`命令创建的项目之下的**platforms/android**目录打开。这个时候会陆续地在Android Studio底部报出好几个诸如“Failed to find Build Tools revision 26.0”错误，你只需要按它的提示双击安装即可。
 
-### 9、AVD（安卓虚拟设备）的安装
+### 9、AVD（安卓虚拟设备，即模拟器）的安装
 
 等待Adroid Studio的错误和loading条消失以后，就可以配置虚拟机了，选择菜单栏里的Tools->Android->AVD Manager 进行配置。
 
@@ -204,7 +204,7 @@ javaCompileOptions {
 
 这时候，你再执行`npm run android`，还会出现错误提示 “Error: No android devices found”，
 
-这时候，你需要先在Android Studio通过运行（Run）按钮先把安卓模拟机（AVD）打开，然后再执行`npm run android`。看到错误：
+这时候，你需要先在Android Studio通过运行（Run）按钮先把安卓模拟器（AVD）打开，然后再执行`npm run android`。看到错误：
 
     adb: failed to stat app/build/outputs/apk/weex-app.apk: No such file or directory
     1:25:48 : Error: Error: Command failed: adb -s emulator-5554 install -r  app/build/outputs/apk/weex-app.apk
@@ -216,7 +216,7 @@ javaCompileOptions {
 adb -s emulator-5554 install -r  app/build/outputs/apk/weex-app.apk
 ```
 
-这样就把这个应用安装到了模拟机上。
+这样就把这个应用安装到了模拟器上。
 
 ### 10、真机调试
 
