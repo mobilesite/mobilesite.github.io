@@ -212,15 +212,14 @@ layout: default
 <script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
 <script>
     var gitment = new Gitment({
-        id: '页面 ID', // 可选。默认为 location.href
-        owner: '你的 GitHub ID',
-        repo: '存储评论的 repo',
+        owner: 'mobilesite',
+        repo: 'mobilesite.github.io',
         oauth: {
-            client_id: '你的 client ID',
-            client_secret: '你的 client secret',
+            client_id: '7e742f4890452b3eb424',
+            client_secret: '7f1013f56232fd46bc5624a47d44956e1387380a'
         },
      })
-    gitment.render('commentContainer); 
+    gitment.render('commentContainer');
 </script>
 
 {% if site.disqus_username %}
