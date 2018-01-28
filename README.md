@@ -170,24 +170,11 @@ iframe在不同的设备中，将会自动的调整大小。保留内边距是�
 
 #### Comment
 
-博客不仅支持多说[Duoshuo](http://duoshuo.com)评论系统，也支持[Disqus](http://disqus.com)评论系统。
+博客支持评论，采用的是Gitment评论框（老的多说评论已经不再提供服务了，更多评论插件的选择参见[这里](https://www.zhihu.com/question/57426274)）。
 
-`Disqus`优点是：国际比较流行，界面也很大气、简介，如果有人评论，还能实时通知，直接回复通知的邮件就行了；缺点是：评论必须要去注册一个disqus账号，分享一般只有Facebook和Twitter，另外在墙内加载速度略慢了一点。想要知道长啥样，可以看以前的版本点[这里](http://brucezhaor.github.io/about.html) 最下面就可以看到。
+**首先**，你需要去[注册](https://github.com/settings/applications/new)一个账号。**不要直接使用我的啊！**
 
-`多说` 优点是：支持国内各主流社交软件(微博，微信，豆瓣，QQ空间 ...)一键分享按钮功能，另外登陆比较方便，管理界面也是纯中文的，相对于disqus全英文的要容易操作一些；缺点是：就是界面丑了一点。
-当然你是可以自定义界面的css的，详情请看多说开发者文档 http://dev.duoshuo.com/docs/5003ecd94cab3e7250000008 。
-
-**首先**，你需要去注册一个账号，不管是disqus还是多说的。**不要直接使用我的啊！**
-
-**其次**，你只需要在下面的yaml头文件中设置一下就可以了。
-
-```
-duoshuo_username: _你的用户名_  (这里填的实际不是用户名,是多说分配给你的那个域名)
-# 或者
-disqus_username: _你的用户名_
-```
-
-**最后**多说是支持分享的，如果你不想分享，请这样设置：`duoshuo_share: false`。你可以同时使用两个评论系统，不过个人感觉怪怪的。
+**其次**，需要按照要求进行一些设置和插入代码（可以参考[这篇文章](http://liujinkai.com/2017/10/24/gitment-pinglun-chajian/)）。
 
 #### Analytics
 
