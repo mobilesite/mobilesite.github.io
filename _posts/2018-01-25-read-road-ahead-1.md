@@ -2,7 +2,7 @@
 layout:     post
 title:      "读《前方的路》（一）"
 subtitle:   ""
-date:       2017-12-31 20:32:17
+date:       2018-1-25 23:52:18
 author:     "Paian"
 catalog: true
 tags:
