@@ -99,7 +99,7 @@ geth --datadir d:\ethereum console
 
 表示刚刚将以太坊网络上的哪个区块同步到了本地。其中，number是区块号，而hash就是该区块的hash值。我们拿着这个区块号到以太坊区块浏览器Etherscan上去浏览一下该区块的信息，比如，这里的区块号是30344，那么在[https://etherscan.io/block/30344](https://etherscan.io/block/30344)这个页面中就可以看到该区块的详细信息，如下图。
 
-![](/img/in-post/private-chain-2.jpg)
+![](/img/in-post/private-chain-3.jpg)
 
 当你同步到的区块与[https://etherscan.io/blocks](https://etherscan.io/blocks)中显示的最新区块的height一样时，就说明本地节点已经同步到最新状态了。
 
