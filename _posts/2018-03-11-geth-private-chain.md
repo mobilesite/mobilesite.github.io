@@ -19,9 +19,7 @@ tags:
 
 打开链接[https://golang.org/dl/](https://golang.org/dl/)下载go1.10.windows-amd64.msi版本进行安装，笔者是将它安装到了C:\Go目录下。并将C:\Go\bin添加到系统环境变量Path中。
 
-如果你之前安装过go，安装过程中你可能会看到如下提示。只需要选择“Yes, Uninstall”继续安装即可：
-
-![](/img/in-post/private-chain-1.jpg)
+如果你之前安装过go，安装过程中你可能会看到询问是否卸载旧版本的提示。只需要选择“Yes, Uninstall”继续安装即可：
 
 打开系统控制台，在其中输入命令
 
@@ -84,7 +82,7 @@ geth console
 
 默认情况下，在笔者的Windows 10系统中，会同步到C:\Users\【我的用户名】\AppData\Roaming\Ethereum\geth\chaindata这个目录下。如果你看不到AppData这个文件夹，请确认下你有没有勾选中下图中所示的“隐藏的项目复选框”。
 
-![](/img/in-post/private-chain-2.jpg)
+![](/img/in-post/private-chain-1.jpg)
 
 怎么退出Geth JavaScript Console呢？在控制台中输入exit并按回车即可。
 
@@ -97,9 +95,11 @@ geth --datadir d:\ethereum console
 其中，`--datadir`配置的地址指明了用来保存区块链数据库与keystore的地址，即d:\ethereum。
 同步的过程中，会不断出现下图这样的区块同步提示：
 
+![](/img/in-post/private-chain-2.jpg)
+
 表示刚刚将以太坊网络上的哪个区块同步到了本地。其中，number是区块号，而hash就是该区块的hash值。我们拿着这个区块号到以太坊区块浏览器Etherscan上去浏览一下该区块的信息，比如，这里的区块号是30344，那么在[https://etherscan.io/block/30344](https://etherscan.io/block/30344)这个页面中就可以看到该区块的详细信息，如下图。
 
-![](/img/in-post/private-chain-3.jpg)
+![](/img/in-post/private-chain-2.jpg)
 
 当你同步到的区块与[https://etherscan.io/blocks](https://etherscan.io/blocks)中显示的最新区块的height一样时，就说明本地节点已经同步到最新状态了。
 
