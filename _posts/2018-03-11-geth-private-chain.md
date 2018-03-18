@@ -11,15 +11,15 @@ tags:
 
 ## 通过Geth搭建多节点私有链
 
-[上一篇](http://mobilesite.github.io/2018/03/03/blockchain-practice-1/)中，笔者带领大家学习了一些区块链前端开发必知必会的基本概念，并介绍了区块链前端开发与传统业务前端开发的区别，让大家对区块链前端开发有一个基本的认识。这篇文章开始，我们将正式进入实战环节。跟做任何开发一样，首先要搭建开发环境。下面将以Windows系统为例进行讲解。
+[上一篇](http://mobilesite.github.io/2018/03/03/blockchain-practice-1/)中，介绍了一些区块链前端开发必知必会的基本概念以及区块链前端开发与传统业务前端开发的区别。这篇开始，我们将进入实战环节。跟做任何开发一样，区块链前端开发，首先也要搭建区块链的开发环境。下面将以Windows系统为例进行讲解。
 
 ### 一、Go和Geth的安装
 
 #### 1、安装Go
 
-打开链接[https://golang.org/dl/](https://golang.org/dl/)下载go1.10.windows-amd64.msi版本进行安装，笔者是将它安装到了C:\Go目录下。并将C:\Go\bin添加到系统环境变量Path中。
+打开链接[https://golang.org/dl/](https://golang.org/dl/)下载go1.10.windows-amd64.msi，安装到C:\Go目录下，并将C:\Go\bin添加到系统环境变量Path中。
 
-如果你之前安装过go，安装过程中你可能会看到询问是否卸载旧版本的提示。只需要选择“Yes, Uninstall”继续安装即可：
+如果你之前装过go的话，现在再安装则可能会看到询问是否卸载旧版本的提示。只需要选择“Yes, Uninstall”继续安装即可。
 
 打开系统控制台，在其中输入命令
 
@@ -58,7 +58,7 @@ geth version
     GOPATH=
     GOROOT=C:\Go\
 
-### 二、用Geth同步以太坊网络节点
+### 二、同步以太坊主网络上的数据到本机
 
 上面安装好了Geth，怎么使用呢？
 
@@ -70,7 +70,7 @@ geth version
 geth console
 ```
 
-这个命令将以快速同步模式（fast sync mode）启动Geth，并启动了Geth中内置的JavaScript控制台。在这个内置的控制台上，你可以执行web3.js库中所有API以及Geth自身的管理API。
+这个命令将以快速同步模式（fast sync mode）启动Geth，并启动了Geth中内置的JavaScript控制台。在这个内置的控制台上，你可以执行[web3.js库中所有API](http://web3js.readthedocs.io/en/1.0/index.html) 以及 [Geth自身的管理API](https://github.com/ethereum/go-ethereum/wiki/Management-APIs)。
 
 执行这个命令后，等待片刻，当你看到如下这样的提示：
 
@@ -92,7 +92,8 @@ geth console
 geth --datadir d:\ethereum console
 ```
 
-其中，`--datadir`配置的地址指明了用来保存区块链数据库与keystore的地址，即d:\ethereum。
+其中，--datadir配置的地址指明了用来保存区块链数据库与keystore的地址，即d:\ethereum。
+
 同步的过程中，会不断出现下图这样的区块同步提示：
 
 ![](/img/in-post/private-chain-2.jpg)
@@ -103,7 +104,7 @@ geth --datadir d:\ethereum console
 
 当你同步到的区块与[https://etherscan.io/blocks](https://etherscan.io/blocks)中显示的最新区块的height一样时，就说明本地节点已经同步到最新状态了。
 
-#### 2、同步以太坊测试网络上的全节点
+#### 2、同步以太坊测试网络上的数据到本机
 
 因为在以太坊主网络进行部署智能合约、发送交易等操作是需要花费真实的以太币的，所以对于开发者来说，更多的调试和测试工作，不能在主网络上进行（谁的真金白银花得不心疼？），而应该在测试网络上。测试网络上用的是测试币（play-Ether），而不是主网络上真正需要真金白银换来的以太币。所以，作为开发者，你通常需要同步测试网络上的全节点。通过如下命令来完成：
 
@@ -426,13 +427,13 @@ admin.addPeer("enode://4eaf1ef8fd69bb3669741df19a0bfe58b827da56446b7513901631b95
 `amount = web3.toWei(1,'ether')`             把0.0000001以太币转成以wei为单位，转换结果赋给变量amount
 
 `eth.sendTransaction({from:eth.accounts[0],to:eth.accounts[1],value:amount})`    
-                                           从第0个账户往第1个账户里转1以太币
+                                             从第0个账户往第1个账户里转1以太币
 
 `miner.start()`                              再挖矿，使得上面发起的转账被确认到区块链上
 
 `miner.stop()`                               停止挖矿
 
-`eth.getBalance(eth.accounts[1])`            再次查看第1个账户的余额，变成是1000000000000000000，单位是wei，1个以太币就等于1000000000000000000wei。说明转账已经成功了。
+`eth.getBalance(eth.accounts[1])`            再次查看第1个账户的余额，变成1000000000000000000了（单位是wei），恰好就等于1以太币，说明转账已经成功了。
 
 最后，你还可以再走一遍转账的流程，只是将挖矿确认的环节应换成另外那个节点来挖矿，看转账是否能够成功确认，以验证多节点网络配置是否成功。值得注意的是，在另外那个节点挖矿之前，应该给那个节点创建一个账户，才能开始挖矿，否则会报错
 
