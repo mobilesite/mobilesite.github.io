@@ -617,5 +617,4 @@ export default class Notfound extends Component {
 }
 ```
 
-至此，一个基本的项目启动就已经完成了。在这个基础上，我们可以开始进行应用的开发了。
-
+至此，一个基本的项目启动就已经完成了。在这个基础上，我们可以开始进行应用的开发了。你可以在[这里](https://github.com/mobilesite/dapp) 下载到完整的源码。
