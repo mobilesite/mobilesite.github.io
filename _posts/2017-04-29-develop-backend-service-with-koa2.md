@@ -72,11 +72,11 @@ app.use(views(__dirname + '/views', {
 
 注意：`app.use(views(...))`的执行必须在router之前。
 
-可以看到，koa-views在使用的时候包含两个参数ions：
+可以看到，koa-views在使用的时候包含两个参数：
 
 一个是root，指明view文件的绝对路径（注意这里不能用相对路径）；
 
-另一个是opt，这里面又包含着四个配置项：
+另一个是options，这里面又包含着四个配置项：
 
 - extension，用于指明view文件的默认后缀名。
 
@@ -111,7 +111,7 @@ app.use(json({ pretty: false, param: 'pretty' }));
 
 这样的话，当访问时带上?pretty的时候就返回美化过的结果。
 
-#### koa-onerror
+#### 4、koa-onerror
 
  是koa的错误处理中间件。详见[https://www.npmjs.com/package/koa-onerror](https://www.npmjs.com/package/koa-onerror)
 
@@ -130,7 +130,7 @@ redirect: if accepct html, can redirect to another error page
 
 koa-onerror 会自动地把err.status当作response的status code, 而且自动地把err.headers当作response的headers。
 
-#### 4、koa-bodyparser
+#### 5、koa-bodyparser
 
 一个koa的body parser，详见[https://www.npmjs.com/package/koa-bodyparser](https://www.npmjs.com/package/koa-bodyparser)
 
@@ -141,7 +141,7 @@ const bodyParser = require('koa-bodyparser');
 app.use(bodyParser());
 app.use(async ctx => {
   // the parsed body will store in ctx.request.body
-  // if nothing was parsed, body will be an empty object {}
+  // if nothing was parsed, body will be an empty object （{}）
   ctx.body = ctx.request.body;
 });
 ```
@@ -150,7 +150,7 @@ app.use(async ctx => {
 
 - enableTypes: bodyParser只有在请求的类型匹配enableTypes（默认为['json', 'form']）的时候才会工作。
 
-- encode: requested encoding. 默认是utf-8
+- encode: requested encoding，默认是utf-8。
 
 - formLimit: the urlencoded body的大小限制。如果超出大小限制，将会返回413错误码。默认的限制大小是56kb。
 
@@ -200,7 +200,7 @@ app.use(async (ctx, next) => {
 app.use(bodyparser());
 ```
 
-#### 5、koa-static
+#### 6、koa-static
 
 用于koa的静态文件服务中间件。详见[https://www.npmjs.com/package/koa-static](https://www.npmjs.com/package/koa-static)
 
@@ -241,7 +241,7 @@ If true, serves after yield next, allowing any downstream middleware to respond 
 
 Try to match extensions from passed array to search for file when no extension 是合格的 in URL. First found is served. (defaults to false)
 
-#### 6、koa-router
+#### 7、koa-router
 
 koa路由中间件。
 
@@ -351,7 +351,7 @@ router.get('user', '/users/:id', function (ctx, next) {
  // ...
 });
 
-outer.url('/users/:id', {id: 1});
+router.url('/users/:id', {id: 1});
 或者：
 router.url('user', 3);
 // => "/users/3"
@@ -408,7 +408,7 @@ npm install --save-dev nodemon
 
 #### 4、log4js模块
 
-上文中已经讲到过koa-logger这个中间件，它是tj大神写的koa开发时替换console.log输出的一个插件。不过，如果你需要按照时间或者按照文件大小，本地输出log文件的话，建议还是采用log4js。
+上文中已经讲到过koa-logger这个中间件，它是tj大神写的koa开发时替换人`console.log`输出的一个插件。不过，如果你需要按照时间或者按照文件大小，本地输出log文件的话，建议还是采用log4js。
 
 ```
 npm install log4js
@@ -655,19 +655,21 @@ npm i chai --save-dev
 
 mocha使用详见[http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html](http://www.ruanyifeng.com/blog/2015/12/a-mocha-tutorial-of-examples.html)
 
-在package.json的scripts配置项中设置：
+在package.json的scripts配置项中配置：
 
+```
 "test": "./node_modules/.bin/mocha server/test/ --watch --recursive --reporter tap"
+```
 
 其中，
 
  server/test/ 是存放测试文件的路径。不指定路径的情况下，mocha会自动到根目录的test目录下去查找命名能匹配`/test\.js$/`的文件。
 
- --watch参数用来监视指定的测试脚本。只要测试脚本有变化，就会自动运行Mocha。
+ `--watch`参数用来监视指定的测试脚本。只要测试脚本有变化，就会自动运行Mocha。
 
- --recursive表示子目录下面所有的测试用例----不管在哪一层----都会执行。mocha默认执行test目录下的测试脚本，但是不会运行test下的子目录中的脚本。想要执行子目录中的测试脚本，可以在运行时添加--recursive参数。
+ `--recursive`表示子目录下面所有的测试用例——不管在哪一层，都会执行。默认情况下，Mocha会执行test目录下的测试脚本，但是不会运行test下的子目录中的脚本。所以，想要执行子目录中的测试脚本，就需要在在控制台中执行Mocha的时候添加`--recursive`参数。
 
- --reporter tap输出日志报告
+ `--reporter tap`参数指明输出日志报告。
 
 然后在server/test目录下新建一个test.js：
 
