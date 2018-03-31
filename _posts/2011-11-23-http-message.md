@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "HTTP请求的报文"
+title:      "HTTP报文"
 subtitle:   ""
 date:       2011-11-23 23:08:22
 author:     "Paian"
@@ -17,15 +17,19 @@ tags:
 
 这是请求报文的格式：
 
+```
 <method> <request-URL> <version>
 <headers>
 <entity-body>
+```
 
 这是响应报文的格式（注意，只有起始行的语法有所不同）：
 
+```
 <version> <status> <reason-phrase>
 <headers>
 <entity-body>
+```
 
 其中，status是请求状态码，而reason-phrase则是请求状态码所对应的原因短语。比如，状态码为 200（表示成功），原因短语为OK；状态码为404，对应的原因短语是 Not Found。
 
