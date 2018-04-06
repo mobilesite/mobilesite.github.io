@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "读《JavaScript面向对象精要》（一）"
+title:      "原始类型与引用类型"
 subtitle:   ""
 date:       2015-05-01 07:18:34
 author:     "Paian"
@@ -10,7 +10,7 @@ tags:
     - 读书笔记
 ---
 
-## 读《JavaScript面向对象精要》（一）
+## 原始类型与引用类型——读《JavaScript面向对象精要》（一）
 
 这本书除了如标题所描述的那样讲JavaScript面向对象之外，还是一本深入地讲ECMAScript 5的书。
 
