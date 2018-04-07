@@ -89,5 +89,34 @@ class sheep inplements Animal{
 
 inplemtents关键字表示一个接口实现另一个接口。
 
-### 模块
+### 模块（略）
 
+### 注意区分TypeScript语法和ES6语法
+
+举个例子：
+
+```
+export enum SecureWalletName {
+  WEB3 = 'web3',
+  LEDGER_NANO_S = 'ledgerNanoS',
+  TREZOR = 'trezor'
+}
+```
+
+这第一段，其实是导出了一个对象，是typescript语法：
+
+ SecureWalletName {
+  WEB3: 'web3',
+  LEDGER_NANO_S: 'ledgerNanoS',
+  TREZOR:  'trezor'
+}
+
+```
+dPathFormats: {
+    [SecureWalletName.TREZOR]: ETH_TREZOR,
+    [SecureWalletName.LEDGER_NANO_S]: ETH_LEDGER,
+    [InsecureWalletName.MNEMONIC_PHRASE]: ETH_DEFAULT
+}
+```
+
+ `[SecureWalletName.TREZOR]: ETH_TREZOR`,其实是把 `[SecureWalletName.TREZOR]`的内容解出来作为key，把`ETH_DEFAULT`的内容解出来作为value。这第二段是彻底的ES6语法而非Typescript语法。
