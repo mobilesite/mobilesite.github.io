@@ -2,7 +2,7 @@
 layout:     post
 title:      "对象模式——读《JavaScript面向对象精要》（六）"
 subtitle:   ""
-date:       2015-05-01 16:45:32
+date:       2015-05-01 20:15:24
 author:     "Paian"
 catalog: true
 tags:
