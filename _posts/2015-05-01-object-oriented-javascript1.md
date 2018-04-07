@@ -69,7 +69,7 @@ obj = null;
 
 #### 4、原始封装类型
 
-虽然bool、string、number三者都是原始类型，但它们也有方法（undefinded和null没有方法）。这是JavaScript语言为了让原始类型用起来和对象一样方便，提升使用的一致性体验而设计的。为了达到这个目的，JavaScript语言设计了原始封装类型`Boolean`、`String`、`Number`来对bool、string、number这三种原始类型进行内在处理。
+虽然bool、string、number三者都是原始类型，但它们也有方法（undefined和null没有方法）。这是JavaScript语言为了让原始类型用起来和对象一样方便，提升使用的一致性体验而设计的。为了达到这个目的，JavaScript语言设计了原始封装类型`Boolean`、`String`、`Number`来对bool、string、number这三种原始类型进行内在处理。
 
 当读取字符串、数字、布尔值的时候，原始封装类型将被自动创建。例如：
 
