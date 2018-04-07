@@ -40,7 +40,7 @@ console.log(pro === Object.prototype); //true
 
 #### 2、继承
 
-#####（1）对象继承
+##### （1）对象继承
 
 对象继承是最简单的继承类型，你唯一需要做的就是指定哪个对象是新对象的[[Prototype]]。对象字面量形式会隐式地指定`Object.prototype`为其[[Prototype]]，你也可以用`Object.create()`方法显式指定。
 
@@ -64,7 +64,7 @@ var person2 = Object.create(person1, {
 
 也可以通过`Object.create(null)`创建一个[[prototype]]为null的对象。这样创建的对象，将不会有`valueOf`、`hasOwnProperty`等方法。这是一个没有任何预定义属性的白板，这使得它成为一个完美的哈希容器，除此之外，这种对象应该没有别的好用处了。
 
-#####（2）构造函数继承
+##### （2）构造函数继承
 
 ```
 function Rectangle(length, width){
