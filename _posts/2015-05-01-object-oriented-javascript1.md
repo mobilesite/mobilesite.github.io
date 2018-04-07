@@ -129,7 +129,7 @@ console.log(flag instanceof Boolean);
 
 你也可以手动实例化原始封装类型，不过，用`typeof`判定它们的时候，将返回"object"。另外，`new Boolean(false)`因为是个对象，所以在进行条件判断的时候，总是会被判断成true。这些都是手动实例化原始封装类型所导致的负面影响，所以，你应该避免手动实例化原始封装类型。
 
-#### 5、内建引用类型
+#### 5、内建（built-in）引用类型
 
 `Object`
 

@@ -162,9 +162,9 @@ Object.defineProperty(person1, 'name', {
 
 在严格模式下，试图改变不可写的属性会抛出错误，而在非严格模式下则会失败。
 
-（3）访问器属性特征
+（3）访问器属性（accessor properties）特征（attributes）
 
-访问器属性也有两个额外特征。访问器属性不需要存储值，因此也就没有[[Value]]和[[Writable]]。取而代之的是[[Get]]和[[Set]]，内含getter和setter函数。和对象字面形式的getter和setter一样，仅需要定义其中一个特征就可以创建一个访问器属性。
+访问器属性也有两个额外特征。访问器属性不需要存储值，因此也就没有[[Value]]和[[Writable]]。取而代之的是[[Get]]和[[Set]]，内含getter和setter函数。和对象字面形式（object literals）的getter和setter一样，仅需要定义其中一个特征就可以创建一个访问器属性。
 
 ```
 var person1 = {
