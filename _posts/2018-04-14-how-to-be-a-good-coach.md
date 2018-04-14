@@ -1,13 +1,13 @@
 ---
 layout:     post
-title:      "带人的技术"
+title:      "读《带人的技术》"
 subtitle:   ""
 date:       2018-4-14 12:03:02
 author:     "Paian"
 catalog: true
 tags:
-    - 带人的技术
     - 管理
+    - 读书笔记
 ---
 
 ## 读《带人的技术》
