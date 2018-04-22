@@ -251,6 +251,8 @@ vmin和vmax是根据Viewport中长度偏大的那个维度值计算出来的，�
 
 另外有一个细节需要特别的提出，比如我们有一个这样的设计：
 
+![](/img/in-post/vue-vm-layout3.png)
+
 如果我们直接使用：
 
 ```
@@ -412,6 +414,8 @@ module.exports = {
 - postcss-cssnext
 
 postcss-cssnext其实就是cssnext。该插件可以让我们使用CSS未来的特性，其会对这些特性做相关的兼容性处理。其包含的特性主要有：
+
+![](/img/in-post/vue-vm-layout4.png)
 
 - cssnano
 
@@ -654,6 +658,8 @@ viewport-units-buggyfill主要有两个JavaScript文件：viewport-units-buggyfi
 
 这可能会令你感到恶心，而且我们不可能每次写vw都去人肉的计算。特别是在我们的这个场景中，咱们使用了postcss-px-to-viewport这个插件来转换vw，更无法让我们人肉的去添加content内容。
 这个时候就需要前面提到的postcss-viewport-units插件。这个插件将让你无需关注content的内容，插件会自动帮你处理。比如插件处理后的代码：
+
+![](/img/in-post/vue-vm-layout5.png)
 
 Viewport Units Buggyfill还提供了其他的功能。详细的这里不阐述了。**但是content也会引起一定的副作用。比如img和伪元素`::before(:before)`或`::after（:after）`。在img中content会引起部分浏览器下，图片不会显示。这个时候需要全局添加：**
 
