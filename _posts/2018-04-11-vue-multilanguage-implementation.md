@@ -2,7 +2,7 @@
 layout:     post
 title:      "一种Vue.js前端多语言方案"
 subtitle:   ""
-date:       2018-04-11 22:10:17
+date:       2018-04-21 22:10:17
 author:     "Paian"
 catalog:    true
 tags:
