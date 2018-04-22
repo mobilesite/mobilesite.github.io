@@ -9,8 +9,6 @@ tags:
     - Photoshop
 ---
 
-## Photoshop的一些基本的快速操作技巧
-
 ### 选中菜单的快捷键
 
 alt/option + 菜单中括号里的字母

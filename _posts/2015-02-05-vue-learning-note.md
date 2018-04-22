@@ -9,8 +9,6 @@ tags:
     - vue.js
 ---
 
-## Vue.js学习笔记
-
 ### 1.1 Vue.js是什么？
 
 它是一个轻量（17kb min+gzip 运行大小）、简洁、高效的前端开发框架，以数据驱动 + 组件化的方式进行前端开发。Github项目star数多，社区完善。Vue.js在其官方右上角的导航中提供了社区的入口。其中，比较有用的是Github的issues、Vue.js论坛及Vue.js的聊天室。

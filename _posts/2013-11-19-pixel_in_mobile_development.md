@@ -9,8 +9,6 @@ tags:
     - 移动适配
 ---
 
-## 弄清移动端开发中的像素
-
 ### 一、pixel和dp
 
 ![](/img/in-post/pixel_and_dp.jpg)

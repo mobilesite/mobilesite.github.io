@@ -10,8 +10,6 @@ tags:
     - 类型检测
 ---
 
-## Javascript中的类型检测
-
 先来看JavaScript类型检测中常用到的一些方法：
 
 ### 一、typeof
@@ -22,7 +20,7 @@ typeof运算符，用于判断一个或值是哪种类型的。
 
 ### 二、instanceof
 
-﻿﻿﻿﻿﻿instanceof可以检测某个对象是不是另一个对象的实例。
+instanceof可以检测某个对象是不是另一个对象的实例。
 
 ```
 new String('abc') instanceof String; //true

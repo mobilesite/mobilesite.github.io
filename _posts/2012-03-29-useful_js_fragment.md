@@ -9,8 +9,6 @@ tags:
     - JavaScript基础
 ---
 
-## 常用JavaScript代码段
-
 ### 一、history的前进与后退
 
     history.back(0);  //刷新

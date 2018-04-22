@@ -9,8 +9,6 @@ tags:
     - React Native
 ---
 
-## React Native中的Flex布局
-
 Flex 是 Flexible Box 的缩写，意为“弹性布局”，用来为盒状模型提供最大的灵活性。采用Flex 布局的元素，称为 Flex 容器（flex container），简称“容器”。它的所有子元素自动成为容器成员，称为 Flex项目（flex item），简称“项目”。容器默认存在两根轴：主轴（main axis）和交叉轴（cross axis）。主轴的开始位置（与边框的交叉点）叫做 main start，结束位置叫做 main end；交叉轴的开始位置叫做 cross start，结束位置叫做 cross end。项目默认沿主轴排列，单个项目占据的主轴空间叫做 main size，占据的交叉轴空间叫做 cross size。
 
 与网页中的Flexible Box不同，React Native只支持部分属性。从React Native项目下的node_modules/react-native/Libraries/StyleSheet/LayoutPropTypes.js文件中我们可以看到。React Native中对于Flex的属性及其对应取值定义如下：

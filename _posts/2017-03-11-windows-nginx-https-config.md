@@ -11,8 +11,6 @@ tags:
     - https
 ---
 
-## Windows下用Nginx配置https服务器
-
 以Windows 10系统为例。
 
 ### 一、安装OpenSSL

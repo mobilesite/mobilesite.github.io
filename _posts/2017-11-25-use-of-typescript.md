@@ -9,8 +9,6 @@ tags:
     - Typescript
 ---
 
-## Typescript的使用
-
 ### class
 
 #### 类的访问控制符：

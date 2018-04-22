@@ -11,8 +11,6 @@ tags:
     - node.js
 ---
 
-## MongoDB的基本使用
-
 本文以windows 10中v3.3.4版MongoDB的安装与使用为例。
 
 ### 一、安装

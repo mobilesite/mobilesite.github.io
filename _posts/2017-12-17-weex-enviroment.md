@@ -9,8 +9,6 @@ tags:
     - weex
 ---
 
-## WEEX开发环境爬坑之旅
-
 WEEX开发环境的搭建过程简直可以说一路是坑。资源被墙是一个原因，文档不完善、版本不匹配等又是一个原因。记录一下，下次配置时可以省一些时间。本文所基于的系统是Windows 10。采用Mac的同学，对不住了啊。
 
 ### 1、安装Node.js（[https://nodejs.org/en/download/](https://nodejs.org/en/download/)）

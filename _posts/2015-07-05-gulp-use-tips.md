@@ -11,8 +11,6 @@ tags:
     - 日常拾遗
 ---
 
-## 使用Gulp的时候遇到的一些坑
-
 ### 一、`gulp watch`时，出现Error: The thunkFunction already filled
 
 其实这个错误是用了gulp-sequence插件导致的，解决办法参考[https://github.com/teambition/gulp-sequence/issues/2](https://github.com/teambition/gulp-sequence/issues/2)，原理就是加入callback回调。

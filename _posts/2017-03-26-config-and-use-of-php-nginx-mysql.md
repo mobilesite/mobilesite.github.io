@@ -12,8 +12,6 @@ tags:
     - 服务端开发
 ---
 
-## Windows下nginx + php + mySQL环境的配置
-
 nginx相较于我们熟悉的apache、IIS的优势，在于“反向代理”和“负载均衡”。因此考虑到能够为Web服务器节省资源，它可以代替apache来提供Web服务。那在windows下如何来配置nginx+php+mySQL环境呢？
 
 ### 一、准备所需的程序包

@@ -9,8 +9,6 @@ tags:
     - HTTP
 ---
 
-## HTTP报文
-
 ### 一、报文格式
 
 所有的 HTTP 报文都可以分为两类：请求报文 （requestmessage）和响应报文 （response message）。

@@ -12,8 +12,6 @@ tags:
     - 日常拾遗
 ---
 
-## 一个因为未配置PHANTOMJS_BIN环境变量导致的phantom.js启动错误
-
 在Mac系统下配置karma测试时，遇到一个phantom.js的启动错误：
 
     No binary for PhantomJS browser on your platform.

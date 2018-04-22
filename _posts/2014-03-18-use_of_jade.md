@@ -9,8 +9,6 @@ tags:
     - jade
 ---
 
-## jade模板的使用
-
 ### 一、基本操作
 
 	npm install jade -g

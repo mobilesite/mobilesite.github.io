@@ -9,8 +9,6 @@ tags:
     - Mac学习软件
 ---
 
-## 一些好用的Mac电脑前端开发学习软件
-
 ### 一、Sublime text
 
 1、怎么显示sidebar

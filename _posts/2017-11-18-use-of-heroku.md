@@ -10,8 +10,6 @@ tags:
     - node.js
 ---
 
-## 如何将一个node.js开发的应用部署到heroku上
-
 首先，你需要去[https://id.heroku.com/](https://id.heroku.com/)上先注册一个账号。注意，注册的时候qq.com、163.com的邮箱是无法注册成功的，我使用的是微软的邮箱，据说你可以使用Gmail的邮箱、foxmail邮箱也是可以的。
 
 再安装一下heroku命令行工具Heroku CLI，到[https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)下载安装即可。

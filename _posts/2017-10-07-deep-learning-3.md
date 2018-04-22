@@ -9,7 +9,6 @@ tags:
     - 深度学习
     - 学习笔记
 ---
-## 《深度学习基础》学习笔记3：决策树（decision tree）算法
 
 ### 第一节 决策树（decision tree）算法
 

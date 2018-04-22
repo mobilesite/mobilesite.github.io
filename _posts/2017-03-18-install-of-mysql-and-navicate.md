@@ -11,8 +11,6 @@ tags:
     - 服务端开发
 ---
 
-## MySQL和Navicat for MySQL的安装及使用
-
 ### 一、MySQL的安装
 
 下载 mysql 5.7 进行安装，然后在控制台中进入到安装目录下（如C:\Program Files (x86)\MySQL\MySQL Server 5.7\bin）

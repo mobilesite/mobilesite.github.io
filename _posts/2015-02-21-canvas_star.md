@@ -9,8 +9,6 @@ tags:
     - canvas
 ---
 
-## canvas实现星星闪烁特效
-
 main.js
 
 	var  can, ctx,
