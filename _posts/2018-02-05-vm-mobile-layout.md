@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "[转]如何在Vue项目中使用vw实现移动端适配"
+title:      "[转]移动端适配方案：基于flexible库的成熟方案和基于vw的新方案"
 subtitle:   ""
 date:       2018-02-05 23:50:42
 author:     "Paian"
@@ -12,7 +12,7 @@ tags:
 
 本文的内容主要整理自[大漠老师的几篇相关文章](https://www.w3cplus.com)。
 
-### 一、回顾成熟方案：flexible
+### 一、成熟方案：flexible
 
 之前，比较成熟的方案是用[flexible库](https://github.com/amfe/lib-flexible)来进行移动端的布局适配。
 
