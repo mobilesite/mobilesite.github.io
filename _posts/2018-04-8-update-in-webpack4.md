@@ -138,7 +138,7 @@ module.exports = {
 
 `webpack.optimize.UglifyJsPlugin`现在也不需要了，只需要使用`optimization.minimize`为`true`就行，production mode下面自动为true，当然如果想使用第三方的压缩插件也可以在`optimization.minimizer`的数组列表中进行配置。
 
-### 四、在webpack 4中，使用extract-text-webpack-plugin将会报错：
+### 五、在webpack 4中，使用extract-text-webpack-plugin将会报错：
 
 > Error: Chunk.entrypoints: Use Chunks.groupsIterable and filter by instanceof  Entrypoint instead
 
@@ -224,7 +224,7 @@ module.exports = {
 }
 ```
 
-### 五、插件和loader调整
+### 六、插件和loader调整
 
 NoEmitOnErrorsPlugin 废弃，使用optimization.noEmitOnErrors替代，在生产环境中默认开启该插件。
 
@@ -242,15 +242,15 @@ file-loader -> 建议升级到最新版本
 
 url-loader -> 建议升级到最新版本
 
-### 六、移除了`loaders`，必须使用`rules`
+### 七、移除了`loaders`，必须使用`rules`
 
 在webpack3.x中还保留之前版本的loaders，与rules并存都可以使用，在新版中完全移除了loaders，必须使用rules。
 
-### 七、开箱即用WebAssembly
+### 八、开箱即用WebAssembly
 
 WebAssembly(wasm)会带来运行时性能的大幅度提升，由于在社区的热度，webpack4对它做了开箱即用的支持。你可以直接对本地的wasm模块进行import或者export操作，也可以通过编写loaders来直接import C++、C或者Rust。
 
-### 八、支持多种模块类型
+### 九、支持多种模块类型
 
 webpack 4支持5种模块类型：
 
@@ -264,13 +264,13 @@ json: 只支持JSON数据，可以通过require和import来使用。
 
 webassembly/experimental: 只支持wasm模块，目前处于试验阶段。
 
-### 九、支持sideEffects
+### 十、支持sideEffects
 
 在npm模块的package.json中添加`sideEffects:false`后，当使用`export`部分导出模块内容的时候，webpack不会打包`export`之外的其它文件，使打包的文件更小。
 
 可以参考[这里](https://github.com/webpack/webpack/tree/master/examples/side-effects)。
 
-### 十、html-webpack-plugin需要使用临时fork出来的版本
+### 十一、html-webpack-plugin需要使用临时fork出来的版本
 
 升级到webpack 4之后，原有的html-webpack-plugin不能用了，会报错：
 
@@ -280,7 +280,7 @@ webassembly/experimental: 只支持wasm模块，目前处于试验阶段。
 
 webpack-contrib/html-webpack-plugin这个是fork出来的版本，由于原作者暂时无时间修改，待原作者有空把这个fork merge进去就好了。暂时可以使用这个fork版本。
 
-### 十一、一些被删除的功能
+### 十二、一些被删除的功能
 
 去除 module.loaders
 
@@ -296,9 +296,7 @@ webpack-contrib/html-webpack-plugin这个是fork出来的版本，由于原作�
 
 去除 CommonsChunkPlugin
 
-### 十二、Webpack 5展望
-
-已经有不少关于webpack5的计划正在进行中了，包括以下：
+最后，顺便提一下，已经有不少关于webpack5的计划正在进行中了，包括以下：
 
 对WebAssembly的支持更加稳定；
 
@@ -310,9 +308,9 @@ webpack-contrib/html-webpack-plugin这个是fork出来的版本，由于原作�
 
 持久化缓存。
 
-最后，附上webpack 4的详细更新列表：
+附：
 
-[https://github.com/webpack/webpack/releases/tag/v4.0.0-beta.0](https://github.com/webpack/webpack/releases/tag/v4.0.0-beta.0)
+[webpack 4的详细更新列表](https://github.com/webpack/webpack/releases/tag/v4.0.0-beta.0)
 
 
 
