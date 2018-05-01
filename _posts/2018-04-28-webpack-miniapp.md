@@ -6,7 +6,8 @@ date:       2018-04-28 18:16:22
 author:     "Paian"
 catalog:    true
 tags:
-    - 通过webpack打包实现以类Vue.js的方式编写微信小程序
+    - webpack
+    - 微信小程序
     - 学习笔记
 ---
 
