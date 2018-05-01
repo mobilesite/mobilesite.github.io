@@ -11,6 +11,8 @@ tags:
     - node.js
 ---
 
+MongoDB作为一种nosql 非关系型数据库，具有高可扩展性、分布式存储、低成本、结构灵活等优点。
+
 本文的前四小节以windows 10中v3.3.4版MongoDB的安装与使用为例。第五小节以Mac系统为例。
 
 ### 一、安装
@@ -131,11 +133,16 @@ db.createCollection('test', {capped:true, size: 6142800, max: 10000})
                                             # 在MongoDB中一般并不需要创建集合。当插入一些文档时，MongoDB会自动创建集合。
                                             # 注意：老版本的MongoDB中还有一个参数autoIndexId，在新版本中已经不使用了。
 
-db.user.drop()                              # 删除user表
+db.user.drop()                              # 删除user表（集合）
 db                                          # 显示当前正在使用的数据库
+
+use xxx
+db.dropDatabase()                           # 删除当前数据库
 ```
 
 #### 2、数据插入
+
+其实是可以不用先用db.createCollection创建集合，就可以直接db.集合名.insert({...})来在这个集合中插入数据的。因为后者会将集合也一块创建了。
 
 ```
 db.user.insert({realName:'拍岸', username:'admin', password: '123', avatar: '', age: 18, createTime: '123411'})
@@ -309,6 +316,22 @@ db.user.group({
 
 ```
 
+#### 8、批量导入数据
+
+要么借助MongoVue等客户端工具批量导入数据，要么用如下命令导入数据：
+
+```
+mongoimport -d db_demo -c users --file /Users/paian/Desktop/testdata -users 
+```
+
+其中，
+
+`-d` 指定数据库名
+
+`-c` 指定集合名
+
+`--file` 制定从哪个文件中导入
+
 ### 四、注意事项
 
 连接mongodb的网站没有关，直接关闭了mongodb的cmd窗口。再次打开mongodb时，会出现失败。
@@ -464,6 +487,39 @@ show dbs
 use demo
 db.goods.insert({id: 1000, "name": "paian"})
 ```
+
+#### 6、创建授权账号
+
+上面这种方式，是以非授权的方式启动mongodb的，也就是大家都能访问，这样当然就不安全了，正确的方式应该是需要通过账号密码登陆才能访问数据库才对。所以，下面我们就来创建账号。
+
+在一个终端中：
+
+以不需要授权的方式启动mongodb服务，这样，所有的数据库都是不需要账号密码就可以访问的。
+
+```
+mongod -f /usr/local/etc/mongod.conf
+```
+
+在另一个终端中：
+
+```
+mongo
+use admin
+db.createUser({user: 'admin', pwd: 'admin', roles: ['root']})  # 创建账户
+db.auth('admin', 'admin')  # 进行认证， 返回1表示认证成功
+
+use test  # 切换到test这个数据库
+db.createUser({user: 'root', pwd: '123456', roles: [{role: 'dbOwner', db: 'test'}]})
+```
+
+然后再回到另一个终端中，以需要授权的方式启动mongodb：
+
+```
+mongod -f /usr/local/etc/mongod.conf --auth
+```
+
+这样，所有的mongodb数据库就都需要账号密码才能访问了。然后你就可以用上面创建好的账号密码去访问了。
+
 
 
 
