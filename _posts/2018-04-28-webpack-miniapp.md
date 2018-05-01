@@ -155,7 +155,6 @@ task/build.js
 require('shelljs/global');
 const webpack = require('webpack');
 const fs = require('fs');
-const _ = require('lodash');
 const { resolve } = require('path');
 const r = url => resolve(__dirname, url); 
 
@@ -163,19 +162,18 @@ const webpackConfig = require('./webpack.config');
 const minaConfig = require(r('./mina.config'));
 const assetsPath = r('../dist');
 
-//每次先清空目录再重新创建空文件夹
+//每次打包先清除输出目录，再创建输出目录（也就是dist文件夹）
 rm('-rf', assetsPath);
 mkdir(assetsPath);
 
 var renderConfig = webpackConfig;
 
-var entry = () => _.reduce(minaConfig.json.pages, (en, i) => {
+renderConfig.entry = minaConfig.json.pages.reduce((en, i) => {
   en[i] = resolve(process.cwd(), './', `${i}.mina`)
 
   return en;
 }, {});
 
-renderConfig.entry = entry();
 renderConfig.entry.app = minaConfig.app;
 
 renderConfig.output = {
@@ -188,7 +186,6 @@ var compiler = webpack(renderConfig);
 //写入小程序的app.json文件
 fs.writeFileSync(r('../dist/app.json'), JSON.stringify(minaConfig.json), 'utf8');
 
-//监听变化
 compiler.watch({
   aggregateTimeout: 300,
   poll: true
@@ -202,6 +199,18 @@ compiler.watch({
   }) + '\n\n')
 });
 ```
+
+值得一提的是，这里用到了数组的reduce方法，它的语法是这样的：
+
+```
+arr.reduce(function(accumulator, currentValue, currentIndex, arr), initialValue)
+```
+
+通过迭代函数遍历数组（arr）中的每个元素，每次返回的值会作为下一次迭代时迭代函数的第一个参数(accumulator)使用。 如果没有提供initialValue，则arr中的第一个元素作为初始值。initialValue参数在第一次迭代的时候作为迭代函数第一个参数使用。迭代函数有4个参数：
+(accumulator, currentValue, currentIndex|currentKey, arr)。
+
+提示：lodash库中也有一个_.reduce方法，作用非常相似，参见[这里](http://www.css88.com/doc/lodash/)
+
 
 task/webpack.config.js
 
