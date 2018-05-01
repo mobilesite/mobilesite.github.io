@@ -357,6 +357,114 @@ cd d:/mongodb/bin
 ./mongod.exe --dbpath "d:\mongodb\data\db" --repair
 ```
 
+### 五、在Linux远程服务器上安装配置ＭongoDB
+
+#### 1、在Mac终端上登陆到远程服务器
+
+Mac终端上登陆到远程服务器：
+
+```
+ssh root@123.45.2.123
+# 其中@之前是用户名，@之后是服务器的IP地址，然后会要求你输入密码
+cd / # 进入根目录
+ls -la # 查看所有的内容及相关信息
+```
+
+Mac上可以通过command + t 新开终端窗口。
+
+#### 2、把Mac系统本机的文件上传到远程服务器
+
+Mac上怎么把文件传到远程服务器呢？一种是通过FTP，如FileZilla.app这样的工具。另一种是通过`scp`命令。
+
+在本机的终端上：
+
+```
+scp 待上传的文件的路径 服务器登陆用户名@服务器IP地址:所要传至的服务器上的目录
+# 例如 scp /soft/mongodb-x86_64-ubuntu1404-3.4.4.tgz root@123.45.2.123:/
+# 然后会要求输入密码
+```
+
+#### 3、解压和安装上传的文件，编写mongodb配置文件
+
+在已经登陆远程服务器的终端上：
+
+```
+cd /   # 切换到刚刚上传了文件的目录
+ls -la  # 查看是否能找到刚上传的文件
+tar -zxvf mongodb-x86_64-ubuntu1404-3.4.4.tgz # 解压
+mkdir mongodb
+cd mongodb-x86_64-ubuntu1404-3.4.4
+ls -la
+cd ..
+mv mongodb-x86_64-ubuntu1404-3.4.4 mongodb # 把解压所得的文件夹整个移入mongodb中
+cd mongodb
+ls -la
+mkdir data
+mkdit logs
+cd logs
+touch mongo.log
+cd ..
+mkdir etc
+cd etc
+vi mongo.conf
+```
+
+然后编辑mongo.conf内容为:
+
+```
+dbpath=/mongodb/data # 数据库位置
+logpath=/mongodb/logs/mongo.log  # 日志文件
+logappend=true  # 日志追加级别：自动追加，而不是覆盖
+journal=true # 默认就是true
+quiet=true # 调试的时候需要设置为false, 会过滤一些日志，正常情况设置为true
+port=27017 # 端口
+```
+
+保存后继续：
+
+```
+cd ..
+cd mongodb-x86_64-ubuntu1404-3.4.4/bin
+mongod -f /mongodb/etc/mongo.conf  # mongod -f 表示指定配置文件 
+```
+
+然后，我们通过MongoHub.app（一个Mac平台上的MongoDB终端软件，类似windows上的MongoVue）。连接到服务器上的MongoDB试试，看能不能连接成功。连接成功则说明配置是没有问题的。
+
+#### 4、建立软链接
+
+因为现在我们在控制台上执行`mongo`实际上是找不到命令的，所以我们需要建立一个软链接。
+
+```
+cd /
+ln -s /mongodb/-linux-x86_64-ubuntu1404-3.4.4/bin/mongo /usr/local/bin/mongo
+```
+
+另外，给`mongod`也建一个软链接：
+
+```
+ln -s /mongodb/-linux-x86_64-ubuntu1404-3.4.4/bin/mongod /usr/local/bin/mongod
+```
+
+#### 5、体验使用效果
+
+然后，我们再新开一个终端窗口：
+
+```
+ssh root@123.45.2.123
+mongod -f /mongodb/etc/mongo.conf
+```
+
+这就登陆到了服务器，启动了mongodb服务。`mongd -f -f`是用来指定配置文件的。（在windows平台上，对应的是`mongod --config`）
+
+接下来切回另一个终端窗口，执行：
+
+```
+mongo
+show dbs
+use demo
+db.goods.insert({id: 1000, "name": "paian"})
+```
+
 
 
 
