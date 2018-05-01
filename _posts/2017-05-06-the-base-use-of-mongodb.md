@@ -11,7 +11,7 @@ tags:
     - node.js
 ---
 
-本文以windows 10中v3.3.4版MongoDB的安装与使用为例。
+本文的前四小节以windows 10中v3.3.4版MongoDB的安装与使用为例。第五小节以Mac系统为例。
 
 ### 一、安装
 
