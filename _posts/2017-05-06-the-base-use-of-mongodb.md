@@ -37,6 +37,27 @@ cd d:\mongodb\bin
 
 就可以进入MongoDB的命令操作状态 （javascript shell，断开这种操作连接用`exit`命令）。
 
+注意：
+
+要想成功连接到MongoDB，一定要在已经启动MongoDB的情况下，也就是要先开一个窗口执行：
+
+```
+cd d:\mongodb\bin
+.\mongod.exe --dbpath="d:\mongodb\data\db"
+```
+
+然后，才能去连接。
+
+为了使得每次不用cd到对应目录下才能操作，可以给系统环境变量Path中增加MongoDB的目录，即：D:\mongodb\bin。
+
+**经过这样的配置，我们就可以在一个控制台窗口中通过`mongod --dbpath="d:/mongodb/data/db"`启动MongoDB，而在另一个窗口中通过`mongo`命令来连接数据库。**
+
+另外，如果你使用MongoVue这样的客户端工具，也是需要在通过`mongod --dbpath="d:/mongodb/data/db"`启动了MongoDB的情况下才能连接成功的！！
+
+备注：
+
+MongoVUE是一款比较好用的MongoDB客户端工具，可以为大家提供一个高度、简洁可用的MongoDB管理界面。
+
 此时可以执行如下一系列的命令了。
 
 执行这些命令之前，先介绍MongoDB中的几个概念。
