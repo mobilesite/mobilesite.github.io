@@ -401,3 +401,256 @@ npm run build
 
 项目的源码可以到[这里](https://github.com/mobilesite/miniapp)下载。
 
+### 6、wetchat-mina-loader的源码分析
+
+上面，我们所需要的功能已经实现了，但是，其中很重要的一部分工作是由wetchat-mina-loader来实现的，那么，究竟它是怎么做到的呢？下面就让我们一起来扒一扒它的源码。
+
+#### （1）入口文件
+
+其入口文件是这样的：
+
+```
+const loaderUtils = require('loader-utils')
+const renderWxml = require('./lib/render-wxml')
+const renderWxss = require('./lib/render-wxss')
+const renderScript = require('./lib/render-script')
+const { parseComponent } = require('vue-template-compiler')
+
+module.exports = function (content) {
+  this.cacheable()
+  var cb = this.async()
+
+  const parts = parseComponent(content)
+
+  if (parts.template) {
+    renderWxml.call(this, parts.template)  
+  }
+  if (parts.styles && parts.styles.length) {
+    renderWxss.call(this, parts.styles[0])  
+  }
+  if (parts.script) {
+    renderScript.call(this, parts.script, cb)
+  } else {
+    cb(null, '')
+  }
+}
+```
+
+比较关键的是下面这两句：
+
+```
+const { parseComponent } = require('vue-template-compiler')
+```
+
+```
+const parts = parseComponent(content)
+```
+
+它借用了vue-template-compiler来将`<template>`、`<script>`和`<style>`三个标签中的内容分别抽取出来进行处理。这就是为什么它能够支持将类似Vue.js组件的写法转成小程序的原因。
+
+那么对于抽取出来的那三个部分具体怎么处理的呢？它们分别被lib/render-wxml、lib/render-script、lib/render-wxss这三个文件所处理。
+
+另外，这个文件中有一句`var cb = this.async()`值得关注：
+
+async()用于声明当前loader为异步loader，如果不需要依赖其它模块的loader可以这样处理，提升编译性能，就像这样:
+
+```
+module.exports = function(source) {
+    var callback = this.async();
+    // 这个模块异步执行，在回掉中拿到结果
+    doSomeAsyncOperation(content, function(err, result) {
+        callback(null, result);
+    });
+};
+```
+
+#### （2）模板的处理
+
+先来看lib/render-wxml:
+
+```
+const loaderUtils = require('loader-utils')
+const fs = require('fs-extra')
+const { resolve, join } = require('path')
+const con = require('consolidate')
+
+const render = (lang, html, opt) => new Promise(resolve => {
+  con[lang]
+    .render(html, opt, (err, res) => {
+      if (err) throw err
+
+      resolve(res)
+    })
+})
+
+module.exports = async function (template) {
+  this.cacheable()
+
+  const lang = template.lang
+  const options = loaderUtils.getOptions(this)
+  const fullPath = loaderUtils.interpolateName(this, `[path][name].mina`, options)
+  const filename = loaderUtils.interpolateName(this, `[name].wxml`, options)
+  const folder = loaderUtils.interpolateName(this, `[folder]`, options)
+  const dirname = loaderUtils.interpolateName(this, `[path]`, options)
+  let html = template.content
+
+  const dist = options.dist || 'dist'
+
+  if (lang) {
+    let opt = {
+      raw: true,
+      engine: lang,
+      filename: fullPath
+    }
+
+    html = await render(lang, html, opt)
+  }
+
+  fs.outputFileSync(resolve(process.cwd(), `${dist}/pages/${folder}/${filename}`), html, 'utf8')
+
+  return ``
+}
+```
+
+其中用到了loader-utils这个模块，用来获取loader的options（`const options = loaderUtils.getOptions(this)`），以及用来获得一些文件路径、文件目录等相关的信息。
+
+另外，用到了consolidate这一模板引擎来处理vue-template-compiler的parseComponent函数解出来的`<template>`标签中的内容，经过处理后，把pug语法的内容转换成正常的小程序代码，并通过`fs.outputFileSync`输出到.wxml文件中。
+
+#### （3）JS的处理：
+
+再来看看lib/render-script：
+
+```
+const con = require('consolidate')
+const loaderUtils = require('loader-utils')
+const fs = require('fs-extra')
+const { resolve } = require('path')
+const { transform } = require('babel-core')
+
+module.exports = function (script, cb) {
+  this.cacheable()
+
+  const options = loaderUtils.getOptions(this)
+  const fullPath = loaderUtils.interpolateName(this, `[path][name].mina`, options)
+  const filename = loaderUtils.interpolateName(this, `[name].js`, options)
+  const folder = loaderUtils.interpolateName(this, `[folder]`, options)
+  const filePath = loaderUtils.interpolateName(this, `[path]`, options)
+
+  let result = transform(script.content, {
+    presets: [
+      [
+        'env', { 
+          modules: false 
+        }
+      ]
+    ]
+  })
+
+  cb(null, result.code)
+}
+```
+
+这里用了babel-core的transform方法（`const { transform } = require('babel-core')`），传入了如下选项来将`<script>`标签中的内容进行babel转换。
+
+```
+presets: [
+  [
+    'env', 
+    { 
+      modules: false 
+    }
+  ]
+]
+```
+
+转换完成后将结果传入回调函数，并执行回调函数。可见处理后的JS并不是在这个loader中直接输出的，而是给回到了webpack，由它最终输出。输出的文件名依赖于webpack.config.js中的如下配置：
+
+```
+output: {
+  path: r('../dist'),
+  filename: '[name].js'
+},
+```
+
+#### （4） 样式的处理
+
+看看lib/render-wxss这个文件：
+
+```
+const loaderUtils = require('loader-utils')
+const fs = require('fs-extra')
+const { resolve } = require('path')
+
+const con = {
+  stylus: (file, data) => new Promise(resolve => {
+    require('stylus').render(data, { filename: file }, (err, css) => {
+      if (err) throw err
+        
+      resolve(css)
+    }) 
+  }),
+  less: (file, data) => new Promise(resolve => {
+    require('less').render(data, {}, (err, result) => {
+      if (err) throw err
+
+      resolve(result.css)
+    }) 
+  }),
+  scss: (file, data) => new Promise(resolve => {
+    require('node-sass').render({
+      file, 
+      data,
+      outputStyle: 'compressed'
+    }, (err, result) => {
+      if (err) throw err
+
+      resolve(result.css)
+    }) 
+  }),
+  sass: (file, data) => new Promise(resolve => {
+    require('node-sass').render({
+      file, 
+      data,
+      outputStyle: 'compressed',
+      indentedSyntax: true
+    }, (err, result) => {
+      if (err) throw err
+
+      resolve(result.css)
+    }) 
+  })
+}
+
+
+module.exports = async function (style) {
+  this.cacheable()
+
+  const options = loaderUtils.getOptions(this)
+  const fullPath = loaderUtils.interpolateName(this, `[path][name].mina`, options)
+  const filename = loaderUtils.interpolateName(this, `[name].wxss`, options)
+  const folder = loaderUtils.interpolateName(this, `[folder]`, options)
+  const dist = options.dist || 'dist'
+
+  let stylesheet = style.content
+  let lang = style.lang
+
+  if (lang) {
+    const render = con[style.lang]
+
+    stylesheet = await render(fullPath, stylesheet)
+  }
+
+  fs.outputFileSync(resolve(process.cwd(), `${dist}/pages/${folder}/${filename}`), stylesheet)
+
+  return ``
+}
+```
+
+这个文件主要是借助了node-sass、less、stylus这三个模块的`render`方法对于样式进行转码，并通过fs-extra模块的`outputFileSync`方法将转码后的样式内容输出到.wxss文件中。
+
+至此，这个loader就分析完了，是不是很简单。其实，经过这样的分析之后，你自己完全也可以去写一个类似的loader了。本质上，实际上，它的本质也不过就是一个小模块而已。
+
+恭喜你离前端大牛又近了一步，加油！
+
+
+
