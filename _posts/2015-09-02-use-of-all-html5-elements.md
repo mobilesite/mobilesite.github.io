@@ -53,7 +53,7 @@ HTML5共有103个元素。它们是：
     <meta name="format-detection" content="telephone=no, address=no, email=no">
     <title>HTML5到底有哪些元素，它们都怎么用？</title>
     <!-- base元素为文档中的所有链接指定基地址。如果URL中含有协议名或"//"则会忽略base指定的基地址。 -->
-    <base href="http://mobilesite.github.io/img/in-post/">
+    <base href="https://mobilesite.github.io/img/in-post/">
     <style type="text/css">
     th,
     tr,
@@ -65,7 +65,7 @@ HTML5共有103个元素。它们是：
         margin: 0;
     }
     </style>
-    <!-- <link rel="stylesheet" type="text/css" href="http://mobilesite.github.io/css/hux-blog.min.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="https://mobilesite.github.io/css/hux-blog.min.css"> -->
 </head>
 
 <body>

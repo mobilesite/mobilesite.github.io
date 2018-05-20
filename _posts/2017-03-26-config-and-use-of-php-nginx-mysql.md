@@ -20,7 +20,7 @@ nginx相较于我们熟悉的apache、IIS的优势，在于“反向代理”和
 
 - 1）nginx：nginx/Windows-1.12.0
 
-关于nginx的安装及基本配置详见[这里](http://mobilesite.github.io/2017/03/11/windows-nginx-https-config/)。
+关于nginx的安装及基本配置详见[这里](https://mobilesite.github.io/2017/03/11/windows-nginx-https-config/)。
 
 - 2）php：  php-5.5.0-Win32-VC11-x64.zip
 

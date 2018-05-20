@@ -10,7 +10,7 @@ tags:
     - React.js
 ---
 
-[上一篇](http://mobilesite.github.io/2018/03/11/geth-private-chain/) 中介绍了通过Geth搭建多节点私有链网络，为Dapp的开发准备了前提条件，本文将帮助你用React.js从零开始搭建起一个区块链项目。
+[上一篇](https://mobilesite.github.io/2018/03/11/geth-private-chain/) 中介绍了通过Geth搭建多节点私有链网络，为Dapp的开发准备了前提条件，本文将帮助你用React.js从零开始搭建起一个区块链项目。
 
 当然，虽然本文选择的框架是React.js，但如果你想使用Vue.js的话，也是可以的。只需要在理解本文的基础上，适当迁移即可。笔者之前曾开发过一个快速启动Vue.js项目的脚手架工具[generator-enjoy-vue](https://github.com/mobilesite/generator-enjoy-vue)，其中对许多常用的功能进行了二次封装，并曾在产品级的项目中使用过，相信会大大提升你的开发效率。（呀，一不小心就广告了~ 哈哈）
 

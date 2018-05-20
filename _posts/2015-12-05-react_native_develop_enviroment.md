@@ -38,7 +38,7 @@ android-mirror.bugly.qq.com 端口：8080
 
 ![Git安装选项](/img/in-post/git_install_windows.jpg)
 
-关于Git的详细使用，可以查看我的另一篇教程：[史上最详细的git常用操作总结](http://mobilesite.github.io/2014/04/06/git_useful_operations/)。
+关于Git的详细使用，可以查看我的另一篇教程：[史上最详细的git常用操作总结](https://mobilesite.github.io/2014/04/06/git_useful_operations/)。
 
 ### 4、安装Node.js环境
 

@@ -52,7 +52,7 @@ Flex 是 Flexible Box 的缩写，意为“弹性布局”，用来为盒状模�
 
 下面我们建立一个示例来详细了解这些React Native中这些示例的使用。开始动手之前，大家需要清楚一些React Native的基本原生组件，如<View></View>，<Text></Text>等等。注意React Native中要求组件的首字母是大写的。另外，React Native中样式属性的写法是驼峰命名，而不是-连接。比如，背景颜色应该写成backgroundColor而非background-color，属性值除了是数字类型的值意外，都要用单引号包起来。一个个的样式实际上就是写成一个个的对象，class名相当于对象名，属性名相当于对象中的属性名，属性值则相当于对象中的属性值。
 
-我们把[上一篇文章](http://mobilesite.github.io/2015/12/05/react_native_develop_enviroment/)中初始化好的demo项目的index.android.js修改一下，成为学习Flex的例子。修改后的代码如下：
+我们把[上一篇文章](https://mobilesite.github.io/2015/12/05/react_native_develop_enviroment/)中初始化好的demo项目的index.android.js修改一下，成为学习Flex的例子。修改后的代码如下：
 
 ```
 /**
