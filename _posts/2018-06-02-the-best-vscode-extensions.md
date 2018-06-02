@@ -82,9 +82,7 @@ ul>li.item*3
 
 - EditorConfig for VS Code
 结合.editorconfig配置文件来起作用
-
 .editorconfig配置文件：
-
 ```
 root = true
 
@@ -316,35 +314,26 @@ code xxx # 用VSCode打开某个目录
 #### 1、关于 行 的操作
 
 - 新开一行：
-
 光标在行尾的话，回车即可；
-
 光标不在行尾，ctrl + enter 向下重开一行；ctrl + shift + enter 则是在上一行重开一行
 
 - 删除一行：
-
 光标没有选择内容时，ctrl + x 剪切一行；ctrl + shift + k 直接删除一行
 
 - 移动一行：
-
 alt + ↑ 向上移动一行；alt + ↓ 向下移动一行
 
 - 复制一行：
-
 alt + shift + ↓ 向下复制一行；alt + shift + ↑ 向上复制一行
 
 #### 2、关于 词 的操作
 
 - 选中一个词：
-
 ctrl + d
 
 - 搜索/替换：
-
 ctrl + f ：搜索
-
 ctrl + alt + f： 替换
-
 ctrl + shift + f：在项目内搜索
 
 ### 八、用户代码片段
