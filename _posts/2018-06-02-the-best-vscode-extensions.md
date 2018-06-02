@@ -82,7 +82,9 @@ ul>li.item*3
 
 - EditorConfig for VS Code
 结合.editorconfig配置文件来起作用
+
 .editorconfig配置文件：
+
 ```
 root = true
 
@@ -383,12 +385,8 @@ ctrl + shift + f：在项目内搜索
 
 参考文章：
 
-https://segmentfault.com/a/1190000006697219
+[vscode 插件推荐 - 献给所有前端工程师](https://segmentfault.com/a/1190000006697219)
 
-https://mp.weixin.qq.com/s?src=11&timestamp=1527932714&ver=914&signature=RKiKiJdgwdjxQdJ7oUC550qnHzSmuqZ4M7DdpJ4fQ8HVf*a2vPGUV2Daa2b1ZBf-kzOFdtdfGl-gVMfdzkkhhm5b3DJPIJqhfJAfVFsGYfto-f6K5TExgFuL9k9TxPmO&new=1
+[能让你开发效率翻倍的 VSCode 插件配置（上） ](https://mp.weixin.qq.com/s?src=11&timestamp=1527932714&ver=914&signature=RKiKiJdgwdjxQdJ7oUC550qnHzSmuqZ4M7DdpJ4fQ8HVf*a2vPGUV2Daa2b1ZBf-kzOFdtdfGl-gVMfdzkkhhm5b3DJPIJqhfJAfVFsGYfto-f6K5TExgFuL9k9TxPmO&new=1)
 
-https://mp.weixin.qq.com/s?src=11&timestamp=1527932714&ver=914&signature=RKiKiJdgwdjxQdJ7oUC550qnHzSmuqZ4M7DdpJ4fQ8GFv33rrDu7xCrzFinXOrpzVAX2kiCQx9qYmwL6TV-ASS07POw5IfPyCiEe4Y0Ci3x8kHz3SPgLNSVizqhzkhpK&new=1
-
-https://mp.weixin.qq.com/s?src=11&timestamp=1527928288&ver=913&signature=XvvRXeRz65krZikah7cRf8HrQhsBDCC*T1QAtYbIMoKaZGi9ItBZD*8sUXJdAzLD4GG*3RbqspLyozr3L4*kwKMcE3nouBsQAbfQauD3pYKdG2jTXIW*htg-Vt2tysim&new=1
-
-https://mp.weixin.qq.com/s?src=11&timestamp=1527937443&ver=914&signature=c-neRwCLyTnfp9jKm20DlyBiZMlxfMl3tSbRfot6kUvwsq9JpE50sk7Bbg7zitXYvAL5OyvxBFdXOeZxkOi*TaUfWzhreeLqARrxZ*ueSdU9DL9PqQK5pPLBJbTEzg2g&new=1
+[能让你开发效率翻倍的 VSCode 插件配置（中）](https://mp.weixin.qq.com/s?src=11&timestamp=1527932714&ver=914&signature=RKiKiJdgwdjxQdJ7oUC550qnHzSmuqZ4M7DdpJ4fQ8GFv33rrDu7xCrzFinXOrpzVAX2kiCQx9qYmwL6TV-ASS07POw5IfPyCiEe4Y0Ci3x8kHz3SPgLNSVizqhzkhpK&new=1)
