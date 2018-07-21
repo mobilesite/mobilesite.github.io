@@ -75,7 +75,7 @@ geth  --datadir "d:\privatechain" --networkid 23 --rpc  --rpcaddr "localhost" --
           <!-- <div class="table-column">Uncles</div>
           <div class="table-column">difficulty</div>
           <div class="table-column">extraData</div>
-          <div class="table-column">logsBloom</div> 
+          <div class="table-column">logsBloom</div>
           <div class="table-column">stateRoot</div>
           <div class="table-column">totalDifficulty</div>
           <div class="table-column">transactionsRoot</div> -->
@@ -217,12 +217,12 @@ export default {
 
       const txs = result.txs;
       const handledTxs = [];
-      
+
       let len = result.txs.length;
       if (len) {
         for (let i = 1; i < 10; i++) {
           const handledTx = await eth.getTransaction(txs[len-i]);
-          
+
           Object.keys(result.blocks).map(key => {
             if(result.blocks[key].number === handledTx.blockNumber){
               handledTx.timestamp = result.blocks[key].timestamp;

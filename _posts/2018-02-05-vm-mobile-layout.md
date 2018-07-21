@@ -81,7 +81,7 @@ if (!dpr && !scale) {
     var isIPhone = win.navigator.appVersion.match(/iphone/gi);
     var devicePixelRatio = win.devicePixelRatio;
     if (isIPhone) {
-        if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {                
+        if (devicePixelRatio >= 3 && (!dpr || dpr >= 3)) {
             dpr = 3;
         } else if (devicePixelRatio >= 2 && (!dpr || dpr >= 2)){
             dpr = 2;
@@ -130,7 +130,7 @@ if (docEl.firstElementChild) {
 
 1a   = 7.5px
 
-1rem = 75px 
+1rem = 75px
 
 那么我们这个示例的稿子就分成了10a，也就是整个宽度为10rem，`<html>`对应的`font-size`为75px：
 
@@ -161,7 +161,7 @@ gulp.task('default', function() {
 
 ```
 div {
-    width: 1rem; 
+    width: 1rem;
     height: 0.4rem;
     font-size: 12px; // 默认写上dpr为1的fontSize
 }
@@ -385,7 +385,7 @@ module.exports = {
     "plugins": {
         "postcss-import": {},
         "postcss-url": {},
-        "postcss-aspect-ratio-mini": {}, 
+        "postcss-aspect-ratio-mini": {},
         "postcss-write-svg": {
             utf8: false
         },
@@ -398,7 +398,7 @@ module.exports = {
             selectorBlackList: ['.ignore', '.hairlines'],  // (Array) The selectors to ignore and leave as px.
             minPixelValue: 1,       // (Number) Set the minimum pixel value to replace.
             mediaQuery: false       // (Boolean) Allow px to be converted in media queries.
-        }, 
+        },
         "postcss-viewport-units":{},
         "cssnano": {
             preset: "advanced",

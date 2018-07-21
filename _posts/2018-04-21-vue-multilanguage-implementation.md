@@ -111,7 +111,7 @@ Vue.$t = Vue.prototype.$t = t;
 config.yml
 
 ```
-confirm: 
+confirm:
   zh-CN: 确认
   en: confirm
 ```
@@ -132,7 +132,7 @@ confirm: confirm
 
 ```
 <i18n>
-confirm: 
+confirm:
   zh-CN: 确认
   en: confirm
 <i18n>
@@ -182,7 +182,7 @@ function getLang() {
   return flag ? rawLang : defaultLang;
 }
 
-const lang = getLang(langs, defaultLang); 
+const lang = getLang(langs, defaultLang);
 
 export default {
     lang, // 获取到当前语言
@@ -218,7 +218,7 @@ resolve(vuxLoader.merge(devWebpackConfig, {
     ]
 }))
 ```
-   
+
 webpack.prod.conf.js中：
 
 ```
@@ -352,5 +352,5 @@ watch: {
 如果你的语言包信息中有单引号，则必须连续使用两个单引号转义。例如：
 
 ```
-str: 'labor''s day' 
+str: 'labor''s day'
 ```

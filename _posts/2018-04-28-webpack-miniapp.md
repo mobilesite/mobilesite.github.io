@@ -76,7 +76,7 @@ page/index/index.mina
           }
         })
       }
-      
+
     }
   })
 </script>
@@ -158,7 +158,7 @@ require('shelljs/global');
 const webpack = require('webpack');
 const fs = require('fs');
 const { resolve } = require('path');
-const r = url => resolve(__dirname, url); 
+const r = url => resolve(__dirname, url);
 
 const webpackConfig = require('./webpack.config');
 const minaConfig = require(r('./mina.config'));
@@ -425,10 +425,10 @@ module.exports = function (content) {
   const parts = parseComponent(content)
 
   if (parts.template) {
-    renderWxml.call(this, parts.template)  
+    renderWxml.call(this, parts.template)
   }
   if (parts.styles && parts.styles.length) {
-    renderWxss.call(this, parts.styles[0])  
+    renderWxss.call(this, parts.styles[0])
   }
   if (parts.script) {
     renderScript.call(this, parts.script, cb)
@@ -541,8 +541,8 @@ module.exports = function (script, cb) {
   let result = transform(script.content, {
     presets: [
       [
-        'env', { 
-          modules: false 
+        'env', {
+          modules: false
         }
       ]
     ]
@@ -557,9 +557,9 @@ module.exports = function (script, cb) {
 ```
 presets: [
   [
-    'env', 
-    { 
-      modules: false 
+    'env',
+    {
+      modules: false
     }
   ]
 ]
@@ -587,31 +587,31 @@ const con = {
   stylus: (file, data) => new Promise(resolve => {
     require('stylus').render(data, { filename: file }, (err, css) => {
       if (err) throw err
-        
+
       resolve(css)
-    }) 
+    })
   }),
   less: (file, data) => new Promise(resolve => {
     require('less').render(data, {}, (err, result) => {
       if (err) throw err
 
       resolve(result.css)
-    }) 
+    })
   }),
   scss: (file, data) => new Promise(resolve => {
     require('node-sass').render({
-      file, 
+      file,
       data,
       outputStyle: 'compressed'
     }, (err, result) => {
       if (err) throw err
 
       resolve(result.css)
-    }) 
+    })
   }),
   sass: (file, data) => new Promise(resolve => {
     require('node-sass').render({
-      file, 
+      file,
       data,
       outputStyle: 'compressed',
       indentedSyntax: true
@@ -619,7 +619,7 @@ const con = {
       if (err) throw err
 
       resolve(result.css)
-    }) 
+    })
   })
 }
 
