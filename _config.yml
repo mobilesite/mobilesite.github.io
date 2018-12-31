@@ -6,7 +6,7 @@ email: mobilesite@163.com
 description: "前端开发 | 拍岸，Front-End Engineer，Literature & Photographic Lover，UX Designer | 这里是 @拍岸 的个人博客。"
 keyword: "拍岸, paian, 拍岸的博客, Paian's Blog, 博客, 个人网站, 前端, 高校教师, 工程师, 攻城狮, 诗歌, 江涛拍岸"
 url: "https://mobilesite.github.io"      # your host, for absolute URL
-baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
+baseurl: "https://mobilesite.github.io"                             # for example, '/blog' if your blog hosted on 'host/blog'
 post-default-img: img/post-default.jpg
 share-default-img: img/icon-wechat.png   #分享默认图片
 
