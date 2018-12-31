@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "玩儿转数据结构学习笔记（一）"
+title:      "数据结构学习笔记（一）"
 subtitle:   ""
 date:       2018-08-01 23:57:09
 author:     "Paian"
