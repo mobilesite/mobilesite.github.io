@@ -472,3 +472,8 @@ https://www.electron.build/cli
 
 打包的时候还得注意，因为electron-builder会自动将electron打到包里，所以应该将package.json中的"electron": "^3.0.10"从dependencies中转移到devDependencies中，否则会提示错误：
 > Package "electron" is only allowed in "devDependencies". Please remove it from the "dependencies" section in your package.json。
+
+
+延申学习教程：
+
+https://www.bilibili.com/video/av19875969?from=search&seid=921703864447578740
