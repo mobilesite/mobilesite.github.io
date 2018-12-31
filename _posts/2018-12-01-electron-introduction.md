@@ -7,7 +7,7 @@ author:     "Paian"
 catalog:    true
 tags:
     - electron
-    - vue
+    - Vue.js
     - 桌面应用程序开发
 ---
 

@@ -6,7 +6,7 @@ date:       2015-02-05 22:52:11
 author:     "Paian"
 catalog: true
 tags:
-    - vue.js
+    - Vue.js
 ---
 
 ### 1.1 Vue.js是什么？
