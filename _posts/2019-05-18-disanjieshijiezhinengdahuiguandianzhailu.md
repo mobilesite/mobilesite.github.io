@@ -2,7 +2,7 @@
 layout:     post
 title:      "第三届世界智能大会干货摘录"
 subtitle:   ""
-date:       2019-04-27 14:18:22
+date:       2019-05-18 20:18:22
 author:     "Paian"
 catalog:    true
 tags:
