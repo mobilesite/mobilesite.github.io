@@ -18,10 +18,10 @@
 gem update --system # 这里请翻墙一下
 gem -v
 
-gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+gem sources --add https://gems.ruby-china.com/ --remove https://rubygems.org/
 gem sources -l
 
-# 确保此时的输出只有 gems.ruby-china.org
+# 确保此时的输出只有 gems.ruby-china.com
 
 ```
 
@@ -32,6 +32,28 @@ gem sources -l
 ```
 sudo gem install jekyll
 ```
+
+Mac下可能会遇到因ffi安装失败而导致jekyll安装不成功的情况，这时可以做如下操作：
+
+```
+brew install automake autoconf libtool
+sudo gem install ffi -v '1.9.21'
+sudo gem install --no-ri --no-rdoc jekyll
+```
+
+这时还可能遇到Ruby版本过低的情况，这时可以做如下处理：
+
+```
+curl -L get.rvm.io | bash -s stable
+source ~/.bashrc
+source ~/.bash_profile
+ruby -v
+rvm list known
+rvm install 2.6.3
+rvm docs generate-ri
+```
+
+经过上面的两步处理，再安装`sudo gem install jekyll`就能成功了。
 
 因为这个博客用到了jekyll-paginate(注意不要拼写错误,是paginate而不是pagenate),所以我们还需要单独安装一下它.
 
