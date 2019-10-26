@@ -55,6 +55,8 @@ tags:
 
 [JavaScript Weekly](https://javascriptweekly.com/)
 
+[阿里云云栖社区](https://www.zhihu.com/org/a-li-yun-yun-qi-she-qu-48/posts)
+
 ### 二、各大技术团队
 
 [美团技术团队](https://tech.meituan.com/)
@@ -100,6 +102,8 @@ tags:
 ### 四、行业大会
 
 [查询一些学术会议的网站](http://meeting.sciencenet.cn/index.php?s=/Category/searchmeeting&keyword=%E6%95%99%E8%82%B2%E6%8A%80%E6%9C%AF)
+
+[贺师俊参加的前端大会列表](https://johnhax.net/events)
 
 [TEC 2019：教育创想大会 20190828-0829](http://www.tec-edu.com/#page1)
 
