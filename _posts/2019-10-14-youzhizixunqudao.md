@@ -33,9 +33,9 @@ tags:
 
 [腾讯IVWEB团队的专栏](https://juejin.im/user/5a9f77666fb9a028c14a01eb/posts)
 
-[老司机iOS周报](https://juejin.im/post/5d5a39eef265da03970bb8e0)
+[老司机iOS周报](https://juejin.im/user/5a52075e6fb9a01c9d31b107/posts)
 
-[政采云前端小报](https://weekly.zoo.team/)
+[政采云前端小报](http://weekly.zoo.team/)
 
 [前端速递](https://www.yuque.com/spfe/)
 
@@ -57,7 +57,19 @@ tags:
 
 [阿里云云栖社区](https://www.zhihu.com/org/a-li-yun-yun-qi-she-qu-48/posts)
 
+[css weekly](https://css-weekly.com/)
+
+[Mobile Dev Weekly](https://mobiledevweekly.com/)
+
+[Go语言爱好者周刊](https://github.com/polaris1119/golangweekly)
+
 ### 二、各大技术团队
+
+[Deep Ocean团队](http://dopro.io/)
+
+[京东JDC团队](https://jdc.jd.com/archives/category/5-frontend)
+
+[腾讯CDC](https://cdc.tencent.com/category/technology/#search-result)
 
 [美团技术团队](https://tech.meituan.com/)
 
@@ -98,6 +110,8 @@ tags:
 [新智元](https://cloud.tencent.com/developer/column/2142)
 
 [墨者学院，数据可视化周刊](https://www.yuque.com/mo-college)
+
+[百度EFE](https://efe.baidu.com/) 更新频率较低
 
 ### 四、行业大会
 
@@ -151,6 +165,17 @@ tags:
 
 [全球互联网架构大会 20190621-0623](http://giac.msup.com.cn/)
 
+### 五、设计
+
+[优设教程](https://uiiiuiii.com/)
+
+[百度用户体验设计中心](http://sux.baidu.com/)
+
+[腾讯ISUX](https://isux.tencent.com/articles/)
+
+[腾讯TGideas](https://tgideas.qq.com/list.html#/0/1)
+
 附：
 
 [二维码生成工具](http://www.wwei.cn)
+
