@@ -15,6 +15,8 @@ tags:
 
 [飞冰早报](http://fe.jskou.com/ice)
 
+[每日时报](https://wubaiqing.github.io/zaobao/other/latest.html)
+
 [腾讯技术工程](https://blog.csdn.net/Tencent_TEG/article/list/1?)
 
 [掘金](https://juejin.im/welcome/recommended)
@@ -41,11 +43,13 @@ tags:
 
 [编程狂人](https://www.tuicool.com/mags)
 
+[陈成的早报](https://github.com/sorrycc/zaobao/issues?page=1&q=is%3Aissue+is%3Aopen)
+
 [贝壳精工前端](https://zhuanlan.zhihu.com/jinggong)
 
 [安卓开发技术周报](https://androidweekly.io/)
 
-[极乐科技](https://zhuanlan.zhihu.com/dreawer)
+[阿里妈妈前端快爆](https://zhuanlan.zhihu.com/p/88944418)
 
 [前端精读周刊](https://github.com/dt-fe/weekly)
 
@@ -62,6 +66,12 @@ tags:
 [Mobile Dev Weekly](https://mobiledevweekly.com/)
 
 [Go语言爱好者周刊](https://github.com/polaris1119/golangweekly)
+
+[TechBridge Weekly](https://weekly.techbridge.cc/)
+
+[腾讯新闻前端团队 TNFE Weekly](https://github.com/Tnfe/TNFE-Weekly)
+
+[极乐科技](https://zhuanlan.zhihu.com/dreawer)
 
 ### 二、各大技术团队
 
@@ -81,11 +91,13 @@ tags:
 
 [滴滴平台技术部前端博客](https://github.com/DDFE/DDFE-blog)
 
+[有赞技术团队](https://tech.youzan.com/)
+
 [阿里云前端技术周刊](https://github.com/aliyunfe/weekly/tree/master/weekly)
 
 [凹凸实验室](https://aotu.io/)
 
-[AlloyTea的博客](http://www.alloyteam.com/page/0/)
+[AlloyTeam的博客](http://www.alloyteam.com/page/0/)
 
 [淘系前端团队](https://fed.taobao.org/)
 
