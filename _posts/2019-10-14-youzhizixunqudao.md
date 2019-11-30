@@ -11,7 +11,7 @@ tags:
 
 ### 一、优质资讯渠道列表
 
-[阿里技术](https://yq.aliyun.com/teams/111/type_blog-cid_0-page_1?spm=a2c4e.11153959.0.0.60d44001Dc2nbw#tab)
+[阿里技术](https://yq.aliyun.com/teams/111/type_blog-cid_0-page_1)
 
 [飞冰早报](http://fe.jskou.com/ice)
 
@@ -45,6 +45,10 @@ tags:
 
 [陈成的早报](https://github.com/sorrycc/zaobao/issues?page=1&q=is%3Aissue+is%3Aopen)
 
+[张鑫旭的个人网站](https://www.zhangxinxu.com/wordpress/)
+
+[阮一峰的博客](http://www.ruanyifeng.com/blog/archives.html)
+
 [贝壳精工前端](https://zhuanlan.zhihu.com/jinggong)
 
 [安卓开发技术周报](https://androidweekly.io/)
@@ -72,6 +76,8 @@ tags:
 [腾讯新闻前端团队 TNFE Weekly](https://github.com/Tnfe/TNFE-Weekly)
 
 [极乐科技](https://zhuanlan.zhihu.com/dreawer)
+
+[HelloGitHub：分享GitHub上一些很有趣、入门级的开源项目、让生活变得更美好的工具、书籍、学习心得笔记、企业级项目](https://github.com/521xueweihan/HelloGitHub)
 
 ### 二、各大技术团队
 
@@ -105,7 +111,7 @@ tags:
 
 [北京师范大学未来教育高精尖创新中心](https://aic-fe.bnu.edu.cn/cgzs/xzwz/index.htm)
 
-[蚂蚁金服体验科技精选](https://www.yuque.com/antfe/featured)
+[蚂蚁金服体验科技](https://zhuanlan.zhihu.com/xtech)
 
 [掘金翻译计划](https://github.com/xitu/gold-miner)
 
