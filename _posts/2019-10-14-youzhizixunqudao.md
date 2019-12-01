@@ -77,7 +77,7 @@ tags:
 
 [极乐科技](https://zhuanlan.zhihu.com/dreawer)
 
-[HelloGitHub：分享GitHub上一些很有趣、入门级的开源项目、让生活变得更美好的工具、书籍、学习心得笔记、企业级项目](https://github.com/521xueweihan/HelloGitHub)
+[网易云音乐前端团队](https://juejin.im/user/5cd23730f265da03576edbf1/posts)
 
 ### 二、各大技术团队
 
@@ -112,6 +112,11 @@ tags:
 [北京师范大学未来教育高精尖创新中心](https://aic-fe.bnu.edu.cn/cgzs/xzwz/index.htm)
 
 [蚂蚁金服体验科技](https://zhuanlan.zhihu.com/xtech)
+
+[HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
+
+分享GitHub上一些很有趣、入门级的开源项目、让生活变得更美好的工具、书籍、学习心得笔记、企业级项目
+每月28日更新
 
 [掘金翻译计划](https://github.com/xitu/gold-miner)
 
