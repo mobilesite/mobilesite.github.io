@@ -79,6 +79,12 @@ tags:
 
 [网易云音乐前端团队](https://juejin.im/user/5cd23730f265da03576edbf1/posts)
 
+[亿欧教育频道](https://www.iyiou.com/jiaoyu/)
+
+[Thought Works洞见](https://insights.thoughtworks.cn/)
+
+[OSChina软件更新资讯](https://www.oschina.net/news/project)
+
 ### 二、各大技术团队
 
 [Deep Ocean团队](http://dopro.io/)
@@ -107,9 +113,13 @@ tags:
 
 [淘系前端团队](https://fed.taobao.org/)
 
+[洞见网安](http://wechat.doonsec.com/)
+
+网络安全类文章
+
 ### 三、周期性去看看即可的
 
-[北京师范大学未来教育高精尖创新中心](https://aic-fe.bnu.edu.cn/cgzs/xzwz/index.htm)
+[北京师范大学未来教育高精尖创新中心](https://aic-fe.bnu.edu.cn/)
 
 [蚂蚁金服体验科技](https://zhuanlan.zhihu.com/xtech)
 
