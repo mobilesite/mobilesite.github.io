@@ -9,7 +9,7 @@ tags:
   - 读书笔记
 ---
 
-![人生海海](/img/in-post/renshenghaihai.png)
+![人生海海](/img/in-post/renshenghaihai.jpg)
 
 “人都是起起落落，失意时给别人捧捧场，得意时听听别人的掌声。人生海海，又何必在意一时沉浮。”
 
