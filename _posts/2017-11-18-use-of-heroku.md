@@ -72,7 +72,7 @@ heroku ps        #查看你的应用运行情况，可以看到状态
 
 
 #绑定你自己的域名，绑定后别忘了修改对应的域名解析
-heroku domains:add test.com   
+heroku domains:add test.com
 heroku domains:add www.test.com
 
 heroku apps:rename newname    #重命名你的应用

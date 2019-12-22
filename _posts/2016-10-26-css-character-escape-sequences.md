@@ -80,7 +80,7 @@ $
 #### 3、空白字符（Whitespace characters）
 
 空白字符（Whitespace） — 尽管严格来说有些字符在HTML属性中是不合法的——也是可以照常转义的。
-[\t\n\v\f\r]当中的任何一个字符都需要基于其Unicode编码点进行转义， 而空格字符( ) 则只需要在其前面加一个反斜杠来进行转义，即`\ `。除了[\t\n\v\f\r]当中的字符以及空格字符，其它的空白字符（Whitespace characters）均不需要转义。 
+[\t\n\v\f\r]当中的任何一个字符都需要基于其Unicode编码点进行转义， 而空格字符( ) 则只需要在其前面加一个反斜杠来进行转义，即`\ `。除了[\t\n\v\f\r]当中的字符以及空格字符，其它的空白字符（Whitespace characters）均不需要转义。
 
 #### 4、下划线（Underscores）
 
@@ -146,7 +146,7 @@ document.querySelectorAll('.\\3A \\`\\(');
 注意：如果你想了解跟多关于CSS转义的内容，不妨阅读 [JavaScript character escape sequences]( https://mathiasbynens.be/notes/javascript-escapes)或者 [character references in HTML]( https://mathiasbynens.be/notes/ambiguous-ampersands)。
 
 
-原文：[CSS character escape sequences](https://mathiasbynens.be/notes/css-escapes)  
+原文：[CSS character escape sequences](https://mathiasbynens.be/notes/css-escapes)
 
 原作者：Mathias Bynens（比利时人）
 

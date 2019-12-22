@@ -278,7 +278,7 @@ module.exports = {
           {
             loader: 'postcss-loader',
             options: {
-              plugins: (loader) => [
+              plugins_dir: (loader) => [
                 require('autoprefixer')({
                   browsers: [
                     '> 1%',
@@ -307,7 +307,7 @@ module.exports = {
       }
     ]
   },
-  plugins: [
+  plugins_dir: [
     //提取出来样式写入到.wxss中
     new MiniCssExtractPlugin({
       filename: '[name].wxss'

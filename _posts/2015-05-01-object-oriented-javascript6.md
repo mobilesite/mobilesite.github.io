@@ -93,7 +93,7 @@ var person1 = new Person('paian');
 var person2 = new Person('dennis');
 person1.getAge(); //25
 person2.getAge(); //25
-person1.growOlder(); 
+person1.growOlder();
 person1.getAge(); //26
 person2.getAge(); //25
 ```
@@ -127,7 +127,7 @@ var person1 = new Person('paian');
 var person2 = new Person('dennis');
 person1.getAge(); //25
 person2.getAge(); //25
-person1.growOlder(); 
+person1.growOlder();
 person1.getAge(); //26
 person2.getAge(); //26
 ```

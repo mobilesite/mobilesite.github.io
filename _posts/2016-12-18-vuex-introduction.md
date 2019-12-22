@@ -928,7 +928,7 @@ export default new Vuex.Store({
     products
   },
   strict: debug,
-  plugins: debug ? [createLogger()] : []
+  plugins_dir: debug ? [createLogger()] : []
 })
 
 if (module.hot) {

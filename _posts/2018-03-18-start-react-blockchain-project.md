@@ -20,7 +20,7 @@ tags:
 
 ```bash
 cd d:/
-npm install -g create-react-app 
+npm install -g create-react-app
 create-react-app dapp
 ```
 
@@ -108,7 +108,7 @@ npm i node-sass sass-loader -D
                   // Necessary for external CSS imports to work
                   // https://github.com/facebookincubator/create-react-app/issues/2677
                   ident: 'postcss',
-                  plugins: () => [
+                  plugins_dir: () => [
                     require('postcss-flexbugs-fixes'),
                     autoprefixer({
                       browsers: [
@@ -144,7 +144,7 @@ npm i babel-preset-env babel-preset-stage-2 babel-plugin-import -D
 ```
 {
     "presets": [
-        ["env", { "modules": false }], 
+        ["env", { "modules": false }],
         "react",
         "stage-2"
     ],
@@ -271,14 +271,14 @@ npm i typescript ts-loader -D
         "allowSyntheticDefaultImports": true,
         "target": "es6",
         "types": [
-            "classnames", 
-            "react", 
-            "react-dom", 
+            "classnames",
+            "react",
+            "react-dom",
             "react-native"
         ]
     },
     "exclude": [
-        "node_modules", 
+        "node_modules",
         "lib",
         "es"
     ],
@@ -349,7 +349,7 @@ export default App;
             position: relative;
             border-color: #108ee9;
             background: #108ee9;
-            
+
             &:after{
                 content: "";
                 position: absolute;
@@ -482,7 +482,7 @@ export const CLOSE_MODAL = 'CLOSE_MODAL';
 
 ```
 const initState = {
-    
+
 }
 
 export default function global(state=initState, action) {
@@ -515,7 +515,7 @@ export function global(state, action){
             }
             newState.modals[id].isOpen = false;
             return newState;
-        default: 
+        default:
             return state;
     }
 }

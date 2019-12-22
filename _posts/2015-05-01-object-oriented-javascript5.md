@@ -72,7 +72,7 @@ function Rectangle(length, width){
 Rectangle.prototype = {
     constructor: Rectangle,
     getArea: function(){
-        return this.length * this.width; 
+        return this.length * this.width;
     }
 }
 

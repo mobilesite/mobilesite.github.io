@@ -104,7 +104,7 @@ babel 6中，这里一定要包这层[]，完整的应写成如下这样。
                    ['react'],
                    ['stage-2']
                ],
-               plugins: [
+               plugins_dir: [
                    ['transform-runtime']
                ],
                comments: false,
@@ -139,7 +139,7 @@ babel 6中，这里一定要包这层[]，完整的应写成如下这样。
         ],
         ["stage-2"]
     ],
-    plugins: [
+    plugins_dir: [
         ["transform-runtime"]
     ],
     comments: false

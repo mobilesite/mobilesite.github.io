@@ -104,7 +104,7 @@ var OpenBrowserPlugin = require('open-browser-webpack-plugin');
 
 ```
 ...
-plugins: [
+plugins_dir: [
  new OpenBrowserPlugin({url: 'http://localhost:8080' + PATHS.publicPath + 'index.html'})
 ]
 ...
@@ -854,7 +854,7 @@ module.exports = {
             cleaner:  [autoprefixer({ browsers: [] })]
         };
     },
-    plugins: [
+    plugins_dir: [
         cssExtractTextPlugin,
         lessExtractTextPlugin,
         commonsPlugin,
@@ -966,7 +966,7 @@ module.exports = {
             cleaner:  [autoprefixer({ browsers: [] })]
         };
     },
-    plugins: [
+    plugins_dir: [
         cssExtractTextPlugin,
         lessExtractTextPlugin
     ]
@@ -1067,7 +1067,7 @@ module.exports = {
             cleaner:  [autoprefixer({ browsers: [] })]
         };
     },
-    plugins: [
+    plugins_dir: [
         cssExtractTextPlugin,
         lessExtractTextPlugin,
         commonsPlugin
@@ -1096,7 +1096,7 @@ module.exports = {
     output: {
         filename: "[name].js"
     },
-    plugins: [
+    plugins_dir: [
         new CommonsChunkPlugin("AC-commons.js", ["A", "C"]),
         new CommonsChunkPlugin("BD-commons.js", ["B", "D"])
     ]
@@ -1173,7 +1173,7 @@ var HtmlPlugin = require('html-webpack-plugin');
 然后再在webpack.config.js中配置：
 
 ```
-plugins: [
+plugins_dir: [
 	new HtmlPlugin({
 	    filename: 'pages/test-normal.html',
 	    template: srcPath + 'test-normal/test-normal.html',
@@ -1204,7 +1204,7 @@ plugins: [
 可以利用webpack自带的插件进行类似如下的设置：
 
 ```
-plugins:[
+plugins_dir:[
     new webpack.optimize.UglifyJsPlugin({
         mangle: { // 排除不想要压缩的对象名称
             except: ['$', 'exports', 'require', 'module']

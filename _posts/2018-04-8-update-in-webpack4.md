@@ -104,7 +104,7 @@ module.exports = {
     runtimeChunk: {
       name: 'manifest'
     },
-    minimizer: true, 
+    minimizer: true,
    splitChunks: {
     chunks: "initial",         // 必须三选一： "initial" | "all"(默认就是all) | "async"
     minSize: 0,                // 最小尺寸，默认0
@@ -155,7 +155,7 @@ https://www.npmjs.com/package/mini-css-extract-plugin
 ```
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
-  plugins: [
+  plugins_dir: [
     new MiniCssExtractPlugin({
       // Options similar to the same options in webpackOptions.output
       // both options are optional
@@ -189,12 +189,12 @@ module.exports = {
       new UglifyJsPlugin({
         cache: true,
         parallel: true,
-        sourceMap: true 
+        sourceMap: true
       }),
       new OptimizeCSSAssetsPlugin({})  // use OptimizeCSSAssetsPlugin
     ]
   },
-  plugins: [
+  plugins_dir: [
     new MiniCssExtractPlugin({
       filename: 'css/app.[name].css',
       chunkFilename: 'css/app.[contenthash:12].css'  // use contenthash *
@@ -212,7 +212,7 @@ module.exports = {
   optimization: {
     splitChunks: {
       cacheGroups: {
-        styles: {            
+        styles: {
           name: 'styles',
           test: /.scss|css$/,
           chunks: 'all',    // merge all the css chunk to one file

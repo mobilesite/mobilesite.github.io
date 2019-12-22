@@ -206,7 +206,7 @@ webpack.dev.conf.js中：
 
 ```
 resolve(vuxLoader.merge(devWebpackConfig, {
-    plugins: [
+    plugins_dir: [
         'vux-ui',
         {
             name: 'i18n',
@@ -223,7 +223,7 @@ webpack.prod.conf.js中：
 
 ```
 resolve(vuxLoader.merge(buildWebpackConfig, {
-    plugins: [
+    plugins_dir: [
         'vux-ui',
         {
             name: 'i18n',

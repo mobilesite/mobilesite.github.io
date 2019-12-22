@@ -219,7 +219,7 @@ none: 无网格区域被定义
 ```
 .container{
     grid-template-columns: 100px 50px 100px;
-    grid-template-rows: 80px auto 80px; 
+    grid-template-rows: 80px auto 80px;
     grid-column-gap: 10px;
     grid-row-gap: 15px;
 }
@@ -248,7 +248,7 @@ grid-column-gap 和 grid-row-gap的简写值。
 ```
 .container{
     grid-template-columns: 100px 50px 100px;
-    grid-template-rows: 80px auto 80px; 
+    grid-template-rows: 80px auto 80px;
     grid-gap: 10px 15px;
 }
 ```
@@ -373,7 +373,7 @@ space-evenly: 在网格项之间设置偶数个空格间隙，同样适用于最
 
 ```
 .container{
-    justify-content: start | end | center | stretch | space-around | space-between | space-evenly;    
+    justify-content: start | end | center | stretch | space-around | space-between | space-evenly;
 }
 ```
 
@@ -386,32 +386,32 @@ space-evenly: 在网格项之间设置偶数个空格间隙，同样适用于最
 
 
 .container{
-    justify-content: end; 
+    justify-content: end;
 }
 
 
 .container{
-    justify-content: center;  
+    justify-content: center;
 }
 
 
 .container{
-    justify-content: stretch; 
+    justify-content: stretch;
 }
 
 
 .container{
-    justify-content: space-around;    
+    justify-content: space-around;
 }
 
 
 .container{
-    justify-content: space-between;   
+    justify-content: space-between;
 }
 
 
 .container{
-  justify-content: space-evenly;    
+  justify-content: space-evenly;
 }
 ```
 
@@ -439,7 +439,7 @@ space-evenly: 在网格项之间设置偶数个空格间隙，同样适用于最
 
 ```
 .container{
-    align-content: start | end | center | stretch | space-around | space-between | space-evenly;  
+    align-content: start | end | center | stretch | space-around | space-between | space-evenly;
 }
 ```
 
@@ -447,37 +447,37 @@ space-evenly: 在网格项之间设置偶数个空格间隙，同样适用于最
 
 ```
 .container{
-    align-content: start; 
+    align-content: start;
 }
 
 
 .container{
-    align-content: end;   
+    align-content: end;
 }
 
 
 .container{
-    align-content: center;    
+    align-content: center;
 }
 
 
 .container{
-    align-content: stretch;   
+    align-content: stretch;
 }
 
 
 .container{
-    align-content: space-around;  
+    align-content: space-around;
 }
 
 
 .container{
-    align-content: space-between; 
+    align-content: space-between;
 }
 
 
 .container{
-    align-content: space-evenly;  
+    align-content: space-evenly;
 }
 ```
 
@@ -676,7 +676,7 @@ subgrid: 将grid-template-rows 和 grid-template-columns属性值设置为subgri
     grid-template-areas: "header header header"
                          "footer footer footer";
     grid-template-rows: [row1-start] 1fr [row1-end row2-start] 25px [row2-end];
-    grid-template-columns: auto 50px auto;    
+    grid-template-columns: auto 50px auto;
 }
 ```
 

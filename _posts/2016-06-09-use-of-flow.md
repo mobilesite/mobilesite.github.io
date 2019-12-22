@@ -419,7 +419,7 @@ module.exports = {
         'standard',
         'plugin:flowtype/recommended'
     ],
-    plugins: [
+    plugins_dir: [
         'flowtype'
     ],
     rules: {

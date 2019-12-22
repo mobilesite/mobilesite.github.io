@@ -82,7 +82,7 @@ class sheep inplements Animal{
     eat(){
 
     }
-} 
+}
 ```
 
 inplemtents关键字表示一个接口实现另一个接口。
