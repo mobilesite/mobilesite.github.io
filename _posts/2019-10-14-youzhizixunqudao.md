@@ -65,6 +65,8 @@ tags:
 
 [阿里云云栖社区](https://www.zhihu.com/org/a-li-yun-yun-qi-she-qu-48/posts)
 
+[ECMAScript.next News](http://esnextnews.com/)
+
 [css weekly](https://css-weekly.com/)
 
 [Mobile Dev Weekly](https://mobiledevweekly.com/)
