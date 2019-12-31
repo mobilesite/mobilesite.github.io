@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "复杂度分析（上）：如何分析、统计算法的执行效率和资源消耗"
+title:      "如何分析、统计算法的执行效率和资源消耗"
 subtitle:   "——《数据结构与算法之美》学习笔记（三）"
-date:       2019-12-30 16:20:00
+date:       2019-12-31 16:20:00
 author:     "Paian"
 catalog: true
 tags:
