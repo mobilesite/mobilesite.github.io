@@ -2,7 +2,7 @@
 layout:     post
 title:      "梁宁·产品思维30讲学习笔记二：同理心"
 subtitle:   ""
-date:       2019-01-04 15:30:00
+date:       2020-01-04 15:30:00
 author:     "Paian"
 catalog: true
 tags:
