@@ -11,7 +11,7 @@ tags:
 
 ### 一、优质资讯渠道列表
 
-[阿里技术](https://yq.aliyun.com/teams/111/type_blog-cid_0-page_1)
+[阿里云云栖社区](https://www.zhihu.com/org/a-li-yun-yun-qi-she-qu-48/posts)
 
 [飞冰早报](http://fe.jskou.com/ice)
 
@@ -63,17 +63,13 @@ tags:
 
 [JavaScript Weekly](https://javascriptweekly.com/)
 
-[阿里云云栖社区](https://www.zhihu.com/org/a-li-yun-yun-qi-she-qu-48/posts)
-
 [ECMAScript.next News](http://esnextnews.com/)
 
-[css weekly](https://css-weekly.com/)
+[CSS weekly](https://css-weekly.com/)
 
 [Mobile Dev Weekly](https://mobiledevweekly.com/)
 
 [Go语言爱好者周刊](https://github.com/polaris1119/golangweekly)
-
-[TechBridge Weekly](https://weekly.techbridge.cc/)
 
 [腾讯新闻前端团队 TNFE Weekly](https://github.com/Tnfe/TNFE-Weekly)
 
@@ -107,7 +103,7 @@ tags:
 
 [有赞技术团队](https://tech.youzan.com/)
 
-[阿里云前端技术周刊](https://github.com/aliyunfe/weekly/tree/master/weekly)
+[阿里云前端技术周刊（已停更）](https://github.com/aliyunfe/weekly/tree/master/weekly)
 
 [凹凸实验室](https://aotu.io/)
 
@@ -196,13 +192,11 @@ tags:
 
 [人工智能与教育大数据峰会·2019](http://sh5.hubpd.com/AIzhibo2019/?from=singlemessage)
 
-[智能产业快讯](http://www.caa.org.cn/index.php?me_id=1025&ac_id=2240)
-
 [全球互联网架构大会 20190621-0623](http://giac.msup.com.cn/)
 
 ### 五、设计
 
-[优设教程](https://uiiiuiii.com/)
+[优设教程](https://www.uisdc.com/)
 
 [百度用户体验设计中心](http://sux.baidu.com/)
 
