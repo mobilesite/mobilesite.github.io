@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "晋升述职的常见问题及相应建议"
+title:      "晋升述职的常见问题及其建议"
 subtitle:   ""
 date:       2020-03-28 18:25:22
 author:     "Paian"
