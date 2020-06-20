@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "图解UML"
+title:      "前端机器学习入门笔记2：线性回归"
 subtitle:   ""
 date:       2020-06-20 20:35:14
 author:     "Paian"

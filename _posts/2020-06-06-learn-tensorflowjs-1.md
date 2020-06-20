@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "图解UML"
+title:      "前端机器学习入门笔记1：简介"
 subtitle:   ""
 date:       2020-06-06 21:23:11
 author:     "Paian"
